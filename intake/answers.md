@@ -87,27 +87,33 @@ Both are strong. Three issues, in `resume/versions/README.md`.
 
 ## Compensation
 
-In `private/comp-strategy.md`. Summary without figures: holds two competing offers well
-above current pay, which are being declined on sector grounds. Stated position is "no
-floor" — pushed back on, since the offers in hand establish a real one.
+Figures in `private/comp-strategy.md`. The operative point: **sector is the constraint,
+not money.** For-profit only; a non-profit role is a decline at any number. No floor set,
+by choice. Prior foundation offers expired last year and are not leverage.
 
 ## Still needed
 
-### Blocking the first applications
+Nothing blocks the first applications. Everything below improves quality and can come
+whenever.
 
-- [ ] **Resolve the fund figure.** Three conflicting numbers across sources — see
-      `resume/master/resume.md`. Every application depends on this
-- [ ] Confirm the job title on the relieving letter
+### Small, quick
+
 - [ ] LinkedIn URL
-- [ ] Excel / financial modelling / deck-building / SQL / Python level, honestly stated —
-      consulting and VC screens test these
+- [ ] Confirm job title as it appears on the relieving letter
+- [ ] Excel / financial modelling / deck-building / SQL level, stated honestly —
+      consulting and VC screens test these specifically
 
-### High value
+### Worth capturing before the last day at Tata Trusts
 
-- [ ] Are the two competing offers still live, and until when?
+- [ ] 2–3 referees, with personal contact details
 - [ ] Full partner-institution list
-- [ ] A programme that failed or was killed, and what you did — the most likely senior
-      behavioural question, currently unanswered
-- [ ] Quantifiable downstream results from the heat map or the climate-health vertical
+- [ ] Whether the heat map or climate-health vertical produced quantifiable results
 - [ ] Awards, internal recognition, promotions with dates
-- [ ] 2–3 referees secured before the last day at Tata Trusts
+
+### Before interviews start
+
+- [ ] A programme that failed or was killed, and what you did about it — the most likely
+      senior behavioural question, currently unanswered
+- [ ] Annual deployment figure clarified: "~₹150 crore" vs "₹350–500 crore" are probably
+      new commitments vs total disbursement. Not on the resume, so it only matters if an
+      interviewer digs in

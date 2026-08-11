@@ -14,22 +14,19 @@ partnerships; managing the full deal lifecycle") is the right instinct for a VC 
 
 ## Three things to fix before either goes out
 
-### 1. The two versions state different fund figures — fix first
+### 1. Fund figure — RESOLVED, now fix both PDFs
 
-Healthcare says **"$15M grant portfolio"**. Generalist says **"$41M in capital per
-cycle"**. Intake said **"~₹450 crore managed, ₹300–500 crore deployed yearly"**
-(≈ $54M / $36–60M).
+**₹450 crore / $51M portfolio under management.** Confirmed 2026-08-11. The "$15M" on
+the healthcare version was a typo for $51M.
 
-These describe the same job. Two live resumes with different numbers is a real risk:
-these circulate, get forwarded, and end up in front of the same person. Decide what the
-defensible figure is, state it in one currency, and use it identically everywhere.
+Correct both PDFs to this wording:
 
-Worth separating two distinct numbers and naming both explicitly:
-- **portfolio under management** (the standing fund), and
-- **capital deployed per cycle** (annual new commitments).
+> Managed a **₹450 crore ($51M)** healthcare grant portfolio across 40+ programmes
 
-If it's ₹450 crore managed and ₹300–500 crore deployed annually, say exactly that. It's
-a bigger and more impressive number than either resume currently claims.
+And **delete the per-cycle deployment figure** from the generalist version ("$41M in
+capital per cycle"). Portfolio-under-management is the bigger, cleaner, fully confirmed
+number; the annual deployment figure is still ambiguous and adds nothing the $51M
+doesn't already say.
 
 ### 2. "Internal Use Only" is stamped on the generalist PDF
 

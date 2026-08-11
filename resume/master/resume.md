@@ -47,15 +47,20 @@ range across both origination and financial control.
 
 #### Investment and capital deployment
 
-- Deployed `[VERIFY: $ figure]` across 40+ programmes per annual cycle, spanning
-  health-tech, AI diagnostics, maternal health, immunisation, geriatric, tribal, and
-  primary and tertiary care.
-  > `[VERIFY]` **Three conflicting figures across sources.** Healthcare PDF says
-  > "$15M grant portfolio"; generalist PDF says "$41M in capital per cycle"; intake said
-  > "~₹450 crore fund managed, ₹300–500 crore deployed yearly" (≈ $54M managed,
-  > $36–60M deployed). Pick the defensible number, state it in one currency, and use it
-  > consistently. Two live resumes carrying different figures is the version of this
-  > that goes badly in an interview.
+- Managed a **₹450 crore ($51M) healthcare grant portfolio** across 40+ programmes,
+  spanning health-tech, AI diagnostics, maternal health, immunisation, geriatric,
+  tribal, and primary and tertiary care. ✅ **Confirmed 2026-08-11 — use this figure,
+  in this wording, on every version.**
+  > **Use one number, not two.** ₹450 crore / $51M under management is confirmed and is
+  > the larger, cleaner claim. The annual deployment figure is still unsettled
+  > (see below), so keep it off the resume entirely — "managed a $51M portfolio" is
+  > stronger than any deployment number and needs no caveat.
+  >
+  > `[VERIFY — low priority]` Annual deployment: you've said both "~₹150 crore
+  > deployed each year" and "ranges ₹350–500 crore". Likely two different things —
+  > new commitments in a year versus total disbursement including
+  > previously-committed programmes. Only matters if an interviewer digs in; know
+  > which is which before a VC conversation, but it doesn't block anything.
 - Ran financial oversight across the full portfolio — budget allocations, fund
   utilisation tracking, variance analysis, and cost-per-beneficiary modelling.
 - **Acted as financial gatekeeper for the entire health theme**, not only own programmes:
