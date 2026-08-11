@@ -1,0 +1,19 @@
+# Anything under private/ stays local — offer letters, compensation details,
+# candid notes about people. Create the directory as needed.
+private/
+*.local.md
+
+# Exported documents — the Markdown source is what's tracked
+*.pdf
+*.docx
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
