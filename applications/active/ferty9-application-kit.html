@@ -1,0 +1,328 @@
+<title>Application Kit — Ferty9, Strategy · CEO's Office</title>
+<style>
+  :root {
+    --paper:#fbfcfb; --surface:#f1f5f4; --surface-2:#e7edeb;
+    --ink:#0f1f1c; --ink-2:#3d514d; --muted:#6b7d79;
+    --line:#d9e2df; --line-strong:#b9c9c5;
+    --accent:#0d6553; --accent-ink:#0a4c3e; --accent-wash:#dcece7;
+    --gold:#8a6410; --gold-wash:#f5ecd8;
+    --stop:#8c2f2a; --stop-wash:#f6e2e0;
+    --shadow:0 1px 2px rgba(15,31,28,.06), 0 8px 24px -12px rgba(15,31,28,.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+      --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+      --line:#243330; --line-strong:#334541;
+      --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+      --gold:#d9ad5a; --gold-wash:#2e2617;
+      --stop:#e08a83; --stop-wash:#331d1b;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+    --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+    --line:#243330; --line-strong:#334541;
+    --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+    --gold:#d9ad5a; --gold-wash:#2e2617;
+    --stop:#e08a83; --stop-wash:#331d1b;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:820px; margin:0 auto; padding:40px 22px 90px; }
+
+  h1,h2,h3 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; text-wrap:balance; }
+  h1 { font-size:clamp(28px,4.4vw,40px); line-height:1.14; margin:0 0 10px; letter-spacing:-.015em; }
+  h2 { font-size:22px; margin:0; letter-spacing:-.01em; }
+  h3 { font-size:16.5px; margin:0 0 8px; }
+  p { margin:0 0 12px; }
+  a { color:var(--accent-ink); }
+
+  .eyebrow {
+    font-size:11.5px; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+    color:var(--muted); margin:0 0 14px;
+  }
+
+  /* ---- header ---- */
+  header { border-bottom:1px solid var(--line); padding-bottom:26px; margin-bottom:34px; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+  .tag {
+    font-size:12.5px; padding:4px 10px; border-radius:999px;
+    background:var(--surface); border:1px solid var(--line); color:var(--ink-2);
+  }
+  .tag.pass { background:var(--accent-wash); border-color:transparent; color:var(--accent-ink); font-weight:600; }
+
+  .verdict {
+    display:flex; align-items:center; gap:18px; margin-top:24px;
+    background:var(--accent-wash); border-radius:12px; padding:18px 20px;
+  }
+  .score {
+    font-family:Georgia,serif; font-size:44px; line-height:1; font-weight:700;
+    color:var(--accent-ink); font-variant-numeric:tabular-nums;
+  }
+  .score small { display:block; font-size:11px; letter-spacing:.12em; text-transform:uppercase; font-family:inherit; font-weight:700; opacity:.65; margin-top:5px; }
+  .verdict p { margin:0; color:var(--accent-ink); font-size:15px; }
+
+  /* ---- sections ---- */
+  section { margin-top:38px; }
+  .sec-head { display:flex; align-items:baseline; gap:12px; margin-bottom:16px; padding-bottom:9px; border-bottom:1px solid var(--line); }
+  .sec-head .n {
+    font-size:12px; font-weight:700; color:var(--muted); font-variant-numeric:tabular-nums;
+    letter-spacing:.08em; flex:none;
+  }
+
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  .card + .card { margin-top:12px; }
+
+  /* ---- copy blocks ---- */
+  .block { border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--surface); }
+  .block-top {
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:11px 16px; background:var(--surface-2); border-bottom:1px solid var(--line);
+  }
+  .block-top .label { font-size:12px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-2); }
+  .block-body { padding:18px; font-size:15px; }
+  .block-body p:last-child { margin-bottom:0; }
+  .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13.5px; }
+
+  button.copy {
+    font:inherit; font-size:12.5px; font-weight:600; cursor:pointer;
+    background:var(--accent); color:#fff; border:0; border-radius:7px; padding:6px 13px;
+    transition:opacity .15s;
+  }
+  button.copy:hover { opacity:.85; }
+  button.copy:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; }
+  button.copy.done { background:var(--accent-ink); }
+  .count { font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+
+  /* ---- lists ---- */
+  ul, ol { margin:0 0 12px; padding-left:20px; }
+  li { margin-bottom:7px; }
+  li:last-child { margin-bottom:0; }
+
+  .qa { border-left:2px solid var(--line-strong); padding-left:15px; margin-bottom:16px; }
+  .qa:last-child { margin-bottom:0; }
+  .qa .q { font-weight:650; margin-bottom:5px; }
+  .qa .a { color:var(--ink-2); font-size:14.5px; margin:0; }
+
+  /* ---- rejected roles ---- */
+  .rej { display:flex; gap:15px; align-items:flex-start; padding:15px 0; border-bottom:1px solid var(--line); }
+  .rej:last-child { border-bottom:0; padding-bottom:0; }
+  .rej-score {
+    flex:none; width:34px; height:34px; border-radius:8px; display:grid; place-items:center;
+    background:var(--stop-wash); color:var(--stop); font-weight:700; font-size:16px;
+    font-family:Georgia,serif;
+  }
+  .rej h3 { margin:0 0 3px; font-size:15.5px; }
+  .rej p { margin:0; font-size:14px; color:var(--ink-2); }
+  .gate { color:var(--stop); font-weight:600; }
+
+  /* ---- checklist ---- */
+  .check { list-style:none; padding:0; }
+  .check li { display:flex; gap:11px; align-items:flex-start; margin-bottom:10px; }
+  .check input { margin-top:4px; accent-color:var(--accent); width:16px; height:16px; flex:none; }
+
+  table { width:100%; border-collapse:collapse; font-size:14.5px; }
+  .scroll { overflow-x:auto; }
+  th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:11.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+  td:first-child { white-space:nowrap; color:var(--ink-2); }
+
+  .note { font-size:14px; color:var(--muted); }
+  footer { margin-top:52px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Application Kit · prepared 11 Aug 2026</p>
+  <h1>Senior Manager / AGM — Strategy, CEO's Office</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">Ferty9 Fertility Center · Hyderabad</p>
+  <div class="meta">
+    <span class="tag pass">For-profit ✓</span>
+    <span class="tag pass">Hyderabad · P0 ✓</span>
+    <span class="tag pass">2–5 yrs — you have 4y2m ✓</span>
+    <span class="tag">Verlinvest-backed</span>
+    <span class="tag">Apply by email</span>
+  </div>
+  <div class="verdict">
+    <div class="score">5<small>of 5</small></div>
+    <p><strong>Apply today.</strong> Clears every hard gate, and the core of the job — deciding which markets and centres deserve capital — is the exact analysis you already built and ran at portfolio scale.</p>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head"><span class="n">01</span><h2>Why this scores 5</h2></div>
+  <div class="card">
+    <p><strong>The match is unusually literal.</strong> The JD asks you to "identify growth opportunities across markets, centers, doctors &amp; patient journeys" and "drive market analysis, business planning, expansion." You built a geospatial heat map measuring how identical interventions returned differently by geography, and it drove allocation decisions across a ₹450 crore portfolio for two years. That is the same question a clinic network asks before opening its twelfth centre.</p>
+    <p><strong>Timing is the hidden advantage.</strong> Sukesh Chandra Gain became CEO in July 2026 — roughly a month ago — after running commercial strategy for Birla Fertility &amp; IVF across 50+ clinics. A new CEO hiring into their own office is building a founding team, not backfilling a seat. Scope and proximity will be far above what the title suggests, which matters because you named scope and title as a top-two priority.</p>
+    <p><strong>Backing tells you the mandate.</strong> Verlinvest is a growth investor; 11 centres across Andhra Pradesh and Telangana with a named expansion agenda means the strategy work is real, not decorative. Your portfolio-allocation instinct is the skill they're buying.</p>
+    <p style="margin-bottom:0"><strong>Where it's a stretch — worth knowing before the interview.</strong> You haven't worked in a P&amp;L-carrying commercial business, and "unit economics of a fertility centre" is a language you'll need quickly. Your Tiff.in unit-economics modelling is the honest bridge; lead with it if pressed.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">02</span><h2>How to apply</h2></div>
+  <div class="scroll">
+  <table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>Send to</td><td class="mono">ramya.kannuri@ferty9.com</td></tr>
+    <tr><td>Subject line</td><td class="mono">Application - Strategy | CEO's Office</td></tr>
+    <tr><td>Attach</td><td class="mono">Nikita-Sachanandani-Strategy-CEO-Office.pdf</td></tr>
+    <tr><td>Required</td><td>Write-up, max 300 words, on fit and unique value</td></tr>
+    <tr><td>Hiring principal</td><td>Sukesh Chandra Gain, CEO (posted the role personally)</td></tr>
+  </table>
+  </div>
+  <p class="note" style="margin-top:12px">Use the subject line exactly as written — it's almost certainly a mail filter. Send Mon–Thu morning; a CEO's-office inbox on Friday afternoon is where applications go to be forgotten.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">03</span><h2>Email body</h2></div>
+  <div class="block">
+    <div class="block-top">
+      <span class="label">Paste into the email</span>
+      <button class="copy" data-target="email">Copy</button>
+    </div>
+    <div class="block-body" id="email">
+      <p>Dear Ms. Kannuri,</p>
+      <p>I'm applying for the Senior Manager / AGM role in the CEO's Office. My write-up is below and my CV is attached.</p>
+      <p>Briefly: I currently manage a ₹450 crore ($51M) healthcare portfolio at Tata Trusts, where I built the geospatial ROI analysis that decided where our capital went across India. Deciding which markets and centres earn investment is the work I already do — I'd like to do it for a network that is actually expanding.</p>
+      <p>Happy to share more detail at any point. Thank you for your time.</p>
+      <p>Warm regards,<br>Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">04</span><h2>The 300-word write-up</h2></div>
+  <div class="block">
+    <div class="block-top">
+      <span class="label">Their required question</span>
+      <span style="display:flex;gap:12px;align-items:center">
+        <span class="count" id="wc">—</span>
+        <button class="copy" data-target="writeup">Copy</button>
+      </span>
+    </div>
+    <div class="block-body" id="writeup">
+      <p>When Ferty9 decides where its next centre goes, that is a geography-level capital allocation question — and it is the question I spent two years answering at Tata Trusts.</p>
+      <p>I built a geospatial investment heat map covering every rupee the Trusts deployed across India, measuring how identical interventions produced materially different returns depending on geography and terrain. It shaped portfolio allocation from 2022 to 2024. Applied to a clinic network, the discipline is the same: which markets justify a centre, what returns to expect there, and where capital is better held back.</p>
+      <p>The rest maps closely too. I manage a ₹450 crore ($51M) healthcare portfolio across 40+ programmes, screening 30–50 proposals a month and taking recommendations directly to the CEO and Board. I assess founders and institutional leaders on whether they can genuinely execute and deploy capital — the same judgement a network applies to the doctors and partners it bets on. And I built the Trusts' climate-health vertical from nothing: the thesis, the first programmes, and the funding to stand it up. I know what it takes to start a line of business inside an organisation that did not previously have one.</p>
+      <p>What I'd bring that is less common: I've evaluated healthcare delivery in the field, including in districts that barely appear on the map — not from a deck. I've assessed a district hospital and an AI diagnostics founder in the same month. That range means I can move between a clinical conversation and a growth model without a translator.</p>
+      <p style="margin-bottom:0">I am deliberately moving from philanthropic capital into commercial healthcare, because I want the feedback loop that comes with it. Ferty9 — investor-backed, expanding, and a month into a new CEO — is where that decision compounds fastest.</p>
+    </div>
+  </div>
+  <p class="note" style="margin-top:12px">Every claim here traces to something you told me. If you'd rather not name the ₹450 crore figure externally, swap it for "a $51M healthcare portfolio" and the paragraph still works.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">05</span><h2>Before you hit send</h2></div>
+  <div class="card">
+    <ul class="check">
+      <li><input type="checkbox" id="c1"><label for="c1">Subject line matches exactly: <span class="mono">Application - Strategy | CEO's Office</span></label></li>
+      <li><input type="checkbox" id="c2"><label for="c2">Resume attached, and the filename is your name — not "resume.pdf"</label></li>
+      <li><input type="checkbox" id="c3"><label for="c3">Write-up is under 300 words (counter above)</label></li>
+      <li><input type="checkbox" id="c4"><label for="c4">Checked LinkedIn for anyone you know at Ferty9, Verlinvest, or Birla Fertility — a referral still beats a cold email, even a good one</label></li>
+      <li><input type="checkbox" id="c5"><label for="c5">Row added to <span class="mono">applications.csv</span> with a follow-up date 5 days out</label></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">06</span><h2>If they call — prep</h2></div>
+  <div class="card">
+    <h3>Company brief</h3>
+    <ul>
+      <li><strong>What they are:</strong> South India fertility-care network — 11 centres across Andhra Pradesh and Telangana. Named Best IVF Chain in South India, 2024.</li>
+      <li><strong>Backing:</strong> Verlinvest, a growth-stage consumer investor. Implies an expansion mandate and eventual exit pressure.</li>
+      <li><strong>CEO:</strong> Sukesh Chandra Gain, since July 2026. Previously Chief Business Officer at Birla Fertility &amp; IVF; before that ran revenue and operations for 50+ IVF clinics across 35 cities. He thinks in unit economics and network expansion — pitch to that.</li>
+      <li><strong>Read before the call:</strong> the Indian IVF market's growth drivers, what drives a fertility centre's economics (cycles per centre, doctor productivity, patient acquisition cost), and how Birla, Indira IVF and Nova compete.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Questions you'll get</h3>
+    <div class="qa">
+      <p class="q">"Why leave Tata Trusts?"</p>
+      <p class="a">Your prepared answer, rehearsed. Forward-looking, no criticism, 30 seconds. Full script in <span class="mono">private/exit-narrative.md</span>.</p>
+    </div>
+    <div class="qa">
+      <p class="q">"You've worked in philanthropy. Why should we believe you'll adapt to a commercial P&amp;L?"</p>
+      <p class="a">The honest answer is strongest: you already allocate capital against returns, you just measured return in impact rather than revenue. The heat map <em>is</em> ROI analysis. Add the Tiff.in unit-economics work as evidence you've modelled a commercial business.</p>
+    </div>
+    <div class="qa">
+      <p class="q">"How would you decide where we open our next centre?"</p>
+      <p class="a">Almost certain to be asked, and it's your question. Structure it: demand signals and demographics, competitive density, doctor availability, referral catchment, payer mix, cannibalisation of existing centres, payback period. Then say what you'd need to see in the data before committing — that restraint is what separates a strategist from an analyst.</p>
+    </div>
+    <div class="qa">
+      <p class="q">"What's your current and expected compensation?"</p>
+      <p class="a">The JD says compensation isn't a constraint for the right candidate — so don't anchor yourself first. "My current fixed is ₹16 lakh, which is a philanthropic-sector band rather than a market one. What range have you budgeted?"</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Ask them</h3>
+    <ol>
+      <li>What does the CEO want to be true in 12 months that isn't true today?</li>
+      <li>Is the growth thesis primarily new centres, or more throughput from the existing eleven?</li>
+      <li>How does Verlinvest's involvement shape the decision-making cadence?</li>
+      <li>What's the hardest strategic call the leadership team is sitting on right now?</li>
+    </ol>
+    <p class="note" style="margin-bottom:0">Hold two back for a later round — they will ask again.</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">07</span><h2>The other two roles</h2></div>
+  <div class="card">
+    <div class="rej">
+      <div class="rej-score">1</div>
+      <div>
+        <h3>IDinsight — Associate / Senior Associate, AI Transformation</h3>
+        <p><span class="gate">Fails three gates.</span> IDinsight is a non-profit advisory serving governments, NGOs and foundations — the exact sector you're leaving. The posting is registered to <strong>Kenya</strong>, outside your locations. And the role itself is AI adoption and change management (building no-code agents, Zapier/Make automations, running training workshops), which isn't your background. Even setting sector aside, this one wouldn't convert.</p>
+      </div>
+    </div>
+    <div class="rej">
+      <div class="rej-score">1</div>
+      <div>
+        <h3>GSG Impact — Policy Officer, Impact Investing</h3>
+        <p><span class="gate">Fails three gates.</span> Non-profit global network. Based in the <strong>United Kingdom</strong>. And it's a <strong>1-year fixed-term consultant contract at $40,000</strong> — no permanence, and a Policy Officer title reads as a lateral move from Program Officer. The impact-investing subject matter is genuinely close to your experience, which makes it tempting; the structure is what disqualifies it.</p>
+      </div>
+    </div>
+    <p class="note" style="margin-top:16px;margin-bottom:0">Both are precisely the kind of role you'd have been an excellent candidate for a year ago. That they now score 1 is the search working as intended, not a shortage of options — the for-profit gate is doing its job.</p>
+  </div>
+</section>
+
+<footer>
+  Scored against <span class="mono">applications/RUBRIC.md</span>. Hard gates — sector, timezone, on-call, location — cap a role at 1 regardless of everything else. Company details verified 11 Aug 2026 via public sources; confirm anything you plan to quote in an interview.
+</footer>
+
+</div>
+
+<script>
+  document.querySelectorAll("button.copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var el = document.getElementById(btn.dataset.target);
+      var text = Array.from(el.querySelectorAll("p"))
+        .map(function (p) { return p.innerText.trim(); })
+        .join("\n\n");
+      navigator.clipboard.writeText(text).then(function () {
+        var was = btn.textContent;
+        btn.textContent = "Copied";
+        btn.classList.add("done");
+        setTimeout(function () { btn.textContent = was; btn.classList.remove("done"); }, 1800);
+      });
+    });
+  });
+
+  var w = document.getElementById("writeup").innerText.trim().split(/\s+/).length;
+  var wc = document.getElementById("wc");
+  wc.textContent = w + " / 300 words";
+  if (w > 300) { wc.style.color = "var(--stop)"; wc.style.fontWeight = "700"; }
+</script>
