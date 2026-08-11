@@ -1,67 +1,113 @@
-# Intake answers — Nikita
+# Intake answers — Nikita Sachanandani
 
-Living document. Edit it when something changes; every other file in this workspace
-reads from it. Questions are in `QUESTIONNAIRE.md`.
+Living document. Edit it when something changes; every other file reads from it.
+Questions are in `QUESTIONNAIRE.md`.
 
-> **This repo is currently public.** Do not add the compensation section, phone number,
-> or notes about named people until it's private. Git history keeps what you commit even
-> after a later deletion.
+> **This repo is public.** Compensation figures and departure context are deliberately
+> **not** in this file — they're in `private/comp-strategy.md` and
+> `private/exit-narrative.md`, which are gitignored. Make the repo private and I'll move
+> them in properly.
 
 **Last updated:** 2026-08-11
 
 ---
 
-## Answered
+## Identity
 
-### Search parameters
+- **Name:** Nikita Sachanandani
+- **Email:** sachanandani.nikita@gmail.com
+- **Phone:** +91 7698030306
+- **Location:** Mumbai · open to relocation
+- **LinkedIn:** _(still needed)_
+- **Experience:** 4 years 2 months
 
-- **Whose search:** Nikita's own.
-- **Urgency:** Urgent — targeting a signed offer within 2 months (by ~2026-10-11).
-- **Track:** Open to both IC and people management → maintain two resume versions.
-- **Locations, priority 0:** Remote · Mumbai · Bangalore · Hyderabad
-- **Locations, priority 1:** Delhi NCR
-- **Market:** India.
+## Search parameters
 
-### What this implies for the workspace
+- **Urgency:** Urgent — targeting a signed offer by ~2026-10-11
+- **Notice period:** 30 days. Resigning ~2026-08-12 → last day ~2026-09-11
+- **Employment status:** Employed until ~2026-09-11, then searching full-time.
+  Search is **not** confidential after resignation — which is an advantage: no
+  scheduling constraints, and referral asks can be open.
+- **Track:** Open to both IC and management → two resume versions maintained
+- **Locations, P0:** Remote · Mumbai · Bangalore · Hyderabad
+- **Locations, P1:** Delhi NCR
+- **Dealbreakers:** India timezone required · no on-call
+- **Optimising for:** Scope and title · flexibility
 
-- **Cadence is high.** An 8-week search means applications go out weekly from week 1,
-  not after the materials are perfect. See `weekly/README.md` for the urgent-track
-  numbers.
-- **Two resume versions** are needed before volume starts — one IC, one management.
-  Applying with the wrong framing wastes the application.
-- **Follow-ups compress.** 5 days instead of 7–10, and `ghosted` at 14 days rather than
-  21, because a 21-day wait is a quarter of the entire runway.
-- **Referrals outrank cold applications**, and more so under time pressure — they're the
-  only reliable way to skip the queue. `contacts/` is the first thing to fill.
+## Target roles
 
----
+The through-line: **investment and strategy work, in healthcare, for-profit.**
+
+- VC / impact investment (healthcare focus)
+- Strategy · healthcare strategy
+- Chief of staff · founder's office
+- Generalist roles in healthcare
+
+Deliberately moving **out of** the non-profit and philanthropic sector — has declined
+non-profit offers to do so. This is the defining constraint of the search, and it means
+adjacent-but-easier non-profit roles are not a fallback, they're a step backwards.
+
+**Likely easiest bridge:** MBB social impact / healthcare practice, or a healthcare VC.
+Both value the philanthropic-capital background rather than discounting it.
+
+## Current role
+
+**Program Officer, Healthcare Portfolio — Tata Trusts** · July 2022 – Sept 2026 · Mumbai
+
+`[VERIFY]` Title reads "Program Officer" on both resume PDFs; "Program Manager" in
+intake. Confirm against the relieving letter.
+
+- **Reports to:** Director, Health Portfolio
+- **Team:** 14 in healthcare · ~50 in programmes · ~200 in the organisation
+- **Dual mandate:** Program Officer **and** Grants Manager — the only person on the team
+  holding two roles. On neither current resume; it should be on both.
+
+Full detail in `resume/master/resume.md`.
+
+## Materials on hand
+
+Two tailored resume PDFs already exist, recorded in `resume/versions/`:
+
+| Version | Framing |
+| --- | --- |
+| Healthcare | Domain depth — health-tech, AI diagnostics, clinical areas |
+| Generalist | Deal lifecycle — origination, diligence, capital deployment |
+
+Both are strong. Three issues, in `resume/versions/README.md`.
+
+## Network and pipeline
+
+- **In flight:** nothing. Clean start.
+- **Referrals:** says the network is broad — approach is to find openings first, then
+  work backwards to a referral path. So **sourcing openings is the bottleneck**, not
+  contacts.
+- **Named targets:** MBB (social impact / healthcare practice) · 2070 Health ·
+  Quadria Capital. Broader space: health-tech, AI-in-healthcare, consulting,
+  healthcare VC. Seeded into `targets/companies.csv`.
+
+## Compensation
+
+In `private/comp-strategy.md`. Summary without figures: holds two competing offers well
+above current pay, which are being declined on sector grounds. Stated position is "no
+floor" — pushed back on, since the offers in hand establish a real one.
 
 ## Still needed
 
-Ordered by what unblocks the most. See `QUESTIONNAIRE.md` for the full set.
+### Blocking the first applications
 
-### Blocking
-
-- [ ] Full name as it appears on the resume, and contact details
-- [ ] Current resume — pasting it collapses most of the work-history section
-- [ ] Currently employed? Is the search confidential?
-- [ ] **Notice period** — the constraint most likely to conflict with the 2-month target
-- [ ] Target job titles (the literal strings you'd search for)
-- [ ] Years of experience and current level
-- [ ] Function/domain — what kind of work this is
+- [ ] **Resolve the fund figure.** Three conflicting numbers across sources — see
+      `resume/master/resume.md`. Every application depends on this
+- [ ] Confirm the job title on the relieving letter
+- [ ] LinkedIn URL
+- [ ] Excel / financial modelling / deck-building / SQL / Python level, honestly stated —
+      consulting and VC screens test these
 
 ### High value
 
-- [ ] Work history: roles, dates, scope, defensible numbers
-- [ ] Compensation: current, floor, target, reach (in LPA — fixed vs variable split)
-- [ ] Anything already in flight — applications, recruiters, scheduled interviews
-- [ ] People who'd refer you without hesitation
-- [ ] Five companies you'd genuinely want
-
-### Useful
-
-- [ ] Skills, split by depth
-- [ ] Education and credentials
-- [ ] Dealbreakers and constraints
-- [ ] What you're optimizing for, ranked
-- [ ] Raw material for the STAR bank
+- [ ] Are the two competing offers still live, and until when?
+- [ ] Full partner-institution list
+- [ ] A programme that failed or was killed, and what you did — the most likely senior
+      behavioural question, currently unanswered
+- [ ] Quantifiable downstream results from the heat map or the climate-health vertical
+- [ ] Awards, internal recognition, promotions with dates
+- [ ] 2–3 referees secured before the last day at Tata Trusts

@@ -1,2 +1,17 @@
 company,tier,industry,size,location,careers_url,why,status,known_contacts,notes
-Example Co,A,developer tools,200-500,Berlin,https://example.com/careers,Product I already use and have opinions about,watching,Jane Doe,"Sample row — delete once you have real targets"
+McKinsey & Company,A,consulting,2000+,"Mumbai / Bangalore",https://www.mckinsey.com/careers,Social sector and healthcare practice — closest bridge from philanthropic capital to for-profit strategy,watching,,"Named by Nikita. YIF is a recognised signal here"
+Bain & Company,A,consulting,2000+,"Mumbai / Bangalore",https://www.bain.com/careers,Social Impact practice; healthcare vertical,watching,,Named by Nikita
+Boston Consulting Group,A,consulting,2000+,"Mumbai / Bangalore",https://careers.bcg.com,Social Impact and healthcare practice,watching,,Named by Nikita
+2070 Health,A,healthcare venture studio,50-200,Bangalore,https://2070health.com,Healthcare venture building — direct match to programme design plus diligence experience,watching,,Named by Nikita. Validate open roles
+Quadria Capital,A,healthcare PE,50-200,"Singapore / Mumbai",https://quadriacapital.com,Healthcare-dedicated private equity across Asia,watching,,Named by Nikita. Validate open roles
+HealthQuad,B,healthcare VC,<50,"Delhi NCR",,Healthcare-focused venture fund in India,watching,,SUGGESTION — validate before pursuing
+Elevar Equity,B,impact VC,<50,Bangalore,,Impact investing with a financial-return lens; bridges philanthropic and commercial capital,watching,,SUGGESTION — validate
+Ankur Capital,B,early-stage VC,<50,Mumbai,,Deep-tech and impact early stage; health among its themes,watching,,SUGGESTION — validate
+Aavishkaar Capital,B,impact VC,50-200,Mumbai,,Impact investing at scale in India,watching,,SUGGESTION — validate
+Dalberg Advisors,B,strategy consulting,500-2000,Mumbai,https://dalberg.com/careers,Global development strategy — very close adjacency to current work,watching,,SUGGESTION — validate
+Sattva Consulting,B,impact consulting,200-500,Bangalore,,Social impact consulting; strong India footprint,watching,,SUGGESTION — validate
+ZS Associates,B,healthcare consulting,2000+,"Pune / Bangalore",,Healthcare and life sciences consulting,watching,,SUGGESTION — validate
+IQVIA,B,healthcare analytics,2000+,Bangalore,,Healthcare data and consulting,watching,,SUGGESTION — validate
+Innovaccer,B,healthtech,500-2000,Bangalore,,Healthcare data platform; founders office and strategy roles,watching,,SUGGESTION — validate
+Qure.ai,B,AI diagnostics,200-500,Mumbai,,AI diagnostics — direct overlap with health-tech and AI diagnostics evaluation experience,watching,,SUGGESTION — strong domain fit
+Tata 1mg,C,healthtech,2000+,"Gurgaon / Bangalore",,Healthcare commerce and diagnostics; Tata group affiliation may ease the internal move,watching,,SUGGESTION — validate whether Tata affiliation helps or complicates

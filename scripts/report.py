@@ -49,10 +49,7 @@ def load(path):
     if not path.exists():
         sys.exit(f"No tracker at {path}")
     with path.open(newline="", encoding="utf-8") as fh:
-        rows = list(csv.DictReader(fh))
-    if not rows:
-        sys.exit("Tracker is empty — add an application first.")
-    return rows
+        return list(csv.DictReader(fh))
 
 
 def status_key(status):
@@ -187,6 +184,10 @@ def main():
         sys.exit(f"Not a valid date: {args.today}")
 
     rows = load(CSV_PATH)
+    if not rows:
+        print("No applications tracked yet — nothing to report.")
+        print(f"Add the first row to {CSV_PATH.name}, then run this again.")
+        return
 
     if args.status:
         show_status(rows, args.status)

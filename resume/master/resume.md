@@ -1,85 +1,246 @@
-# Nikita — Master Resume
+# Nikita Sachanandani — Master Resume
 
-> The superset. Everything worth mentioning lives here; tailored cuts go in
-> `../versions/`. Keep bullets here even when they haven't been used in a year — the
-> right role will eventually need them.
+> The superset. Everything usable lives here; tailored cuts go in `../versions/`.
+> Built 2026-08-11 from two existing PDFs plus intake narrative.
+>
+> **⚠ Items marked `[VERIFY]` conflict between sources or aren't yet confirmed. Nothing
+> marked `[VERIFY]` goes into a version sent to an employer until it's resolved.**
 
 ---
 
 ## Contact
 
-- **Email:**
-- **Phone:**
-- **LinkedIn:**
-- **GitHub / portfolio:**
-- **Location:** _(and whether you're open to relocation)_
+- **Email:** sachanandani.nikita@gmail.com
+- **Phone:** +91 7698030306
+- **Location:** Mumbai, India · open to relocation
+- **LinkedIn:** _(needed)_
+- **Target locations:** Remote · Mumbai · Bangalore · Hyderabad · (Delhi NCR secondary)
 
-## Summary
+## Positioning
 
-Two or three lines, rewritten per version. What you do, at what scope, and what you're
-aiming at next. Skip it entirely on a one-page resume if space is tight — it's the
-first thing to cut.
+The core insight for every version: **this is investment work in a philanthropic
+wrapper.** Sourcing, screening at volume, due diligence on founders and institutions,
+deal structuring, capital deployment, portfolio monitoring, and board-level reporting —
+the same pipeline a VC or PE analyst runs, at a scale most 4-year candidates never touch.
+
+For VC / impact investing / strategy targets, lead with the investment framing. For
+healthcare strategy and consulting, lead with domain depth and the analytical work.
 
 ---
 
 ## Experience
 
-### Company — Title
-**Month YYYY – Month YYYY · Location**
+### Tata Trusts — Program Officer, Healthcare Portfolio `[VERIFY: title]`
+**July 2022 – September 2026 · Mumbai**
 
-_One line of context the reader won't have: what the company does, team size, your
-scope. Interviewers can't calibrate your impact without it._
+_One of India's oldest and largest philanthropic organisations, and the principal
+shareholder of Tata Sons. Health portfolio: 14 people; programmes function: ~50;
+organisation: ~200. Reported to the Director of the Health Portfolio._
 
-- Action verb → what you did → measurable result.
-- Another bullet.
-- Another bullet.
+`[VERIFY]` Title reads **Program Officer** on both PDFs; you said "Program Manager" in
+intake. Use whatever your offer letter and relieving letter say — this is checked.
 
-<!-- Bench: bullets from this role not currently in any tailored version. Keep them. -->
-<details>
-<summary>Bench</summary>
+**Dual mandate — the differentiator that's on neither current resume.** You hold both
+Program Officer and Grants Manager responsibilities, the only person on the team
+carrying two roles. That belongs high on every version: it's evidence of trust and of
+range across both origination and financial control.
 
-- Work that matters for some roles but not most.
+#### Investment and capital deployment
 
-</details>
+- Deployed `[VERIFY: $ figure]` across 40+ programmes per annual cycle, spanning
+  health-tech, AI diagnostics, maternal health, immunisation, geriatric, tribal, and
+  primary and tertiary care.
+  > `[VERIFY]` **Three conflicting figures across sources.** Healthcare PDF says
+  > "$15M grant portfolio"; generalist PDF says "$41M in capital per cycle"; intake said
+  > "~₹450 crore fund managed, ₹300–500 crore deployed yearly" (≈ $54M managed,
+  > $36–60M deployed). Pick the defensible number, state it in one currency, and use it
+  > consistently. Two live resumes carrying different figures is the version of this
+  > that goes badly in an interview.
+- Ran financial oversight across the full portfolio — budget allocations, fund
+  utilisation tracking, variance analysis, and cost-per-beneficiary modelling.
+- **Acted as financial gatekeeper for the entire health theme**, not only own programmes:
+  evaluated every partner organisation's budget for gaps and for whether the numbers
+  genuinely reflected programme activity and intensity, before anything advanced to CEO
+  and Board of Trustees approval. _Not on either current resume — it should be. This is
+  an unusual amount of control for the experience level._
+- Originated and closed 15+ institutional partnerships `[VERIFY: count]` — identifying
+  targets, building the relationship, and structuring terms — unlocking co-funding,
+  access to hard-to-reach geographies, and new research investment opportunities.
+- Advised partners on mobilising co-funding and government funding alongside Trust
+  capital.
 
-### Company — Title
-**Month YYYY – Month YYYY · Location**
+#### Screening and due diligence
 
-_Context line._
+- Screened 30–50 proposals per month against a 20–30 parameter preliminary framework,
+  then ran deep-dive analysis on those that fit.
+- Delivered investment recommendations to senior leadership — including Mr. Ratan Tata
+  and Mr. Noel Tata `[VERIFY: keep or cut — see note]` — translating directly into
+  programmes initiated and capital deployed.
+  > Naming individuals reads as name-dropping to some interviewers and as credible
+  > access to others. Keep "CEO and senior leadership" as the default; use the names only
+  > where the audience will value proximity to the Tata principals.
+- **Assessed founders and programme leaders directly** on capability, domain knowledge,
+  and capacity to manage capital — explicitly modelled on pre-investment diligence.
+  _This is the single most transferable thing you do for a VC audience. It is currently
+  buried._
+- Conducted field visits to evaluate implementation in practice, including in some of
+  the remotest districts in India.
 
--
+#### Programme design and structuring
+
+- Led end-to-end design cycles of 2–4 months per programme, building each from the
+  ground up with the partner: mapping multi-stakeholder dependencies, anticipating
+  roadblocks, and designing post-grant sustainability.
+- Designed for scalability, replicability, and measurability; ensured funds reached
+  field-level impact; concentrated deployment in India's most deprived districts.
+- **Built government linkages deliberately to avoid creating parallel infrastructure** —
+  structuring programmes to work through existing government systems and schemes rather
+  than duplicating them. _A sophisticated design constraint and a strong interview
+  answer; not on either resume._
+- Structured technology pilots under a heavier evidence bar: evaluating the technology
+  across varied conditions, and selecting geographies that limited community risk,
+  externalities, and confounding external factors.
+
+#### Analysis and strategy
+
+- **Built a geospatial investment heat map covering every rupee the Trusts deployed
+  across 26 Indian states** `[VERIFY: 26, or "Indian states"]`, measuring ROI by
+  geography and sub-theme — showing how identical interventions produced materially
+  different returns by region and terrain. **Directly shaped portfolio allocation
+  decisions from 2022–2024**, identifying where capital could be deployed more
+  efficiently, which programmes to concentrate on, and which needed non-financial
+  support. _Your strongest single piece of work. Lead with it on analytical roles._
+- Developed investment briefs and portfolio dashboards presented directly to the CEO;
+  drove a 60% improvement `[VERIFY: 60% of what, measured how]` in proactive
+  grantmaking targets and cost-per-beneficiary efficiency.
+- **Created the Trusts' climate-health vertical from nothing** — designed the thesis and
+  the programmes, and secured formal funding to stand it up where no vertical previously
+  existed. _"Built a new investment vertical from zero" is a founder's-office and
+  chief-of-staff headline. It is on neither resume._
+- Wrote policy briefs for senior management.
+- **In progress:** research paper comparing the US and Indian health economies, arguing
+  for increased funding in preventive healthcare.
+
+#### Earlier scope, before moving into healthcare
+
+- Evaluated and monitored grants across six sub-themes — education, WASH, nutrition,
+  health, rural upliftment, urban poverty — scoring performance on a 40-parameter
+  framework, proposing course corrections, and advising the Board on which investments
+  were working.
+
+**Sub-themes owned:** health-tech · disability and assistive technology · climate and
+health · comprehensive primary health
+**Secondary lead:** antimicrobial resistance · One Health · genome sequencing and
+precision medicine
+**Also evaluated:** tribal health · geriatric and palliative care · oncology · child and
+elderly mental health
+
+**Partner institutions:** IISc · C-CAMP · George Institute for Global Health · NIMHANS ·
+Apollo Hospitals · St. Jude · Tanuh.AI _(fuller list to come from Nikita)_
 
 ---
 
-## Projects
+### Tiff.in Productions — Co-founder & Head of Business Strategy
+**Oct 2021 – Aug 2022 · Incubated by Ashoka University**
 
-Only ones with a real outcome — shipped, used by someone, or finished. A half-built
-side project is worse than no side project.
+- Selected for Ashoka University incubation — 3 of 35 teams funded — after a competitive
+  business viability assessment.
+- Built market sizing, competitive landscaping, and unit economics models into
+  investor-ready financial projections and pitch materials.
+- Pitched the founders of a major Indian e-commerce platform and 20+ VC funds.
+- Drove 520% growth in YouTube views and 370% growth in Instagram followers via a
+  multi-platform content and advertising strategy across 4 channels.
 
-### Project name
-_What it is, in one line. Link._
+### upnexxt — Co-contributor, Commercial Strategy
+**2024 – Present · Early-stage startup**
 
-- What you built and what it does for whoever uses it.
+- Go-to-market and commercial strategy for an early-stage events discovery and ticketing
+  platform — a search-and-book layer across promoter-listed events in tier-1 Indian
+  cities, with a discovery angle on experimental and live music.
+- Participated in early investor conversations and partnership development.
+
+### NabFoundation (NABARD) — Development Intern
+**Feb – Apr 2021**
+
+- Assessed financial feasibility of $240M of projects across 12+ states through field
+  visits, budgetary analysis, and impact framework research.
+- Supported senior leadership in forming collaborations with SBI, NatWest Group, and
+  Ampersand Group.
+- Improved employment opportunities for 5,000 families through primary and secondary
+  research and collaboration with the Government of India in the North-East; raised
+  income levels 50–60%.
+- Drafted 4 articles on clean energy and entrepreneurship.
+
+### LetsEndorse — Legal Intern
+**Jan – Mar 2021**
+
+- Synthesised employment data and market insight across 22 tier III and IV cities into
+  recommendations on project location, partnership potential, and government support.
+- Developed business plans and assessed legal requirements for SIDBI-backed initiatives.
+
+---
+
+## Published research and presentations
+
+**Persistence of Informal Social Networks in the Indian Textile Market: A Case Study of
+Surat** — _Journal of Enterprising Culture_, Sept 2023 (Vol. 31, Issue 3)
+
+- Established a comparative metric for the role of social networks in formal versus
+  informal business, through interviews spanning the full supply chain from weavers and
+  manufacturers to end consumers.
+- Applied the World Bank's Doing Business methodology to gauge informality and network
+  dependence.
+
+**Investigation into India's Economic Slowdown Post-2018** — LSR College, Delhi
+University · Saroj Gupta Paper Presentation · 2020 (presented, not published)
+
+- Analysed the slowdown across agriculture, manufacturing, and services via econometric
+  analysis of government data.
+- Identified leakages in policy adoption and implementation as key contributing factors.
+
+**In progress:** comparative analysis of the US and Indian health economies, advocating
+for preventive healthcare investment.
+
+---
+
+## Education
+
+- **P.G.D. in Liberal Studies** — Ashoka University, Young India Fellowship · 3.6/4 · 2022
+- **B.A. Economics (Hons.)** — Christ University · Thesis grade A+ · First Class · 3.5/4 · 2021
+- **Class XII (Commerce)** — Delhi Public School · School rank 2 · 90.8% · 2018
+
+> The Young India Fellowship is a recognised signal in Indian strategy and consulting
+> hiring. Keep it visible.
 
 ---
 
 ## Skills
 
-Group them, and be honest about depth. A recruiter greps this section; an interviewer
-will test whatever you list.
+**Core** — investment screening and due diligence · financial and budgetary analysis ·
+programme design and structuring · portfolio monitoring and M&E · stakeholder and
+partnership management · executive and board-level communication · healthcare domain
+(health-tech, AI diagnostics, primary care, public health)
 
-- **Core:** things you'd be comfortable being interviewed on tomorrow
-- **Working:** things you've used in production but would need to warm up
-- **Familiar:** exposure only — list sparingly, or not at all
+**Working** — geospatial and ROI analysis · unit economics and market sizing ·
+econometric analysis · policy research and writing · go-to-market strategy
 
-## Education
+**To confirm** — Excel depth · financial modelling beyond budgets · SQL · Python or R ·
+PowerPoint/deck-building at consulting standard · Tableau or Power BI
 
-**Degree, Institution** — Year
+> `[VERIFY]` Tool proficiency isn't established anywhere in your materials. Consulting
+> and VC screens test Excel and deck-building specifically. Tell me your real level and
+> I'll place it honestly.
 
-Drop coursework and GPA once you have a few years of experience; the space is worth more
-elsewhere.
+---
 
-## Additional
+## Not yet mined
 
-Languages, certifications, publications, talks, open-source maintainership. Only if
-relevant to the role — this section is the first casualty of the one-page limit.
+Raw material that likely exists but hasn't been captured:
+
+- Specific programmes you personally originated, with outcomes and beneficiary numbers
+- The full partner institution list
+- Any programme that failed or was killed, and what you did — the most common senior
+  behavioural question, and you don't have a prepared answer
+- Whether the heat map or climate-health vertical produced quantifiable downstream
+  results
+- Awards, internal recognition, promotions with dates
