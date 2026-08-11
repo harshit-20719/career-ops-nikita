@@ -38,6 +38,24 @@ Typical shape of a healthy funnel, for calibration when a rejection run feels pe
 - referrals convert several times better — which is why `contacts/` exists
 - most searches take 2–4 months, and the middle stretch is the demoralizing part
 
-A week with 5 applications and 3 outreach messages is a good week. Compounding beats
-sprinting; the searches that stall are the ones that go dark for a fortnight after a
-rejection.
+A week with 5 applications and 3 outreach messages is a good week on a normal timeline.
+Compounding beats sprinting; the searches that stall are the ones that go dark for a
+fortnight after a rejection.
+
+## Urgent track (current setting)
+
+The search is running on a ~2-month clock, so the numbers above are too low. Target:
+
+| | Per week |
+| --- | --- |
+| Applications sent | 10–15 |
+| Outreach messages | 8–10 |
+| Referral asks | 3–5 |
+
+And compress the timings in `outreach/README.md`: follow up at 5 days rather than 7–10,
+mark rows `ghosted` at 14 days rather than 21. A three-week wait is a quarter of the
+entire runway.
+
+Two things not to cut, even under pressure: the debrief after every interview, and the
+research before every first call. They're what keep the conversion rate up, and volume
+without conversion just burns through the target list faster.

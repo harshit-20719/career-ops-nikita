@@ -23,13 +23,16 @@ blank box at 9pm.
 
 ## Timing
 
-| Situation | Wait |
-| --- | --- |
-| After applying, no response | 7–10 days, then one follow-up |
-| After an interview | Thank-you within 24h |
-| After a stated timeline passes | 2–3 days past the date they gave |
-| After a referral ask, no reply | 1 week, once, then let it go |
-| No reply at all, ever | One follow-up total. Mark the row `ghosted` at 21 days |
+Second column is the normal cadence; third is the compressed one currently in effect,
+since the search is on a ~2-month clock.
+
+| Situation | Normal | Urgent |
+| --- | --- | --- |
+| After applying, no response | 7–10 days | 5 days |
+| After an interview | Within 24h | Within 24h |
+| After a stated timeline passes | 2–3 days past | 1–2 days past |
+| After a referral ask, no reply | 1 week, once | 4 days, once |
+| No reply at all, ever | `ghosted` at 21 days | `ghosted` at 14 days |
 
 Follow up once. Not twice. The second follow-up almost never converts and it's the one
 they remember.
