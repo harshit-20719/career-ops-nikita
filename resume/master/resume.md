@@ -120,8 +120,13 @@ range across both origination and financial control.
   grantmaking targets and cost-per-beneficiary efficiency.
 - **Created the Trusts' climate-health vertical from nothing** — designed the thesis and
   the programmes, and secured formal funding to stand it up where no vertical previously
-  existed. _"Built a new investment vertical from zero" is a founder's-office and
-  chief-of-staff headline. It is on neither resume._
+  existed.
+  > **Pulled from the sent resumes on 2026-08-11 at Nikita's request.** Kept here as
+  > bench material — it stays available for interviews and for versions where it fits.
+  > Note what leaves with it: this was the only bullet evidencing "built something from
+  > zero," which is the core signal for founder's-office and chief-of-staff roles. If
+  > that signal is wanted back without the climate framing, it can be rewritten around
+  > standing up a new portfolio area rather than around the subject matter.
 - Wrote policy briefs for senior management.
 - **In progress:** research paper comparing the US and Indian health economies, arguing
   for increased funding in preventive healthcare.
