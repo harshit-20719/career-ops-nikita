@@ -13,6 +13,7 @@ PDF should not be sent.
 """
 
 import argparse
+import re
 import shutil
 import subprocess
 import sys
@@ -34,6 +35,34 @@ REQUIRED = [
     "EXPERIENCE",
     "EDUCATION",
 ]
+
+
+def check_font(html_path):
+    """Warn if the first font in the body stack isn't installed.
+
+    A missing font fails silently: the browser substitutes something generic and
+    the PDF still renders, just uglier. That happened once already (Calibri fell
+    back to DejaVu Sans), so it's checked rather than trusted.
+    """
+    text = html_path.read_text(encoding="utf-8")
+    match = re.search(r"body\s*\{[^}]*font-family:\s*([^;]+);", text, re.S)
+    if not match:
+        return
+    first = match.group(1).split(",")[0].strip().strip("\"'")
+
+    try:
+        out = subprocess.run(
+            ["fc-match", first], capture_output=True, text=True, timeout=10
+        ).stdout
+    except (FileNotFoundError, subprocess.SubprocessError):
+        return  # no fontconfig — nothing to check against
+
+    resolved = out.split('"')[1] if '"' in out else ""
+    if resolved and first.lower() not in resolved.lower():
+        print(f"  ! Font '{first}' is NOT installed — falling back to '{resolved}'")
+        print("    The PDF will render, but not in the font you designed for.")
+    else:
+        print(f"  font: {resolved or first}")
 
 
 def find_chrome():
@@ -110,6 +139,7 @@ def main():
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"Rendering {args.html} → {pdf_path}")
+    check_font(args.html)
     render(args.html, str(pdf_path.resolve()))
     ok = verify(str(pdf_path))
     print(f"  {pdf_path}  ({pdf_path.stat().st_size // 1024} KB)")
