@@ -1,110 +1,133 @@
 # Role scoring rubric
 
-How every posting gets rated 1–5. Encoded from Nikita's stated criteria so scores mean
-the same thing across roles and across weeks.
+Every posting gets **two scores**, not one:
 
-## Hard gates — fail any of these and the role caps at 1
+- **FIT** — how good this role is for Nikita, ignoring whether she'd get it.
+- **ODDS** — how likely she is to get it, and how fast it could close.
 
-These aren't weighted, they're binary. A role failing a gate doesn't get a nuanced score;
-it gets a 1 and a one-line reason.
+They stay separate on purpose. Blending them means a superb role with long odds
+averages out to the same number as a mediocre one she'd walk into, and the score stops
+telling you anything. Kept apart, FIT protects the standard and ODDS allocates the
+effort.
+
+---
+
+## Hard gates
+
+Binary. Fail any one and the role is a **1 on FIT**, regardless of everything else. No
+weighting, no judgment — just checking stated facts.
 
 | Gate | Requirement |
 | --- | --- |
-| **Sector** | For-profit. A non-profit, foundation, or philanthropic role is a decline at any compensation — this is the defining constraint of the search |
-| **Timezone** | India hours. No role requiring US or EU shift work |
+| **Sector** | For-profit. A non-profit or foundation role is a decline at any compensation |
+| **Timezone** | India hours |
 | **On-call** | None |
-| **Location** | Remote · Mumbai · Bangalore · Hyderabad · Delhi NCR. Anything else requires relocation she hasn't agreed to |
+| **Location** | Remote · Mumbai · Bangalore · Hyderabad · Delhi NCR |
 
-## Scored dimensions
+---
 
-Applied only to roles that clear every gate.
+## Axis 1 — FIT
 
-### Background fit (weight: high)
+Each dimension scored **1–5 as an integer**, then weighted. Integers because the inputs
+are judgments, and a scale finer than that would be inventing precision that isn't
+there. The weighted total is reported to one decimal so small differences between roles
+are visible.
 
-How much of the job is work she has already done at scale?
+| # | Dimension | Weight | What earns a 5 |
+| --- | --- | --- | --- |
+| 1 | **Background fit** | 25 | The core of the job is work already done at scale — investment screening, diligence, capital allocation, programme design, healthcare domain |
+| 2 | **Scope & title (today)** | 20 | Real ownership, senior exposure, a title that reads as a clear step up from Program Officer |
+| 3 | **Alumni trajectory & company signal** | 20 | People leave this company for better roles than they arrived from; credible employee signal |
+| 4 | **Transition value** | 15 | Decisively credentials her out of the philanthropic sector into commercial work |
+| 5 | **Title trajectory (2 yr)** | 12 | The role obviously leads somewhere — BU head, VP strategy, investing seat |
+| 6 | **Flexibility & autonomy** | 8 | Remote or genuinely flexible, and real control over how the work is done |
 
-- **Strong** — investment screening, due diligence, capital deployment, portfolio
-  management, programme design, healthcare domain
-- **Partial** — adjacent analytical or strategy work where the healthcare or investment
-  background is an asset but not the core requirement
-- **Weak** — requires skills not evidenced anywhere in her materials (engineering,
-  clinical practice, sales quota-carrying, deep financial modelling at PE standard)
+`FIT = Σ(score × weight) / 100`
 
-### Scope and title (weight: high — she named this a top-two priority)
+### On dimension 3 — alumni trajectory
 
-- **Strong** — ownership of an area, a title that reads as a step up from Program
-  Officer, visible senior exposure
-- **Partial** — real work but a lateral or ambiguous title
-- **Weak** — execution-only, junior title, or a title that would read as a step back
+Nikita's addition, and the sharpest signal available. **Where people go after a job
+tells you what the job did for them** — and unlike culture ratings, it's checkable even
+when review sites are empty.
 
-### Flexibility (weight: high — the other top-two priority)
+**How to check it** (5 minutes on LinkedIn, and she can do this better than I can):
 
-Remote or genuinely flexible hybrid, sane hours, autonomy over how the work gets done.
+1. Search the company, open **People**, filter to the relevant function.
+2. Look at people who've **left** — what did they go to next? Bigger company? Better
+   title? Or sideways into another similar organisation?
+3. Check tenure. A function where nobody lasts past 18 months is telling you something.
+4. If the role has a predecessor, find them specifically. Where they went next is the
+   single most predictive data point available.
 
-### Transition value (weight: medium)
+**The no-data rule.** If there are fewer than ~10 reviews *and* fewer than 3 traceable
+alumni, score it **3 and mark it `no-data`**. Do not infer. Thin evidence scored as
+though it were real evidence is worse than no dimension at all — that is the mistake
+this rubric already made once, and it caps the confidence of everything above it.
 
-Does this role make the *next* one easier? A first for-profit role that credentials her
-out of the philanthropic sector is worth more than its title alone suggests. MBB and
-name-brand VC score high here regardless of level.
+---
 
-### Compensation (weight: low — by her explicit instruction)
+## Axis 2 — ODDS
 
-No floor set. Money is not the axis. Scored only to flag outliers: a role paying
-materially below ₹16 LPA gets noted, not penalised. A role well above target is a small
-bonus, not a reason to rank it above a better-fitting role.
+Same 1–5 integers, same weighting.
 
-## Company risk flags — checked, but not scored
+| # | Dimension | Weight | What earns a 5 |
+| --- | --- | --- | --- |
+| 1 | **Profile match to their stated bar** | 35 | Clears every filter they'll screen on — years, domain, credentials — with nothing needing explanation |
+| 2 | **Referral path** | 35 | A warm intro exists or is realistically findable within a week |
+| 3 | **Process speed vs the clock** | 30 | Could plausibly close inside the ~8-week window. Multi-round MBB and large-corporate processes score low here by nature |
 
-**Added 2026-08-11**, after a fair challenge: the rubric scores the *role* and says
-nothing about whether the company is a good place to work.
+`ODDS = Σ(score × weight) / 100`
 
-That gap is only partly principled. Two reasons hold up; one didn't.
+**Referral path is weighted equal-heaviest for a reason** — it's the dimension Nikita can
+most directly change. A cold 2 becomes a 5 with one good introduction, which moves ODDS
+by more than a full point. Any role where FIT is 4+ and referral path is low is telling
+you exactly where the next hour should go.
 
-**Holds up — apply-stage and decide-stage are different decisions.** Applying costs an
-hour and is fully reversible. Company quality determines whether you *accept*, not
-whether you *apply*. Ranking on it up front would filter out strong-fit roles at
-companies you simply don't have information about yet — and you gather that information
-by interviewing, which requires applying first.
+---
 
-**Holds up — what matters most is unknowable from outside.** Your manager, whether the
-mandate is real, whether the team is functional. These decide whether a job is good, and
-no amount of pre-application research reveals them. They're interview questions.
+## Reading the two together
 
-**Didn't hold up — I also just can't measure it.** For private Indian mid-size companies
-the public signal barely exists. Ferty9 has **one** Glassdoor review. Calling that
-absence a deliberate design choice was tidier than admitting the limitation.
-
-### What is knowable, and now gets flagged
-
-Not scored — a role doesn't lose points for these. They're raised **before you invest
-interview time**, and they're the things you probe once you're in the room.
-
-| Flag | Why it matters | Where to find it |
+| FIT | ODDS | What to do |
 | --- | --- | --- |
-| **Leadership churn** | A CEO or founder who arrived recently — or a predecessor who left abruptly — means the mandate you're hired into may not survive | LinkedIn tenure, press announcements |
-| **Funding and runway** | Stage, last raise, investor type. A growth investor implies expansion now and cost discipline later | Tracxn, PitchBook, press |
-| **Layoffs or restructuring** | Recent cuts mean the strategy function is often first exposed | News search, LinkedIn posts |
-| **Regulatory exposure** | Sector-specific. Healthcare in India carries real compliance weight | Sector news, the relevant Act |
-| **Review signal, or the absence of it** | If there are fewer than ~10 reviews, say so rather than inferring from three | Glassdoor, AmbitionBox, Indeed |
-| **Ethical posture** | Where commercial incentives meet vulnerable customers, form a view before joining, not after | Product, pricing, public complaints |
+| 4.0+ | 3.5+ | Apply today. Find a referral first if one is findable inside 24h |
+| 4.0+ | < 3.5 | Apply anyway — the fit is real. Then spend the effort on a referral path, not on more applications |
+| 3.0–4.0 | 3.5+ | Apply this week. Solid, worth proper tailoring |
+| 3.0–4.0 | < 3.5 | Only if the pipeline is thin |
+| < 3.0 | any | Don't. State the reason in one line |
+| **1 (gate)** | — | Don't. Name which gate failed |
 
-The rule: **state confidence honestly.** "One Glassdoor review, no read available" is
-useful. Inferring a culture from it is worse than saying nothing.
+**ODDS never vetoes FIT.** A 5.0 fit with 2.0 odds is still worth applying to — the cost
+is an hour. What odds change is where the *marginal* hour goes after that.
 
-## Score meanings
+---
 
-| Score | Means | Action |
-| --- | --- | --- |
-| **5** | Clears all gates. Strong on background, scope, and flexibility. Apply today, and find a referral first | Apply within 48h |
-| **4** | Clears gates. Strong on two of three main dimensions. Worth real effort | Apply this week, tailor properly |
-| **3** | Clears gates. Genuine fit but something's compromised — title, flexibility, or a background stretch | Apply if the week has capacity |
-| **2** | Clears gates but weak fit. Would be a sideways move or a stretch that's unlikely to convert | Only if the pipeline is thin |
-| **1** | Fails a hard gate, or no meaningful fit | Don't apply. Reason stated in one line |
+## Company risk flags — checked, never scored
 
-## What each rating comes with
+Raised before interview time is invested. A role doesn't lose points for these; they're
+what to probe once in the room.
 
-- The score and the single biggest reason for it
-- Which gate failed, if any
-- Which resume version to use — generalist or healthcare
-- The two or three JD keywords to swap in
-- Whether a referral path is worth finding first (always yes for 4s and 5s)
+| Flag | Why it matters |
+| --- | --- |
+| **Leadership churn** | A recently-arrived CEO, or a predecessor who left abruptly, means the mandate may not survive |
+| **Funding & runway** | Stage, last raise, investor type. Growth investors imply expansion now, cost discipline later |
+| **Layoffs or restructuring** | Strategy functions are often first exposed |
+| **Regulatory exposure** | Sector-specific; healthcare in India carries real compliance weight |
+| **Ethical posture** | Where commercial incentives meet vulnerable customers, form a view before joining |
+
+---
+
+## What each scored role comes with
+
+- **FIT and ODDS**, plus the per-dimension breakdown, so it's visible which dimension
+  drove the number and where a disagreement actually lies
+- Any gate that failed
+- Which resume version, and the JD keywords to swap
+- The single highest-leverage next action — usually finding a referral
+- Company risk flags
+- **Confidence**, stated plainly. `no-data` on a dimension is reported, not hidden
+
+## Changing the weights
+
+The weights are settings, not findings. If scope should outrank background fit, or
+alumni trajectory should carry 30, say so — every previously scored role gets re-scored
+against the change, and the breakdowns make it obvious what moved.
