@@ -53,6 +53,44 @@ No floor set. Money is not the axis. Scored only to flag outliers: a role paying
 materially below ₹16 LPA gets noted, not penalised. A role well above target is a small
 bonus, not a reason to rank it above a better-fitting role.
 
+## Company risk flags — checked, but not scored
+
+**Added 2026-08-11**, after a fair challenge: the rubric scores the *role* and says
+nothing about whether the company is a good place to work.
+
+That gap is only partly principled. Two reasons hold up; one didn't.
+
+**Holds up — apply-stage and decide-stage are different decisions.** Applying costs an
+hour and is fully reversible. Company quality determines whether you *accept*, not
+whether you *apply*. Ranking on it up front would filter out strong-fit roles at
+companies you simply don't have information about yet — and you gather that information
+by interviewing, which requires applying first.
+
+**Holds up — what matters most is unknowable from outside.** Your manager, whether the
+mandate is real, whether the team is functional. These decide whether a job is good, and
+no amount of pre-application research reveals them. They're interview questions.
+
+**Didn't hold up — I also just can't measure it.** For private Indian mid-size companies
+the public signal barely exists. Ferty9 has **one** Glassdoor review. Calling that
+absence a deliberate design choice was tidier than admitting the limitation.
+
+### What is knowable, and now gets flagged
+
+Not scored — a role doesn't lose points for these. They're raised **before you invest
+interview time**, and they're the things you probe once you're in the room.
+
+| Flag | Why it matters | Where to find it |
+| --- | --- | --- |
+| **Leadership churn** | A CEO or founder who arrived recently — or a predecessor who left abruptly — means the mandate you're hired into may not survive | LinkedIn tenure, press announcements |
+| **Funding and runway** | Stage, last raise, investor type. A growth investor implies expansion now and cost discipline later | Tracxn, PitchBook, press |
+| **Layoffs or restructuring** | Recent cuts mean the strategy function is often first exposed | News search, LinkedIn posts |
+| **Regulatory exposure** | Sector-specific. Healthcare in India carries real compliance weight | Sector news, the relevant Act |
+| **Review signal, or the absence of it** | If there are fewer than ~10 reviews, say so rather than inferring from three | Glassdoor, AmbitionBox, Indeed |
+| **Ethical posture** | Where commercial incentives meet vulnerable customers, form a view before joining, not after | Product, pricing, public complaints |
+
+The rule: **state confidence honestly.** "One Glassdoor review, no read available" is
+useful. Inferring a culture from it is worse than saying nothing.
+
 ## Score meanings
 
 | Score | Means | Action |
