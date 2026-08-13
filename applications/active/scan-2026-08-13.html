@@ -1,0 +1,264 @@
+<title>Role Scan — 13 August 2026</title>
+<style>
+  :root {
+    --paper:#fbfcfb; --surface:#f1f5f4; --surface-2:#e7edeb;
+    --ink:#0f1f1c; --ink-2:#3d514d; --muted:#6b7d79;
+    --line:#d9e2df; --line-strong:#b9c9c5;
+    --accent:#0d6553; --accent-ink:#0a4c3e; --accent-wash:#dcece7;
+    --gold:#8a6410; --gold-wash:#f5ecd8;
+    --stop:#8c2f2a; --stop-wash:#f6e2e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+      --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+      --line:#243330; --line-strong:#334541;
+      --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+      --gold:#d9ad5a; --gold-wash:#2e2617;
+      --stop:#e08a83; --stop-wash:#331d1b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+    --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+    --line:#243330; --line-strong:#334541;
+    --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+    --gold:#d9ad5a; --gold-wash:#2e2617;
+    --stop:#e08a83; --stop-wash:#331d1b;
+  }
+
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:880px; margin:0 auto; padding:40px 22px 90px; }
+  h1,h2,h3 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; text-wrap:balance; }
+  h1 { font-size:clamp(28px,4.4vw,40px); line-height:1.14; margin:0 0 10px; letter-spacing:-.015em; }
+  h2 { font-size:22px; margin:0; letter-spacing:-.01em; }
+  h3 { font-size:17px; margin:0 0 4px; }
+  p { margin:0 0 12px; }
+  a { color:var(--accent-ink); }
+  .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); margin:0 0 14px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:16px; }
+
+  .caveat { background:var(--gold-wash); border-radius:11px; padding:16px 18px; margin-top:20px; font-size:14.5px; }
+  .caveat p { margin:0 0 8px; }
+  .caveat p:last-child { margin:0; }
+  .caveat strong { color:var(--gold); }
+
+  section { margin-top:36px; }
+  .sec-head { display:flex; align-items:baseline; gap:12px; margin-bottom:16px; padding-bottom:9px; border-bottom:1px solid var(--line); }
+  .sec-head .n { font-size:12px; font-weight:700; color:var(--muted); letter-spacing:.08em; flex:none; font-variant-numeric:tabular-nums; }
+
+  .role { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin-bottom:12px; }
+  .role.top { border-color:var(--accent); border-width:1.5px; }
+  .role-head { display:flex; gap:16px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
+  .role-id { flex:1 1 340px; min-width:0; }
+  .role h3 { font-size:17px; }
+  .co { color:var(--ink-2); font-size:14.5px; margin:0 0 8px; }
+  .scores { display:flex; gap:14px; flex:none; }
+  .sc { text-align:center; }
+  .sc b { display:block; font-family:Georgia,serif; font-size:26px; line-height:1; color:var(--accent-ink); font-variant-numeric:tabular-nums; }
+  .sc span { display:block; font-size:9.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); font-weight:700; margin-top:4px; }
+  .why { margin:10px 0 0; font-size:14.5px; }
+  .why b { color:var(--ink); }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
+  .chip { font-size:12px; padding:3px 9px; border-radius:999px; background:var(--surface-2); color:var(--ink-2); border:1px solid var(--line); }
+  .chip.warn { background:var(--gold-wash); color:var(--gold); border-color:transparent; font-weight:600; }
+  .chip.good { background:var(--accent-wash); color:var(--accent-ink); border-color:transparent; font-weight:600; }
+
+  .rej { display:flex; gap:14px; align-items:flex-start; padding:13px 0; border-bottom:1px solid var(--line); }
+  .rej:last-child { border-bottom:0; padding-bottom:0; }
+  .rej-x { flex:none; width:30px; height:30px; border-radius:8px; display:grid; place-items:center; background:var(--stop-wash); color:var(--stop); font-weight:700; font-family:Georgia,serif; }
+  .rej h3 { font-size:15px; margin:0 0 2px; }
+  .rej p { margin:0; font-size:14px; color:var(--ink-2); }
+  .gate { color:var(--stop); font-weight:600; }
+
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  ul,ol { margin:0 0 12px; padding-left:20px; }
+  li { margin-bottom:7px; }
+  li:last-child { margin-bottom:0; }
+  .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13px; word-break:break-all; }
+  .note { font-size:14px; color:var(--muted); }
+  footer { margin-top:50px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--muted); }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Fresh scan · 13 August 2026</p>
+  <h1>Seven roles worth your time</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">From ~120 live postings across two LinkedIn sweeps, filtered against your gates.</p>
+</header>
+
+<div class="caveat">
+  <p><strong>Read this before the list.</strong> These are scored from listing metadata plus company research — <em>not</em> full job descriptions, which LinkedIn doesn't expose without a login. Confidence is meaningfully lower than the Ferty9 score, where I had the complete JD. Treat these as a ranked shortlist to open, not as finished assessments.</p>
+  <p><strong>The sweep is partial.</strong> iimjobs — the single best board for your profile — renders its listings client-side and I can't reach it from here. Instahyre's API is blocked by this environment's network policy. So this is LinkedIn only, and there is inventory I haven't seen.</p>
+</div>
+
+<section>
+  <div class="sec-head"><span class="n">01</span><h2>The shortlist</h2></div>
+
+  <div class="role top">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Chief of Staff to COO</h3>
+        <p class="co">Dr Lal PathLabs · Gurugram · posted ~20 hours ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>4.3</b><span>fit</span></div>
+        <div class="sc"><b>3.0</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why"><b>Best fit on the board.</b> Listed diagnostics chain — healthcare delivery at national scale, which is far closer to your world than a D2C brand. Chief of Staff to a COO at a company this size is a genuine step up in both scope and title, and the alumni signal from a listed healthcare company is strong. Odds are held down only by large-corporate process speed.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Delhi NCR · P1</span><span class="chip">Chief of staff</span><span class="chip">Listed company</span></div>
+  </div>
+
+  <div class="role top">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Life Sciences Senior Analyst — India</h3>
+        <p class="co">ClearView Healthcare Partners · Gurgaon · posted ~1 day ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>4.1</b><span>fit</span></div>
+        <div class="sc"><b>3.0</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">A dedicated life-sciences strategy consultancy — the closest thing on this list to the MBB-healthcare bridge you named. Exit options from firms like this are excellent, which is why alumni trajectory scores highest here of anything in the sweep. <b>Two catches:</b> "Senior Analyst" may read as lateral to your current title, and a US-headquartered consultancy's India office often runs US hours. Verify the shift before you spend effort — if it's a US shift, your timezone gate kills it outright.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Delhi NCR · P1</span><span class="chip warn">Verify shift hours</span><span class="chip warn">Title may be lateral</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Lead — Diagnostics &amp; Health Innovation Hub</h3>
+        <p class="co">AstraZeneca · Mumbai · posted ~3 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>4.3</b><span>fit</span></div>
+        <div class="sc"><b>2.4</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">Evaluating diagnostics and health innovation is almost exactly what you already do — AI diagnostics, health-tech, feasibility. Fit is as high as anything here. <b>Odds are the problem:</b> big-pharma processes are slow and often want pharma-specific experience, and a multi-round MNC hire is unlikely to close inside your eight weeks. Apply, but don't wait on it.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Mumbai · P0</span><span class="chip warn">Slow process</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Manager — Corporate Strategy</h3>
+        <p class="co">Glenmark Pharmaceuticals · Mumbai · posted ~2 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>4.1</b><span>fit</span></div>
+        <div class="sc"><b>3.0</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">Straightforward corporate strategy in healthcare, in your home city, at a manager title that reads as a clean step up. Less distinctive than the diagnostics roles, but the fit is solid across every dimension and nothing about it is a stretch.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Mumbai · P0</span><span class="chip">Manager title</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Chief of Staff</h3>
+        <p class="co">Good Health Company · Hyderabad · posted ~21 hours ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>3.8</b><span>fit</span></div>
+        <div class="sc"><b>3.6</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why"><b>Highest odds on the list, and the fastest.</b> Series A health-tech, $15.2M raised from Khosla Ventures and Left Lane, founded 2021. Chief of Staff reporting to a founder is your stated target shape, and a startup at this stage can decide in weeks rather than months. <b>Fit is lower because the work is different:</b> D2C consumer health — hair, skin, weight, sexual health — not healthcare systems or capital allocation. Your domain depth transfers less than the title suggests.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip good">Hyderabad · P0</span><span class="chip good">Fast process</span><span class="chip warn">D2C, not systems</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Manager — Strategy &amp; Transformation Office</h3>
+        <p class="co">Bharat Serums and Vaccines · Mumbai · posted ~3 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>3.8</b><span>fit</span></div>
+        <div class="sc"><b>3.0</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">Pharma strategy and transformation, Mumbai, manager title. Reasonable on every axis without being outstanding on any. Worth an application in a week with capacity; not worth displacing anything above it.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Mumbai · P0</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Strategy &amp; Operations Manager</h3>
+        <p class="co">Voy · Delhi · posted ~6 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>3.6</b><span>fit</span></div>
+        <div class="sc"><b>3.3</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">Telehealth, and they're running two openings (Manager and Associate) which usually means a team being built rather than a seat being backfilled. <b>Verify the hours</b> — Voy is UK-founded, and a UK-shift role fails your timezone gate.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Delhi NCR · P1</span><span class="chip warn">Verify shift hours</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">02</span><h2>Gate failures worth naming</h2></div>
+  <div class="card">
+    <div class="rej">
+      <div class="rej-x">✕</div>
+      <div>
+        <h3>Associate Director, BMS Foundation Program Officer — Bristol Myers Squibb, Mumbai</h3>
+        <p><span class="gate">Sector gate.</span> This is your current job, at a pharma company's foundation, one title higher. It will look tempting and it is exactly the lateral move you decided against. Listed here so you recognise the shape when it appears again — it will.</p>
+      </div>
+    </div>
+    <div class="rej">
+      <div class="rej-x">✕</div>
+      <div>
+        <h3>Chief of Staff (5:30PM–2:30AM IST) — ElevenX Capital, Gurugram</h3>
+        <p><span class="gate">Timezone gate.</span> The shift is in the job title. Right role shape, right city, and an automatic 1.</p>
+      </div>
+    </div>
+    <div class="rej">
+      <div class="rej-x">✕</div>
+      <div>
+        <h3>Clinton Health Access Initiative · Evidence Action · PATH · WHO · Intelehealth</h3>
+        <p><span class="gate">Sector gate.</span> Five more non-profit health roles across both sweeps, several of which match your background better than anything on the shortlist. That's the cost of the sector rule, and it's working as you specified.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">03</span><h2>What to do this week</h2></div>
+  <div class="card">
+    <ol>
+      <li><strong>Send Ferty9 today.</strong> It still outranks everything here on fit, you have the full JD, and the kit is built. Nothing in this scan changes that.</li>
+      <li><strong>Then Dr Lal PathLabs and Good Health Company.</strong> One is the best fit found; the other is the fastest to close. Different bets, both worth placing.</li>
+      <li><strong>Verify shift hours on ClearView and Voy</strong> before writing anything. One line in the JD decides whether either is a 4 or a 1.</li>
+      <li><strong>Spend an hour on referrals, not applications.</strong> Every role here scores 2 on referral path, which is the heaviest odds dimension. Dr Lal PathLabs and AstraZeneca are large enough that a second-degree LinkedIn connection is genuinely likely — and one intro moves odds more than three more applications.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="n">04</span><h2>Re-run this yourself</h2></div>
+  <div class="card">
+    <p>These two searches produced everything above. Save both on LinkedIn with a daily alert — under an eight-week clock, a posting more than a week old has already been screened.</p>
+    <p class="mono">linkedin.com/jobs/search?keywords=Healthcare%20Strategy&amp;location=India&amp;f_TPR=r604800&amp;f_E=4</p>
+    <p class="mono">linkedin.com/jobs/search?keywords=%22Chief+of+Staff%22+OR+%22Founder%27s+Office%22&amp;location=India&amp;f_TPR=r604800</p>
+    <p class="note" style="margin-bottom:0"><code>f_TPR=r604800</code> limits to the past week; <code>f_E=4</code> filters to mid-senior. Swap the keywords for "Corporate Strategy", "Investment Associate", or "Business Strategy" to widen. And run the same searches on iimjobs — it's the strongest board for your profile and it's the one I couldn't reach.</p>
+  </div>
+</section>
+
+<footer>
+  Scanned 13 Aug 2026 against <span class="mono">applications/RUBRIC.md</span>. FIT and ODDS scored separately; hard gates (sector, timezone, on-call, location) cap FIT at 1. Scores here are provisional — derived from listing metadata and company research rather than full job descriptions, and every one should be re-scored once you open the actual posting.
+</footer>
+
+</div>
