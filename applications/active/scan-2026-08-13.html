@@ -90,13 +90,14 @@
 
 <header>
   <p class="eyebrow">Fresh scan · 13 August 2026</p>
-  <h1>Seven roles worth your time</h1>
-  <p style="margin:0;color:var(--ink-2);font-size:17px;">From ~120 live postings across two LinkedIn sweeps, filtered against your gates.</p>
+  <h1>Nine roles worth your time</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">From ~240 live postings across four India-locked LinkedIn sweeps, screened against your gates.</p>
 </header>
 
 <div class="caveat">
-  <p><strong>Read this before the list.</strong> These are scored from listing metadata plus company research — <em>not</em> full job descriptions, which LinkedIn doesn't expose without a login. Confidence is meaningfully lower than the Ferty9 score, where I had the complete JD. Treat these as a ranked shortlist to open, not as finished assessments.</p>
-  <p><strong>The sweep is partial.</strong> iimjobs — the single best board for your profile — renders its listings client-side and I can't reach it from here. Instahyre's API is blocked by this environment's network policy. So this is LinkedIn only, and there is inventory I haven't seen.</p>
+  <p><strong>India-locked and shift-screened.</strong> Every search now pins <code>geoId=102713980</code> — LinkedIn's India geography — rather than the word "India", which drifts into global results. Results are then screened twice: out of your five cities is a fail, and anything with US/UK shift language in the posting is a fail.</p>
+  <p><strong>The subtler filter: offshore seats.</strong> A role can sit physically in Gurugram and still be a US-market job. GCCs, capability centres and delivery arms dominated the corporate-strategy sweep — Google gTech, Wells Fargo, State Street, Deloitte's Global Strategic Insights Center, A&amp;M's Global Capability Center. These are India-located but not India-market, and they're where the IST gate quietly fails. They're now flagged, not silently included.</p>
+  <p><strong>Still scored from listing metadata,</strong> not full JDs — LinkedIn doesn't expose those without a login. Confidence is lower than Ferty9. Re-score each once opened.</p>
 </div>
 
 <section>
@@ -130,6 +131,21 @@
     </div>
     <p class="why">A dedicated life-sciences strategy consultancy — the closest thing on this list to the MBB-healthcare bridge you named. Exit options from firms like this are excellent, which is why alumni trajectory scores highest here of anything in the sweep. <b>Two catches:</b> "Senior Analyst" may read as lateral to your current title, and a US-headquartered consultancy's India office often runs US hours. Verify the shift before you spend effort — if it's a US shift, your timezone gate kills it outright.</p>
     <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip">Delhi NCR · P1</span><span class="chip warn">Verify shift hours</span><span class="chip warn">Title may be lateral</span></div>
+  </div>
+
+  <div class="role top">
+    <div class="role-head">
+      <div class="role-id">
+        <h3>Talent Investor — Associate</h3>
+        <p class="co">Entrepreneurs First · Bengaluru · posted ~6 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>4.2</b><span>fit</span></div>
+        <div class="sc"><b>3.3</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why"><b>The most interesting find in this sweep.</b> EF's entire model is assessing whether individuals can build and run something before there's a company to diligence — which is precisely the founder-and-programme-leader evaluation you named as your differentiator, and the one thing on your CV that no consulting candidate can match. It's a genuine investing seat, and EF alumni move on to strong VC and founding roles, so trajectory scores as high as anything here. <b>Two honest marks against:</b> "Associate" is a title step sideways at best, and EF is sector-agnostic tech, so your healthcare depth counts for less than it does at Dr Lal or AstraZeneca.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip good">Bengaluru · P0</span><span class="chip good">Founder assessment</span><span class="chip warn">Title is lateral</span></div>
   </div>
 
   <div class="role">
@@ -180,6 +196,21 @@
   <div class="role">
     <div class="role-head">
       <div class="role-id">
+        <h3>Senior Analyst — Medtech / Healthcare Services (Equity Research)</h3>
+        <p class="co">Guidepoint · Mumbai · posted ~6 days ago</p>
+      </div>
+      <div class="scores">
+        <div class="sc"><b>3.9</b><span>fit</span></div>
+        <div class="sc"><b>3.3</b><span>odds</span></div>
+      </div>
+    </div>
+    <p class="why">Healthcare-services research in Mumbai — analytical work in your domain, and a credible route into the investment side without needing a banking background first. Analyst title is the drawback. Worth an application; not worth displacing the three above it.</p>
+    <div class="chips"><span class="chip good">For-profit ✓</span><span class="chip good">Mumbai · P0</span><span class="chip warn">Analyst title</span></div>
+  </div>
+
+  <div class="role">
+    <div class="role-head">
+      <div class="role-id">
         <h3>Manager — Strategy &amp; Transformation Office</h3>
         <p class="co">Bharat Serums and Vaccines · Mumbai · posted ~3 days ago</p>
       </div>
@@ -209,27 +240,42 @@
 </section>
 
 <section>
-  <div class="sec-head"><span class="n">02</span><h2>Gate failures worth naming</h2></div>
+  <div class="sec-head"><span class="n">02</span><h2>What the screen caught</h2></div>
   <div class="card">
+    <p class="note" style="margin-top:0">Every listing runs through <span class="mono">scripts/scan.py</span>. Location and shift language are hard fails; offshore and non-profit markers raise a check, because a company name is never proof on its own.</p>
     <div class="rej">
       <div class="rej-x">✕</div>
       <div>
-        <h3>Associate Director, BMS Foundation Program Officer — Bristol Myers Squibb, Mumbai</h3>
-        <p><span class="gate">Sector gate.</span> This is your current job, at a pharma company's foundation, one title higher. It will look tempting and it is exactly the lateral move you decided against. Listed here so you recognise the shape when it appears again — it will.</p>
+        <h3>Offshore seats — the ones that look like India jobs</h3>
+        <p><span class="gate">Verify shift.</span> A&amp;M "Global Capability Center", PwC "Acceleration Center", Deloitte "Global Strategic Insights Center", Google gTech, Wells Fargo, State Street — all Gurugram or Bengaluru, all serving foreign markets. The corporate-strategy sweep was dominated by these. Physically in India, not an India-market job, and frequently a foreign shift.</p>
       </div>
     </div>
     <div class="rej">
       <div class="rej-x">✕</div>
       <div>
         <h3>Chief of Staff (5:30PM–2:30AM IST) — ElevenX Capital, Gurugram</h3>
-        <p><span class="gate">Timezone gate.</span> The shift is in the job title. Right role shape, right city, and an automatic 1.</p>
+        <p><span class="gate">Timezone gate.</span> The shift is in the job title. Right shape, right city, automatic 1. Their CFO opening carries the same hours.</p>
       </div>
     </div>
     <div class="rej">
       <div class="rej-x">✕</div>
       <div>
-        <h3>Clinton Health Access Initiative · Evidence Action · PATH · WHO · Intelehealth</h3>
-        <p><span class="gate">Sector gate.</span> Five more non-profit health roles across both sweeps, several of which match your background better than anything on the shortlist. That's the cost of the sector rule, and it's working as you specified.</p>
+        <h3>Associate Director, BMS Foundation Program Officer — Bristol Myers Squibb, Mumbai</h3>
+        <p><span class="gate">Sector gate.</span> Your current job, one title higher, at a pharma company's foundation. It will look tempting every time it surfaces — and it is the lateral you decided against.</p>
+      </div>
+    </div>
+    <div class="rej">
+      <div class="rej-x">✕</div>
+      <div>
+        <h3>Evidence Action · PATH · Clinton Health Access Initiative · WHO · Intelehealth · Upaya</h3>
+        <p><span class="gate">Sector gate.</span> Six more non-profit health roles, several matching your background better than anything on the shortlist. Two of them — Evidence Action and PATH — carry nothing in their names a keyword rule could catch, so they're on an explicit list in the scanner rather than left to a heuristic that would miss them.</p>
+      </div>
+    </div>
+    <div class="rej">
+      <div class="rej-x">✕</div>
+      <div>
+        <h3>Out of geography</h3>
+        <p><span class="gate">Location gate.</span> Chennai, Pune, Kochi, Ahmedabad, Coimbatore, Jaipur, Trivandrum. Several strong healthcare roles among them — Twin Health in Chennai in particular. If you'd flex on any city, Chennai and Pune would open the most.</p>
       </div>
     </div>
   </div>
@@ -248,17 +294,19 @@
 </section>
 
 <section>
-  <div class="sec-head"><span class="n">04</span><h2>Re-run this yourself</h2></div>
+  <div class="sec-head"><span class="n">04</span><h2>Re-run it yourself</h2></div>
   <div class="card">
-    <p>These two searches produced everything above. Save both on LinkedIn with a daily alert — under an eight-week clock, a posting more than a week old has already been screened.</p>
-    <p class="mono">linkedin.com/jobs/search?keywords=Healthcare%20Strategy&amp;location=India&amp;f_TPR=r604800&amp;f_E=4</p>
-    <p class="mono">linkedin.com/jobs/search?keywords=%22Chief+of+Staff%22+OR+%22Founder%27s+Office%22&amp;location=India&amp;f_TPR=r604800</p>
-    <p class="note" style="margin-bottom:0"><code>f_TPR=r604800</code> limits to the past week; <code>f_E=4</code> filters to mid-senior. Swap the keywords for "Corporate Strategy", "Investment Associate", or "Business Strategy" to widen. And run the same searches on iimjobs — it's the strongest board for your profile and it's the one I couldn't reach.</p>
+    <p>The scan is a script now, not a set of ad-hoc searches:</p>
+    <p class="mono">python3 scripts/scan.py          # every India-locked search URL
+python3 scripts/scan.py --city   # plus per-city searches
+python3 scripts/scan.py --check  # the screening rules</p>
+    <p>It generates seven searches across your role shapes — healthcare strategy, chief of staff / founder's office, corporate strategy, healthcare investment, healthtech, CEO's office, and remote-in-India — each pinned to <code>geoId=102713980</code> so results can't drift outside the country.</p>
+    <p style="margin-bottom:0"><strong>Save every one as a LinkedIn alert set to daily.</strong> On an eight-week clock, a posting more than a week old has already been screened by someone else. And run the same keywords on iimjobs — it's the strongest board for your profile and the one I can't reach from here.</p>
   </div>
 </section>
 
 <footer>
-  Scanned 13 Aug 2026 against <span class="mono">applications/RUBRIC.md</span>. FIT and ODDS scored separately; hard gates (sector, timezone, on-call, location) cap FIT at 1. Scores here are provisional — derived from listing metadata and company research rather than full job descriptions, and every one should be re-scored once you open the actual posting.
+  Scanned 13 Aug 2026 via <span class="mono">scripts/scan.py</span>, scored against <span class="mono">applications/RUBRIC.md</span>. FIT and ODDS scored separately; hard gates (sector, timezone, on-call, location) cap FIT at 1. Scores here are provisional — derived from listing metadata and company research rather than full job descriptions, and every one should be re-scored once you open the actual posting.
 </footer>
 
 </div>
