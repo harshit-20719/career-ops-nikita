@@ -98,27 +98,30 @@
 
 <header>
   <p class="eyebrow">Role scan · 13 August 2026</p>
-  <h1>Ten roles, plotted by fit and odds</h1>
-  <p style="margin:0;color:var(--ink-2);font-size:17px;">Tiers are regions on the two axes, not a separate judgment — where a role sits <em>is</em> its tier.</p>
+  <h1>Ten roles, tiered by fit</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">Tier is fit alone. Odds is plotted alongside it — it tells you how hard a role will be to get, not how good it is.</p>
 </header>
 
 <figure>
   <div class="chart-wrap">
-  <svg viewBox="0 0 760 470" role="img" aria-label="Scatter plot of ten roles by fit score and odds score. Only Ferty9 sits in tier A.">
-    <!-- tier bands (sequential, light to dark) -->
+  <svg viewBox="0 0 760 470" role="img" aria-label="Scatter plot of ten roles. Horizontal axis is fit, which sets the tier; vertical axis is odds. Tier 1 holds Ferty9, Dr Lal PathLabs and AstraZeneca.">
+    <!-- tier bands: fit thresholds at 4.0 and 4.2. Vertical, because tier
+         depends on fit alone — odds is plotted but does not set the tier. -->
     <rect x="70" y="40" width="354.5" height="360" fill="var(--band-c)"/>
-    <rect x="424.5" y="184" width="295.5" height="216" fill="var(--band-b)"/>
-    <rect x="424.5" y="40" width="295.5" height="144" fill="var(--band-a)"/>
+    <rect x="424.5" y="40" width="147.8" height="360" fill="var(--band-b)"/>
+    <rect x="572.3" y="40" width="147.7" height="360" fill="var(--band-a)"/>
 
-    <text x="82" y="58" class="band-label">Tier C</text>
-    <text x="708" y="58" class="band-label" text-anchor="end">Tier A</text>
-    <text x="708" y="392" class="band-label" text-anchor="end">Tier B</text>
+    <text x="82" y="58" class="band-label">Tier 3</text>
+    <text x="433" y="58" class="band-label">Tier 2</text>
+    <text x="581" y="58" class="band-label">Tier 1</text>
 
     <!-- gridlines -->
     <line x1="70" y1="400" x2="720" y2="400" stroke="var(--line)" stroke-width="1"/>
     <line x1="70" y1="40" x2="70" y2="400" stroke="var(--line)" stroke-width="1"/>
     <line x1="424.5" y1="40" x2="424.5" y2="400" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 3"/>
-    <line x1="70" y1="184" x2="720" y2="184" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="572.3" y1="40" x2="572.3" y2="400" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="70" y1="256" x2="720" y2="256" stroke="var(--grid)" stroke-width="1"/>
+    <line x1="70" y1="184" x2="720" y2="184" stroke="var(--grid)" stroke-width="1"/>
 
     <!-- x axis: FIT 3.4 - 4.5 -->
     <text x="70"  y="420" class="ax" text-anchor="middle">3.4</text>
@@ -137,69 +140,69 @@
     <text x="20" y="220" class="ax-title" text-anchor="middle" transform="rotate(-90 20 220)">Odds →</text>
 
     <!-- points -->
-    <g class="p" data-n="Ferty9" data-r="Senior Manager / AGM — Strategy, CEO's Office" data-f="4.32" data-o="3.95" data-t="A">
+    <g class="p" data-n="Ferty9" data-r="Senior Manager / AGM — Strategy, CEO's Office" data-f="4.32" data-o="3.95" data-t="1">
       <circle cx="613.6" cy="119.2" r="6" class="dot"/>
       <circle cx="613.6" cy="119.2" r="16" class="dot-hit"/>
       <text x="627" y="123.5" class="pt-label">Ferty9</text>
     </g>
-    <g class="p" data-n="Dr Lal PathLabs" data-r="Chief of Staff to COO" data-f="4.27" data-o="3.00" data-t="B">
+    <g class="p" data-n="Dr Lal PathLabs" data-r="Chief of Staff to COO" data-f="4.27" data-o="3.00" data-t="1">
       <circle cx="584.1" cy="256" r="6" class="dot"/>
       <circle cx="584.1" cy="256" r="16" class="dot-hit"/>
       <text x="598" y="260.5" class="pt-label">Dr Lal PathLabs</text>
     </g>
-    <g class="p" data-n="AstraZeneca" data-r="Lead — Diagnostics &amp; Health Innovation Hub" data-f="4.27" data-o="2.35" data-t="B">
+    <g class="p" data-n="AstraZeneca" data-r="Lead — Diagnostics &amp; Health Innovation Hub" data-f="4.27" data-o="2.35" data-t="1">
       <circle cx="584.1" cy="349.6" r="6" class="dot"/>
       <circle cx="584.1" cy="349.6" r="16" class="dot-hit"/>
       <text x="598" y="354" class="pt-label">AstraZeneca</text>
     </g>
-    <g class="p" data-n="Entrepreneurs First" data-r="Talent Investor — Associate" data-f="4.19" data-o="3.30" data-t="B">
+    <g class="p" data-n="Entrepreneurs First" data-r="Talent Investor — Associate" data-f="4.19" data-o="3.30" data-t="2">
       <circle cx="536.8" cy="212.8" r="6" class="dot"/>
       <circle cx="536.8" cy="212.8" r="16" class="dot-hit"/>
-      <text x="550" y="217" class="pt-label">Entrepreneurs First</text>
+      <text x="522.8" y="217" class="pt-label" text-anchor="end">Entrepreneurs First</text>
     </g>
-    <g class="p" data-n="ClearView" data-r="Life Sciences Senior Analyst" data-f="4.11" data-o="3.00" data-t="B">
+    <g class="p" data-n="ClearView" data-r="Life Sciences Senior Analyst" data-f="4.11" data-o="3.00" data-t="2">
       <circle cx="489.5" cy="256" r="6" class="dot"/>
       <circle cx="489.5" cy="256" r="16" class="dot-hit"/>
       <text x="489.5" y="278" class="pt-label" text-anchor="middle">ClearView</text>
     </g>
-    <g class="p" data-n="Glenmark" data-r="Manager — Corporate Strategy" data-f="4.07" data-o="3.00" data-t="B">
+    <g class="p" data-n="Glenmark" data-r="Manager — Corporate Strategy" data-f="4.07" data-o="3.00" data-t="2">
       <circle cx="465.9" cy="256" r="6" class="dot"/>
       <circle cx="465.9" cy="256" r="16" class="dot-hit"/>
       <text x="465.9" y="243" class="pt-label" text-anchor="middle">Glenmark</text>
     </g>
-    <g class="p" data-n="Guidepoint" data-r="Senior Analyst — Medtech / Healthcare Services" data-f="3.87" data-o="3.30" data-t="C">
+    <g class="p" data-n="Guidepoint" data-r="Senior Analyst — Medtech / Healthcare Services" data-f="3.87" data-o="3.30" data-t="3">
       <circle cx="347.7" cy="212.8" r="6" class="dot"/>
       <circle cx="347.7" cy="212.8" r="16" class="dot-hit"/>
-      <text x="361" y="217" class="pt-label">Guidepoint</text>
+      <text x="334" y="217" class="pt-label" text-anchor="end">Guidepoint</text>
     </g>
-    <g class="p" data-n="Good Health Company" data-r="Chief of Staff" data-f="3.82" data-o="3.60" data-t="C">
+    <g class="p" data-n="Good Health Company" data-r="Chief of Staff" data-f="3.82" data-o="3.60" data-t="3">
       <circle cx="318.2" cy="169.6" r="6" class="dot"/>
       <circle cx="318.2" cy="169.6" r="16" class="dot-hit"/>
       <text x="331" y="174" class="pt-label">Good Health Co</text>
     </g>
-    <g class="p" data-n="Bharat Serums" data-r="Manager — Strategy &amp; Transformation Office" data-f="3.75" data-o="3.00" data-t="C">
+    <g class="p" data-n="Bharat Serums" data-r="Manager — Strategy &amp; Transformation Office" data-f="3.75" data-o="3.00" data-t="3">
       <circle cx="276.8" cy="256" r="6" class="dot"/>
       <circle cx="276.8" cy="256" r="16" class="dot-hit"/>
       <text x="290" y="260.5" class="pt-label">Bharat Serums</text>
     </g>
-    <g class="p" data-n="Voy" data-r="Strategy &amp; Operations Manager" data-f="3.58" data-o="3.30" data-t="C">
+    <g class="p" data-n="Voy" data-r="Strategy &amp; Operations Manager" data-f="3.58" data-o="3.30" data-t="3">
       <circle cx="176.4" cy="212.8" r="6" class="dot"/>
       <circle cx="176.4" cy="212.8" r="16" class="dot-hit"/>
       <text x="190" y="217" class="pt-label">Voy</text>
     </g>
   </svg>
   </div>
-  <figcaption>Fit and odds scored per <span class="mono">applications/RUBRIC.md</span>. Tier A needs fit ≥ 4.0 <em>and</em> odds ≥ 3.5 — one role clears both.</figcaption>
+  <figcaption>Scored per <span class="mono">applications/RUBRIC.md</span>. Tier cuts fall in the gaps between clusters, not on round numbers — 4.3 and above, 4.0 to 4.2, below 4.0. Vertical position carries no tier meaning.</figcaption>
 </figure>
 
 <section>
   <div class="sec-head"><h2>What the shape tells you</h2></div>
   <div class="card">
     <ul>
-      <li><strong>Only Ferty9 is in tier A</strong> — and it's still unsent. Everything else on this page is a second priority to putting that email out.</li>
-      <li><strong>Five roles cluster in the right-hand column with weak odds.</strong> They're not weak roles; they're strong roles you have no route into. Every one scores 2 on referral path, which is the heaviest single dimension in the odds model.</li>
-      <li><strong>Nothing sits bottom-left.</strong> The gates did their job upstream — the weak roles never reached the plot.</li>
-      <li><strong>The horizontal spread is narrow</strong> (3.6 to 4.3) while the vertical spread is wide (2.4 to 4.0). Fit is not what separates these roles. Access is.</li>
+      <li><strong>Tier 1 splits hard on the vertical.</strong> All three are excellent roles, but Ferty9 sits near the top and AstraZeneca near the bottom. Same tier, completely different amount of work to convert.</li>
+      <li><strong>Your best-fit roles are the ones you have least access to.</strong> Six of the seven roles in tiers 1 and 2 score 2 on referral path. That is the pattern to act on — the fit is already there.</li>
+      <li><strong>Tier 3 is not a weak tier.</strong> Good Health Company has the second-best odds on the board. If the eight weeks start running out, tier 3 is where things actually close.</li>
+      <li><strong>Nothing sits low-left.</strong> The hard gates removed the weak roles before scoring, so every point here is worth an application — the tiers are about ordering, not about whether to bother.</li>
     </ul>
   </div>
 </section>
@@ -208,21 +211,21 @@
   <div class="sec-head"><h2>The tiers</h2></div>
 
   <div class="tier">
-    <div class="tier-head"><span class="tier-tag">Tier A</span><h3>Apply today</h3><span class="tier-rule">fit ≥ 4.0 · odds ≥ 3.5</span></div>
-    <p class="act">Strong fit and a real route in. Nothing should be ahead of these in the queue.</p>
+    <div class="tier-head"><span class="tier-tag">Tier 1</span><h3>Best fit</h3><span class="tier-rule">fit 4.3 and above</span></div>
+    <p class="act">The roles your background actually argues for. Apply to all three regardless of odds — a hard-to-get role you're right for beats an easy one you're not.</p>
     <div class="scroll"><table>
       <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
       <tr><td>Senior Manager / AGM — Strategy, CEO's Office</td><td class="co">Ferty9</td><td class="num">4.3</td><td class="num">4.0</td></tr>
+      <tr><td>Chief of Staff to COO</td><td class="co">Dr Lal PathLabs</td><td class="num">4.3</td><td class="num">3.0</td></tr>
+      <tr><td>Lead — Diagnostics &amp; Health Innovation Hub</td><td class="co">AstraZeneca</td><td class="num">4.3</td><td class="num">2.4</td></tr>
     </table></div>
   </div>
 
   <div class="tier b">
-    <div class="tier-head"><span class="tier-tag">Tier B</span><h3>Apply, then buy the odds</h3><span class="tier-rule">fit ≥ 4.0 · odds &lt; 3.5</span></div>
-    <p class="act">The fit is real, so apply — it costs an hour. But the marginal hour after that goes into finding a referral, not into another application.</p>
+    <div class="tier-head"><span class="tier-tag">Tier 2</span><h3>Strong fit</h3><span class="tier-rule">fit 4.0 – 4.2</span></div>
+    <p class="act">Real fit with one thing compromised — a lateral title, a domain that transfers less than it looks, or hours still unconfirmed. Apply this week.</p>
     <div class="scroll"><table>
       <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
-      <tr><td>Chief of Staff to COO</td><td class="co">Dr Lal PathLabs</td><td class="num">4.3</td><td class="num">3.0</td></tr>
-      <tr><td>Lead — Diagnostics &amp; Health Innovation Hub</td><td class="co">AstraZeneca</td><td class="num">4.3</td><td class="num">2.4</td></tr>
       <tr><td>Talent Investor — Associate</td><td class="co">Entrepreneurs First</td><td class="num">4.2</td><td class="num">3.3</td></tr>
       <tr><td>Life Sciences Senior Analyst <span class="warn">· verify shift</span></td><td class="co">ClearView</td><td class="num">4.1</td><td class="num">3.0</td></tr>
       <tr><td>Manager — Corporate Strategy</td><td class="co">Glenmark</td><td class="num">4.1</td><td class="num">3.0</td></tr>
@@ -230,8 +233,8 @@
   </div>
 
   <div class="tier c">
-    <div class="tier-head"><span class="tier-tag">Tier C</span><h3>Apply with capacity</h3><span class="tier-rule">fit 3.5 – 4.0</span></div>
-    <p class="act">Genuine roles with something compromised — a lateral title, a domain that transfers less than it looks, or hours still unverified. Worth a week that has room; not worth displacing tier A or B.</p>
+    <div class="tier-head"><span class="tier-tag">Tier 3</span><h3>Worth applying</h3><span class="tier-rule">fit below 4.0</span></div>
+    <p class="act">Weaker on background or title, but every one clears the gates. Note the odds column — this tier converts faster than tier 1 does.</p>
     <div class="scroll"><table>
       <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
       <tr><td>Senior Analyst — Medtech / Healthcare Services</td><td class="co">Guidepoint</td><td class="num">3.9</td><td class="num">3.3</td></tr>
