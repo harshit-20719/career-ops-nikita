@@ -1,0 +1,291 @@
+<title>Application Kits — August 2026</title>
+<style>
+  :root {
+    --paper:#fbfcfb; --surface:#f1f5f4; --surface-2:#e7edeb;
+    --ink:#0f1f1c; --ink-2:#3d514d; --muted:#6b7d79;
+    --line:#d9e2df; --line-strong:#b9c9c5;
+    --accent:#0d6553; --accent-ink:#0a4c3e; --accent-wash:#dcece7;
+    --gold:#8a6410; --gold-wash:#f5ecd8;
+    --stop:#8c2f2a; --stop-wash:#f6e2e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+      --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+      --line:#243330; --line-strong:#334541;
+      --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+      --gold:#d9ad5a; --gold-wash:#2e2617;
+      --stop:#e08a83; --stop-wash:#331d1b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+    --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+    --line:#243330; --line-strong:#334541;
+    --accent:#5cc2a8; --accent-ink:#8ad9c3; --accent-wash:#14302a;
+    --gold:#d9ad5a; --gold-wash:#2e2617;
+    --stop:#e08a83; --stop-wash:#331d1b;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width:840px; margin:0 auto; padding:40px 22px 90px; }
+  h1,h2,h3 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; text-wrap:balance; }
+  h1 { font-size:clamp(28px,4.3vw,39px); line-height:1.14; margin:0 0 10px; letter-spacing:-.015em; }
+  h2 { font-size:23px; margin:0 0 3px; letter-spacing:-.01em; }
+  h3 { font-size:16.5px; margin:0 0 8px; }
+  p { margin:0 0 12px; }
+  a { color:var(--accent-ink); }
+  .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); margin:0 0 14px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:22px; margin-bottom:22px; }
+
+  .alert { background:var(--gold-wash); border-radius:11px; padding:17px 19px; font-size:14.5px; margin-bottom:14px; }
+  .alert p { margin:0 0 9px; }
+  .alert p:last-child { margin:0; }
+  .alert strong { color:var(--gold); }
+
+  .kit { border:1px solid var(--line); border-radius:14px; margin-top:26px; overflow:hidden; }
+  .kit-head { background:var(--surface-2); padding:18px 22px; border-bottom:1px solid var(--line); }
+  .kit-head .co { color:var(--ink-2); font-size:14.5px; margin:0; }
+  .kit-body { padding:22px; }
+  .scores { display:flex; gap:18px; margin-top:12px; }
+  .sc b { font-family:Georgia,serif; font-size:23px; color:var(--accent-ink); font-variant-numeric:tabular-nums; }
+  .sc span { font-size:9.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); font-weight:700; margin-left:5px; }
+
+  .step { margin-bottom:22px; }
+  .step:last-child { margin-bottom:0; }
+  .step > h3 { display:flex; align-items:baseline; gap:9px; }
+  .step h3 .n { font-size:11px; font-weight:700; color:var(--muted); letter-spacing:.09em; font-family:inherit; }
+
+  .block { border:1px solid var(--line); border-radius:11px; overflow:hidden; background:var(--surface); }
+  .block-top { display:flex; align-items:center; justify-content:space-between; gap:12px;
+    padding:10px 15px; background:var(--surface-2); border-bottom:1px solid var(--line); }
+  .block-top .label { font-size:11.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-2); }
+  .block-body { padding:17px; font-size:15px; }
+  .block-body p:last-child { margin-bottom:0; }
+  button.copy { font:inherit; font-size:12.5px; font-weight:600; cursor:pointer;
+    background:var(--accent); color:#fff; border:0; border-radius:7px; padding:6px 13px; }
+  button.copy:hover { opacity:.85; }
+  button.copy:focus-visible { outline:2px solid var(--accent-ink); outline-offset:2px; }
+  .count { font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+
+  .scroll { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:14.5px; }
+  th,td { text-align:left; padding:8px 11px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+  tr:last-child td { border-bottom:0; }
+  td:first-child { white-space:nowrap; color:var(--ink-2); }
+  .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13px; }
+
+  .qa { border-left:2px solid var(--line-strong); padding-left:15px; margin-bottom:15px; }
+  .qa:last-child { margin-bottom:0; }
+  .qa .q { font-weight:650; margin-bottom:4px; }
+  .qa .a { color:var(--ink-2); font-size:14.5px; margin:0; }
+
+  ul,ol { margin:0 0 12px; padding-left:20px; }
+  li { margin-bottom:7px; }
+  li:last-child { margin-bottom:0; }
+  .check { list-style:none; padding:0; }
+  .check li { display:flex; gap:10px; align-items:flex-start; }
+  .check input { margin-top:4px; accent-color:var(--accent); width:16px; height:16px; flex:none; }
+
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  .note { font-size:14px; color:var(--muted); }
+  .dead { background:var(--stop-wash); border-radius:11px; padding:15px 18px; font-size:14.5px; margin-top:12px; }
+  .dead strong { color:var(--stop); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--muted); }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Application kits · 13 August 2026</p>
+  <h1>Three kits, not six</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">Reading the remaining job descriptions killed half the shortlist. Here is what survived, and why the rest is not worth an hour.</p>
+</header>
+
+<div class="alert">
+  <p><strong>Every large-employer role on the board gates on a credential you don't have.</strong> Dr Lal PathLabs and Glenmark both require an MBA from a top-tier B-school. AstraZeneca requires an undergraduate life sciences or medical degree. Guidepoint requires a Master's or PhD in STEM or life sciences. These are stated requirements, not preferences, and each posting already has 200+ applicants for a recruiter to filter with.</p>
+  <p><strong>That is a finding, not a setback.</strong> Your qualifications — YIF, economics, four years of real capital allocation — are assessed directly by founders, venture firms and CEO offices, and filtered out by corporate HR screens. Every role that survived below is one where a person judges your judgement instead of your degree. That is where the next scan should point too.</p>
+</div>
+
+<div class="kit">
+  <div class="kit-head">
+    <h2>Senior Manager / AGM — Strategy, CEO's Office</h2>
+    <p class="co">Ferty9 Fertility Center · Hyderabad · <strong>Tier 1</strong></p>
+    <div class="scores"><span class="sc"><b>4.3</b><span>fit</span></span><span class="sc"><b>4.0</b><span>odds</span></span></div>
+  </div>
+  <div class="kit-body">
+    <p style="margin:0"><strong>Kit already built, and still unsent — now three days past its date.</strong> It has the email body, the 300-word write-up and the interview prep. It remains the best role on the board by a clear margin and is the only tier 1 that survived verification.</p>
+    <p style="margin:12px 0 0" class="note">Full kit: <span class="mono">applications/active/ferty9-application-kit.html</span></p>
+  </div>
+</div>
+
+<div class="kit">
+  <div class="kit-head">
+    <h2>Talent Investor — Associate</h2>
+    <p class="co">Entrepreneurs First · Bengaluru · <strong>Tier 2</strong></p>
+    <div class="scores"><span class="sc"><b>4.2</b><span>fit</span></span><span class="sc"><b>3.0</b><span>odds</span></span></div>
+  </div>
+  <div class="kit-body">
+
+    <div class="step">
+      <h3><span class="n">01</span>Route</h3>
+      <div class="scroll"><table>
+        <tr><td>Apply at</td><td class="mono">linkedin.com/jobs/view/4422616061</td></tr>
+        <tr><td>Attach</td><td class="mono">Nikita-Sachanandani-Talent-Investor.pdf</td></tr>
+        <tr><td>Band</td><td>0–4 years. You are at 4y2m — at the ceiling, so lead with judgement, not tenure</td></tr>
+        <tr><td>Competition</td><td>200+ applicants, most of them younger and cheaper</td></tr>
+      </table></div>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">02</span>Cover note</h3>
+      <div class="block">
+        <div class="block-top"><span class="label">Paste into the application</span><span style="display:flex;gap:12px;align-items:center"><span class="count" id="wc-ef">—</span><button class="copy" data-target="ef-note">Copy</button></span></div>
+        <div class="block-body" id="ef-note">
+          <p>EF's bet is that you can identify who will build something before there is anything to diligence. I have spent four years doing the institutional version of that.</p>
+          <p>At Tata Trusts I screen 30–50 proposals a month and take the survivors through three to four months of design work. The written proposal decides almost nothing. What decides it is the assessment I run on the people — whether a founder or programme lead actually understands their own constraint, whether they have the judgement to spend capital they have never had before, and whether their conviction survives contact with a field visit. I have backed people whose plans were weak and declined people whose decks were immaculate, and I have been right often enough to be trusted with a ₹450 crore portfolio at four years in.</p>
+          <p>I know that is not the same as backing pre-idea technical founders. My universe is institutions and my sector is healthcare; yours is individuals and frontier technology. What transfers is the specific muscle — a mental model for exceptional operators built by making real decisions with real money behind them, and by seeing which of those decisions aged well.</p>
+          <p>I am moving out of philanthropic capital deliberately, because I want the feedback loop that comes with commercial outcomes. Judging talent for a living, at the point where the judgement is the entire product, is the version of that I want most.</p>
+        </div>
+      </div>
+      <p class="note" style="margin:11px 0 0">This leads with the one thing no consultant applying to EF can claim: you have made capital decisions on people and watched them play out. Do not open with healthcare — it is the least relevant fact about you here.</p>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">03</span>They will ask</h3>
+      <div class="card">
+        <div class="qa">
+          <p class="q">"Tell me about someone you backed who others wouldn't have."</p>
+          <p class="a">The whole interview is this question in different clothes. Have two ready — one you backed against the grain that worked, one you declined despite a strong pitch. Name what you saw that the paper didn't show.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"How do you know your judgement is good?"</p>
+          <p class="a">Honest answer wins: you have a feedback loop most people at your level don't, because you see programmes run for years after the decision. Cite one where you were wrong and what changed in your model afterwards.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"Why not stay in healthcare investing?"</p>
+          <p class="a">Because the assessment skill is the part you want to do full-time, and healthcare is the domain you happened to learn it in.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"You're at the top of our experience band."</p>
+          <p class="a">Do not apologise for it. Four years of deploying real capital is the asset — you arrive with a calibrated model rather than building one from scratch.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">04</span>Before sending</h3>
+      <div class="card">
+        <ul class="check">
+          <li><input type="checkbox" id="e1"><label for="e1">Read two or three EF founder stories and be able to name one specifically</label></li>
+          <li><input type="checkbox" id="e2"><label for="e2">Check LinkedIn for anyone in EF's Bangalore cohort or team</label></li>
+          <li><input type="checkbox" id="e3"><label for="e3">Cover note pasted, resume attached, tracker updated</label></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="kit">
+  <div class="kit-head">
+    <h2>Chief of Staff</h2>
+    <p class="co">Good Health Company · Hyderabad · <strong>Tier 3 — but the best odds on the board</strong></p>
+    <div class="scores"><span class="sc"><b>3.6</b><span>fit</span></span><span class="sc"><b>4.0</b><span>odds</span></span></div>
+  </div>
+  <div class="kit-body">
+
+    <div class="step">
+      <h3><span class="n">01</span>Route</h3>
+      <div class="scroll"><table>
+        <tr><td>Apply at</td><td class="mono">linkedin.com/jobs/view/4452364760</td></tr>
+        <tr><td>Attach</td><td class="mono">Nikita-Sachanandani-Chief-of-Staff.pdf</td></tr>
+        <tr><td>Recruiter</td><td>Dhinesh M — message directly after applying</td></tr>
+        <tr><td>Requirements</td><td>4+ years, <strong>no degree requirement</strong>. You clear it cleanly</td></tr>
+        <tr><td>Hours</td><td>10 AM – 7 PM, onsite 5 days. IST confirmed in the JD</td></tr>
+        <tr><td>Notice</td><td>15–30 days accepted. Yours is 30 — say so up front, it is a screening question here</td></tr>
+      </table></div>
+      <p class="note" style="margin:11px 0 0">The only role scanned that states its hours and its notice-period tolerance in the posting. Both happen to fit you exactly.</p>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">02</span>Cover note</h3>
+      <div class="block">
+        <div class="block-top"><span class="label">Paste into the application</span><span style="display:flex;gap:12px;align-items:center"><span class="count" id="wc-gh">—</span><button class="copy" data-target="gh-note">Copy</button></span></div>
+        <div class="block-body" id="gh-note">
+          <p>A chief of staff role is mostly three things: deciding what the CEO should be looking at, making sure the thing that was decided actually happens, and being trusted with the parts of the business nobody else is allowed to see. I have been doing versions of all three for four years.</p>
+          <p>At Tata Trusts I hold two mandates rather than one — Program Officer and Grants Manager — which is unusual on a fourteen-person team and is the closest thing to a chief of staff role the organisation has. I manage a ₹450 crore ($51M) healthcare portfolio across 40+ programmes, prepare the analysis and dashboards the CEO and Board use to decide, and act as the financial gate on every partner budget in the health theme before anything reaches approval. I also built the geospatial ROI analysis that shaped where the Trusts deployed capital between 2022 and 2024 — the kind of work that only matters if someone acts on it, which is the test a CEO's office is judged by.</p>
+          <p>What draws me to Good Health specifically is stage. You are past proving the model and into the part where operating discipline decides how far it scales, and a founder needs someone whose only job is holding the whole picture. I am also making a deliberate move from philanthropic capital into commercial healthcare — I want the feedback loop that comes with revenue rather than impact reports.</p>
+          <p>Practically: I am serving a 30-day notice and can start accordingly, and I am ready to be in Hyderabad.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">03</span>They will ask</h3>
+      <div class="card">
+        <div class="qa">
+          <p class="q">"You've worked in philanthropy. This is a D2C business with revenue targets."</p>
+          <p class="a">The honest version: you already allocate capital against returns, you just measured return as impact. Say plainly that you will need to learn consumer unit economics fast, and name the Tiff.in unit-economics work as evidence you have modelled a commercial business before.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"Why a chief of staff role rather than a strategy role?"</p>
+          <p class="a">Because you want the whole picture rather than one function, and because you have already been doing the dual-mandate version of it.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"Are you comfortable in Hyderabad, onsite, five days?"</p>
+          <p class="a">Answer cleanly and without hedging. Any hesitation reads as flight risk for a founder-adjacent hire.</p>
+        </div>
+        <div class="qa">
+          <p class="q">"What's your notice period?" — expect this in the first five minutes</p>
+          <p class="a">"30 days, and I'm already serving it." Their stated tolerance is 15–30 days, so this is a pass rather than a problem — but only if you say it without hesitating.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3><span class="n">04</span>Worth knowing</h3>
+      <div class="card">
+        <ul>
+          <li>Series A, $15.2M raised across two rounds, backed by Khosla Ventures and Left Lane. Founded 2021 by Samarth Sindhi.</li>
+          <li>D2C consumer health — hair, skin, weight, sexual health — with telemedicine and a mobile app. <strong>Use the product before the interview.</strong> A founder will notice, and it is twenty minutes.</li>
+          <li>181 applicants and a named recruiter, which means a real human is reading. A direct message to Dhinesh M after applying is worth more here than at any large employer on this list.</li>
+          <li>Fit scores 3.6 because the work is consumer, not health systems. Be honest about that in the room — a founder will respect naming it more than pretending the domains are the same.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="dead">
+  <p style="margin:0 0 9px"><strong>Not building kits for these four — each fails a stated requirement.</strong></p>
+  <p style="margin:0 0 6px"><strong>Dr Lal PathLabs</strong> — MBA from a premier B-school required; role is built for 2–3 years and tagged entry level.</p>
+  <p style="margin:0 0 6px"><strong>Glenmark</strong> — MBA from a top-tier B-school required, plus pharma regulatory and drug-development knowledge.</p>
+  <p style="margin:0 0 6px"><strong>AstraZeneca</strong> — undergraduate life sciences or medical degree required, 5+ years in diagnostics, and field-team management. It is a commercial field leadership role, not the strategy role its title suggests.</p>
+  <p style="margin:0"><strong>Guidepoint</strong> — Master's or PhD in STEM or life sciences, 5+ years in financial services, EMEA coverage. Also likely non-IST hours.</p>
+</div>
+
+<footer>
+  Scored against <span class="mono">applications/RUBRIC.md</span>. Every role on this page was read from its full job description rather than its listing. Bharat Serums and Voy remain unverified and unscored beyond provisional.
+</footer>
+
+</div>
+
+<script>
+  document.querySelectorAll("button.copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var el = document.getElementById(btn.dataset.target);
+      var text = Array.from(el.querySelectorAll("p")).map(function (p) { return p.innerText.trim(); }).join("\n\n");
+      navigator.clipboard.writeText(text).then(function () {
+        var was = btn.textContent; btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = was; }, 1800);
+      });
+    });
+  });
+  [["ef-note","wc-ef"],["gh-note","wc-gh"]].forEach(function (pair) {
+    var n = document.getElementById(pair[0]).innerText.trim().split(/\s+/).length;
+    document.getElementById(pair[1]).textContent = n + " words";
+  });
+</script>
