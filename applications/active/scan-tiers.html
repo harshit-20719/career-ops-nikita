@@ -53,6 +53,7 @@
   .pt-label { font-size:12.5px; fill:var(--ink); }
   .dot { fill:var(--mark); stroke:var(--mark-ring); stroke-width:2; }
   .dot-hit { fill:transparent; cursor:pointer; }
+  .dot.prov { fill:var(--paper); stroke:var(--mark); stroke-width:2.5; }
   figcaption { font-size:13.5px; color:var(--muted); margin-top:10px; }
 
   #tip {
@@ -98,8 +99,8 @@
 
 <header>
   <p class="eyebrow">Role scan · 13 August 2026</p>
-  <h1>Ten roles, tiered by fit</h1>
-  <p style="margin:0;color:var(--ink-2);font-size:17px;">Tier is fit alone. Odds is plotted alongside it — it tells you how hard a role will be to get, not how good it is.</p>
+  <h1>Nine roles, four of them verified</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">Four roles re-scored against their real job descriptions. Three moved, one is gone, and the top of the board changed.</p>
 </header>
 
 <figure>
@@ -129,7 +130,7 @@
     <text x="424.5" y="420" class="ax" text-anchor="middle">4.0</text>
     <text x="602" y="420" class="ax" text-anchor="middle">4.3</text>
     <text x="720" y="420" class="ax" text-anchor="middle">4.5</text>
-    <text x="395" y="445" class="ax-title" text-anchor="middle">Fit →</text>
+    <text x="620" y="441" class="ax-title" text-anchor="middle">Fit →</text>
 
     <!-- y axis: ODDS 2.0 - 4.5 -->
     <text x="60" y="404" class="ax" text-anchor="end">2.0</text>
@@ -140,69 +141,69 @@
     <text x="20" y="220" class="ax-title" text-anchor="middle" transform="rotate(-90 20 220)">Odds →</text>
 
     <!-- points -->
-    <g class="p" data-n="Ferty9" data-r="Senior Manager / AGM — Strategy, CEO's Office" data-f="4.32" data-o="3.95" data-t="1">
+    <g class="p" data-n="Ferty9" data-r="Senior Manager / AGM — Strategy, CEO's Office" data-f="4.32" data-o="3.95" data-t="1" data-v="verified against the full JD">
       <circle cx="613.6" cy="119.2" r="6" class="dot"/>
       <circle cx="613.6" cy="119.2" r="16" class="dot-hit"/>
       <text x="627" y="123.5" class="pt-label">Ferty9</text>
     </g>
-    <g class="p" data-n="Dr Lal PathLabs" data-r="Chief of Staff to COO" data-f="4.27" data-o="3.00" data-t="1">
-      <circle cx="584.1" cy="256" r="6" class="dot"/>
-      <circle cx="584.1" cy="256" r="16" class="dot-hit"/>
-      <text x="598" y="260.5" class="pt-label">Dr Lal PathLabs</text>
-    </g>
-    <g class="p" data-n="AstraZeneca" data-r="Lead — Diagnostics &amp; Health Innovation Hub" data-f="4.27" data-o="2.35" data-t="1">
-      <circle cx="584.1" cy="349.6" r="6" class="dot"/>
+    <g class="p" data-n="AstraZeneca" data-r="Lead — Diagnostics &amp; Health Innovation Hub" data-f="4.27" data-o="2.35" data-t="1" data-v="provisional — listing metadata only">
+      <circle cx="584.1" cy="349.6" r="6" class="dot prov"/>
       <circle cx="584.1" cy="349.6" r="16" class="dot-hit"/>
       <text x="598" y="354" class="pt-label">AstraZeneca</text>
     </g>
-    <g class="p" data-n="Entrepreneurs First" data-r="Talent Investor — Associate" data-f="4.19" data-o="3.30" data-t="2">
-      <circle cx="536.8" cy="212.8" r="6" class="dot"/>
-      <circle cx="536.8" cy="212.8" r="16" class="dot-hit"/>
-      <text x="522.8" y="217" class="pt-label" text-anchor="end">Entrepreneurs First</text>
+    <g class="p" data-n="Entrepreneurs First" data-r="Talent Investor — Associate" data-f="4.19" data-o="2.95" data-t="2" data-v="verified against the full JD">
+      <circle cx="536.8" cy="263.2" r="6" class="dot"/>
+      <circle cx="536.8" cy="263.2" r="16" class="dot-hit"/>
+      <text x="550" y="267.5" class="pt-label">Entrepreneurs First</text>
     </g>
-    <g class="p" data-n="ClearView" data-r="Life Sciences Senior Analyst" data-f="4.11" data-o="3.00" data-t="2">
-      <circle cx="489.5" cy="256" r="6" class="dot"/>
-      <circle cx="489.5" cy="256" r="16" class="dot-hit"/>
-      <text x="489.5" y="278" class="pt-label" text-anchor="middle">ClearView</text>
-    </g>
-    <g class="p" data-n="Glenmark" data-r="Manager — Corporate Strategy" data-f="4.07" data-o="3.00" data-t="2">
-      <circle cx="465.9" cy="256" r="6" class="dot"/>
+    <g class="p" data-n="Glenmark" data-r="Manager — Corporate Strategy" data-f="4.07" data-o="3.00" data-t="2" data-v="provisional — listing metadata only">
+      <circle cx="465.9" cy="256" r="6" class="dot prov"/>
       <circle cx="465.9" cy="256" r="16" class="dot-hit"/>
-      <text x="465.9" y="243" class="pt-label" text-anchor="middle">Glenmark</text>
+      <text x="452" y="260.5" class="pt-label" text-anchor="end">Glenmark</text>
     </g>
-    <g class="p" data-n="Guidepoint" data-r="Senior Analyst — Medtech / Healthcare Services" data-f="3.87" data-o="3.30" data-t="3">
-      <circle cx="347.7" cy="212.8" r="6" class="dot"/>
+    <g class="p" data-n="Guidepoint" data-r="Senior Analyst — Medtech / Healthcare Services" data-f="3.87" data-o="3.30" data-t="3" data-v="provisional — listing metadata only">
+      <circle cx="347.7" cy="212.8" r="6" class="dot prov"/>
       <circle cx="347.7" cy="212.8" r="16" class="dot-hit"/>
-      <text x="334" y="217" class="pt-label" text-anchor="end">Guidepoint</text>
+      <text x="361" y="217" class="pt-label">Guidepoint</text>
     </g>
-    <g class="p" data-n="Good Health Company" data-r="Chief of Staff" data-f="3.82" data-o="3.60" data-t="3">
-      <circle cx="318.2" cy="169.6" r="6" class="dot"/>
-      <circle cx="318.2" cy="169.6" r="16" class="dot-hit"/>
-      <text x="331" y="174" class="pt-label">Good Health Co</text>
+    <g class="p" data-n="Dr Lal PathLabs" data-r="Chief of Staff to COO" data-f="3.75" data-o="2.30" data-t="3" data-v="verified against the full JD">
+      <circle cx="276.8" cy="356.8" r="6" class="dot"/>
+      <circle cx="276.8" cy="356.8" r="16" class="dot-hit"/>
+      <text x="290" y="361" class="pt-label">Dr Lal PathLabs</text>
     </g>
-    <g class="p" data-n="Bharat Serums" data-r="Manager — Strategy &amp; Transformation Office" data-f="3.75" data-o="3.00" data-t="3">
-      <circle cx="276.8" cy="256" r="6" class="dot"/>
+    <g class="p" data-n="Bharat Serums" data-r="Manager — Strategy &amp; Transformation Office" data-f="3.75" data-o="3.00" data-t="3" data-v="provisional — listing metadata only">
+      <circle cx="276.8" cy="256" r="6" class="dot prov"/>
       <circle cx="276.8" cy="256" r="16" class="dot-hit"/>
       <text x="290" y="260.5" class="pt-label">Bharat Serums</text>
     </g>
-    <g class="p" data-n="Voy" data-r="Strategy &amp; Operations Manager" data-f="3.58" data-o="3.30" data-t="3">
-      <circle cx="176.4" cy="212.8" r="6" class="dot"/>
+    <g class="p" data-n="Good Health Company" data-r="Chief of Staff" data-f="3.62" data-o="3.95" data-t="3" data-v="verified against the full JD">
+      <circle cx="200.0" cy="119.2" r="6" class="dot"/>
+      <circle cx="200.0" cy="119.2" r="16" class="dot-hit"/>
+      <text x="214" y="123.5" class="pt-label">Good Health Company</text>
+    </g>
+    <g class="p" data-n="Voy" data-r="Strategy &amp; Operations Manager" data-f="3.58" data-o="3.30" data-t="3" data-v="provisional — listing metadata only">
+      <circle cx="176.4" cy="212.8" r="6" class="dot prov"/>
       <circle cx="176.4" cy="212.8" r="16" class="dot-hit"/>
       <text x="190" y="217" class="pt-label">Voy</text>
     </g>
+    <circle cx="90" cy="437" r="5.5" class="dot"/>
+    <text x="103" y="441" class="ax">Verified against the full JD</text>
+    <circle cx="272" cy="437" r="5.5" class="dot prov"/>
+    <text x="285" y="441" class="ax">Provisional</text>
   </svg>
   </div>
   <figcaption>Scored per <span class="mono">applications/RUBRIC.md</span>. Tier cuts fall in the gaps between clusters, not on round numbers — 4.3 and above, 4.0 to 4.2, below 4.0. Vertical position carries no tier meaning.</figcaption>
 </figure>
 
 <section>
-  <div class="sec-head"><h2>What the shape tells you</h2></div>
+  <div class="sec-head"><h2>What the real JDs changed</h2></div>
   <div class="card">
     <ul>
-      <li><strong>Tier 1 splits hard on the vertical.</strong> All three are excellent roles, but Ferty9 sits near the top and AstraZeneca near the bottom. Same tier, completely different amount of work to convert.</li>
-      <li><strong>Your best-fit roles are the ones you have least access to.</strong> Six of the seven roles in tiers 1 and 2 score 2 on referral path. That is the pattern to act on — the fit is already there.</li>
-      <li><strong>Tier 3 is not a weak tier.</strong> Good Health Company has the second-best odds on the board. If the eight weeks start running out, tier 3 is where things actually close.</li>
-      <li><strong>Nothing sits low-left.</strong> The hard gates removed the weak roles before scoring, so every point here is worth an application — the tiers are about ordering, not about whether to bother.</li>
+      <li><strong>Dr Lal PathLabs collapsed — from the best role on the board to tier 3.</strong> The listing says "Chief of Staff to COO." The JD says <em>2–3 years</em>, LinkedIn tags it <em>entry level</em>, and it requires an <em>MBA from a premier business school</em>. You have neither the MBA nor the junior profile it is built for, and 200+ people have already applied. Fit 4.3 → 3.8, odds 3.0 → 2.3.</li>
+      <li><strong>Good Health Company got better, and is now your second-best option.</strong> The JD asks for <em>4+ years</em> — you are at 4y2m. No degree requirement, so no MBA gate. Hours stated as <em>10 AM–7 PM</em>, which settles the IST question outright. Notice period accepted is 15–30 days and yours is 30. Odds 3.6 → 4.0.</li>
+      <li><strong>ClearView is off the board.</strong> The posting no longer surfaces on LinkedIn and their careers site lists no India office. I could not verify the shift, the role, or that it is still open.</li>
+      <li><strong>Entrepreneurs First held its fit but lost odds.</strong> The work is exactly what I thought — judging whether people can build — but the band is <em>0–4 years</em>, putting you at the ceiling against 200+ applicants, most of them cheaper. Odds 3.3 → 3.0.</li>
+      <li><strong>The pattern worth remembering:</strong> every provisional score I got wrong, I got wrong in the same direction — job titles oversell seniority. "Chief of Staff to COO" at a listed company reads senior and was built for someone two years in. Treat listing titles as marketing until the JD says otherwise.</li>
     </ul>
   </div>
 </section>
@@ -212,46 +213,45 @@
 
   <div class="tier">
     <div class="tier-head"><span class="tier-tag">Tier 1</span><h3>Best fit</h3><span class="tier-rule">fit 4.3 and above</span></div>
-    <p class="act">The roles your background actually argues for. Apply to all three regardless of odds — a hard-to-get role you're right for beats an easy one you're not.</p>
+    <p class="act">Apply regardless of odds — a hard role you are right for beats an easy one you are not.</p>
     <div class="scroll"><table>
-      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
-      <tr><td>Senior Manager / AGM — Strategy, CEO's Office</td><td class="co">Ferty9</td><td class="num">4.3</td><td class="num">4.0</td></tr>
-      <tr><td>Chief of Staff to COO</td><td class="co">Dr Lal PathLabs</td><td class="num">4.3</td><td class="num">3.0</td></tr>
-      <tr><td>Lead — Diagnostics &amp; Health Innovation Hub</td><td class="co">AstraZeneca</td><td class="num">4.3</td><td class="num">2.4</td></tr>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th><th>Basis</th></tr>
+      <tr><td>Senior Manager / AGM — Strategy, CEO's Office</td><td class="co">Ferty9</td><td class="num">4.3</td><td class="num">4.0</td><td>Full JD</td></tr>
+      <tr><td>Lead — Diagnostics &amp; Health Innovation Hub</td><td class="co">AstraZeneca</td><td class="num">4.3</td><td class="num">2.4</td><td class="warn">Provisional</td></tr>
     </table></div>
   </div>
 
   <div class="tier b">
     <div class="tier-head"><span class="tier-tag">Tier 2</span><h3>Strong fit</h3><span class="tier-rule">fit 4.0 – 4.2</span></div>
-    <p class="act">Real fit with one thing compromised — a lateral title, a domain that transfers less than it looks, or hours still unconfirmed. Apply this week.</p>
+    <p class="act">Real fit with one thing compromised — a lateral title, or a domain that transfers less than it looks.</p>
     <div class="scroll"><table>
-      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
-      <tr><td>Talent Investor — Associate</td><td class="co">Entrepreneurs First</td><td class="num">4.2</td><td class="num">3.3</td></tr>
-      <tr><td>Life Sciences Senior Analyst <span class="warn">· verify shift</span></td><td class="co">ClearView</td><td class="num">4.1</td><td class="num">3.0</td></tr>
-      <tr><td>Manager — Corporate Strategy</td><td class="co">Glenmark</td><td class="num">4.1</td><td class="num">3.0</td></tr>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th><th>Basis</th></tr>
+      <tr><td>Talent Investor — Associate</td><td class="co">Entrepreneurs First</td><td class="num">4.2</td><td class="num">3.0</td><td>Full JD</td></tr>
+      <tr><td>Manager — Corporate Strategy</td><td class="co">Glenmark</td><td class="num">4.1</td><td class="num">3.0</td><td class="warn">Provisional</td></tr>
     </table></div>
   </div>
 
   <div class="tier c">
     <div class="tier-head"><span class="tier-tag">Tier 3</span><h3>Worth applying</h3><span class="tier-rule">fit below 4.0</span></div>
-    <p class="act">Weaker on background or title, but every one clears the gates. Note the odds column — this tier converts faster than tier 1 does.</p>
+    <p class="act">Weaker on background or title, but all clear the gates. Note that Good Health carries the best odds on the entire board.</p>
     <div class="scroll"><table>
-      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
-      <tr><td>Senior Analyst — Medtech / Healthcare Services</td><td class="co">Guidepoint</td><td class="num">3.9</td><td class="num">3.3</td></tr>
-      <tr><td>Chief of Staff</td><td class="co">Good Health Company</td><td class="num">3.8</td><td class="num">3.6</td></tr>
-      <tr><td>Manager — Strategy &amp; Transformation Office</td><td class="co">Bharat Serums</td><td class="num">3.8</td><td class="num">3.0</td></tr>
-      <tr><td>Strategy &amp; Operations Manager <span class="warn">· verify shift</span></td><td class="co">Voy</td><td class="num">3.6</td><td class="num">3.3</td></tr>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th><th>Basis</th></tr>
+      <tr><td>Senior Analyst — Medtech / Healthcare Services</td><td class="co">Guidepoint</td><td class="num">3.9</td><td class="num">3.3</td><td class="warn">Provisional</td></tr>
+      <tr><td>Chief of Staff to COO</td><td class="co">Dr Lal PathLabs</td><td class="num">3.8</td><td class="num">2.3</td><td>Full JD</td></tr>
+      <tr><td>Manager — Strategy &amp; Transformation Office</td><td class="co">Bharat Serums</td><td class="num">3.8</td><td class="num">3.0</td><td class="warn">Provisional</td></tr>
+      <tr><td>Chief of Staff</td><td class="co">Good Health Company</td><td class="num">3.6</td><td class="num">4.0</td><td>Full JD</td></tr>
+      <tr><td>Strategy &amp; Operations Manager <span class="warn">· verify shift</span></td><td class="co">Voy</td><td class="num">3.6</td><td class="num">3.3</td><td class="warn">Provisional</td></tr>
     </table></div>
   </div>
 
   <div class="tier c">
-    <div class="tier-head"><span class="tier-tag">Gated</span><h3>Not plotted</h3><span class="tier-rule">fit capped at 1</span></div>
-    <p class="act" style="margin-bottom:0">Roughly 230 postings failed a hard gate before scoring: outside your five cities, explicit US or UK shift, or non-profit. Detail is in the main scan.</p>
+    <div class="tier-head"><span class="tier-tag">Dropped</span><h3>ClearView Healthcare Partners</h3></div>
+    <p class="act" style="margin-bottom:0">The posting no longer appears in LinkedIn search and ClearView's own careers site lists no India office. Shift unverifiable, role unconfirmed. Off the board until it resurfaces.</p>
   </div>
 </section>
 
 <footer>
-  Scanned via <span class="mono">scripts/scan.py</span>, scored against <span class="mono">applications/RUBRIC.md</span>. Every score except Ferty9's is provisional — derived from listing metadata rather than full job descriptions, and worth re-scoring once the posting is open.
+  Scanned via <span class="mono">scripts/scan.py</span>, scored against <span class="mono">applications/RUBRIC.md</span>. Filled markers were scored against the full job description; hollow markers are still provisional, from listing metadata only.
 </footer>
 
 </div>
@@ -264,7 +264,8 @@
     function show(e) {
       var d = g.dataset;
       tip.innerHTML = "<b>" + d.n + "</b>" + d.r +
-        "<br>Fit " + d.f + " · Odds " + d.o + " · Tier " + d.t;
+        "<br>Fit " + d.f + " · Odds " + d.o + " · Tier " + d.t +
+        "<br><em>" + d.v + "</em>";
       tip.style.opacity = 1;
       var x = (e.touches ? e.touches[0].clientX : e.clientX);
       var y = (e.touches ? e.touches[0].clientY : e.clientY);
