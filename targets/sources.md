@@ -64,3 +64,56 @@ sometimes within the first two minutes. Have all three answers ready and rehears
 being caught unprepared on the comp question early is the most common way candidates
 anchor themselves low. `outreach/README.md` and the comp section of your intake answers
 are where those numbers live.
+
+## VC portfolio job boards — the channel that fits you best
+
+Added 13 Aug 2026, after verifying the scan's central finding: large employers
+gate on credentials (MBA, life-sciences degree, STEM Master's), while startups
+and founder-adjacent roles assess judgement directly. Portfolio boards are where
+those roles concentrate, and they carry a fraction of LinkedIn's competition —
+a LinkedIn chief-of-staff posting draws 200+ applicants; the same role on a
+portfolio board often draws a tenth of that.
+
+These are open, no login required, and aggregate every opening across a fund's
+companies:
+
+- **Accel India** — `jobs.accel.com` · verified live, ~25k roles across the
+  portfolio, filterable by location and function
+- **Peak XV (formerly Sequoia India)** — search "Peak XV jobs" or check
+  `peakxv.com` careers; their Talent team also runs a placement service
+- **Blume Ventures** — `blume.vc` careers
+- **Elevation Capital** — portfolio jobs page
+- **Lightspeed India**, **Matrix Partners India**, **Nexus Venture Partners**
+- **Y Combinator** — `workatastartup.com`, filter to India. Clinikally and
+  Weekday both surfaced from YC companies in the 13 Aug scan
+
+**How to work them:** pick the five funds whose healthcare portfolios you rate,
+open each board weekly, filter to your cities. You are looking for founder's
+office, chief of staff, strategy, and any "founding" title. Most of these
+companies never post to LinkedIn at all.
+
+## What does not work for scanning
+
+- **LinkedIn post search** (`linkedin.com/search/results/content`) sits behind a
+  login wall. Public posts are indexed at `linkedin.com/posts/...` and turn up in
+  search engines, but the index lags by weeks — useless on an eight-week clock.
+  **You can do this and I cannot:** you are logged in. See below.
+- **iimjobs** renders listings client-side; not machine-readable from a script.
+- **Instahyre's API** is blocked by this environment's network policy.
+
+## Hiring posts — your job, not the scanner's
+
+Founders post "we're hiring a chief of staff, DM me" far more often than they
+open a formal req, and those posts route straight past the ATS to the person who
+decides. That channel is only reachable while logged in.
+
+Ten minutes, twice a week, on LinkedIn:
+
+1. Search the **Posts** tab, not Jobs, for `chief of staff hiring`,
+   `founder's office hiring`, `healthtech hiring strategy`.
+2. Filter **Date posted → Past 24 hours** or **Past week**. Anything older has
+   been answered.
+3. Filter **Posts from → People** to cut company broadcasts.
+4. Comment before you DM. A visible, substantive comment gets the DM read.
+
+Save each search — LinkedIn keeps them one click away.
