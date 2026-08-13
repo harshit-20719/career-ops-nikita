@@ -1,0 +1,275 @@
+<title>Scan by Tier — August 2026</title>
+<style>
+  :root {
+    --paper:#fbfcfb; --surface:#f1f5f4; --surface-2:#e7edeb;
+    --ink:#0f1f1c; --ink-2:#3d514d; --muted:#6b7d79;
+    --line:#d9e2df; --grid:#e3ebe8;
+    --mark:#0a4c3e; --mark-ring:#fbfcfb;
+    /* Tier bands: one hue, light -> dark. Tier is ordinal, so this is a
+       sequential ramp, not three categorical hues. */
+    --band-a:#cfe5de; --band-b:#e4efeb; --band-c:#f2f6f5;
+    --stop:#8c2f2a; --gold:#8a6410;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+      --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+      --line:#243330; --grid:#1d2a27;
+      --mark:#5cc2a8; --mark-ring:#0c1513;
+      --band-a:#183b33; --band-b:#122622; --band-c:#0f1d1a;
+      --stop:#e08a83; --gold:#d9ad5a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0c1513; --surface:#131e1b; --surface-2:#1a2724;
+    --ink:#e6eeeb; --ink-2:#aebfba; --muted:#879994;
+    --line:#243330; --grid:#1d2a27;
+    --mark:#5cc2a8; --mark-ring:#0c1513;
+    --band-a:#183b33; --band-b:#122622; --band-c:#0f1d1a;
+    --stop:#e08a83; --gold:#d9ad5a;
+  }
+
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:900px; margin:0 auto; padding:40px 22px 90px; }
+  h1,h2,h3 { font-family:Georgia,"Iowan Old Style","Times New Roman",serif; text-wrap:balance; }
+  h1 { font-size:clamp(27px,4.2vw,38px); line-height:1.15; margin:0 0 10px; letter-spacing:-.015em; }
+  h2 { font-size:21px; margin:0; letter-spacing:-.01em; }
+  h3 { font-size:16px; margin:0; }
+  p { margin:0 0 12px; }
+  .eyebrow { font-size:11.5px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--muted); margin:0 0 14px; }
+  header { border-bottom:1px solid var(--line); padding-bottom:22px; margin-bottom:28px; }
+
+  figure { margin:0; }
+  .chart-wrap { overflow-x:auto; }
+  svg { display:block; width:100%; min-width:640px; height:auto; }
+  .ax { font-size:11px; fill:var(--muted); font-family:inherit; }
+  .ax-title { font-size:11.5px; fill:var(--ink-2); font-weight:700; letter-spacing:.09em; text-transform:uppercase; }
+  .band-label { font-size:11px; fill:var(--muted); font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+  .pt-label { font-size:12.5px; fill:var(--ink); }
+  .dot { fill:var(--mark); stroke:var(--mark-ring); stroke-width:2; }
+  .dot-hit { fill:transparent; cursor:pointer; }
+  figcaption { font-size:13.5px; color:var(--muted); margin-top:10px; }
+
+  #tip {
+    position:fixed; pointer-events:none; opacity:0; transition:opacity .12s;
+    background:var(--ink); color:var(--paper); font-size:13px; line-height:1.45;
+    padding:8px 11px; border-radius:8px; max-width:250px; z-index:10;
+  }
+  #tip b { display:block; font-size:13.5px; margin-bottom:2px; }
+
+  section { margin-top:38px; }
+  .sec-head { display:flex; align-items:baseline; gap:12px; margin-bottom:14px; padding-bottom:9px; border-bottom:1px solid var(--line); }
+
+  .tier { border-radius:12px; padding:18px 20px; margin-bottom:14px; border:1px solid var(--line); background:var(--surface); }
+  .tier-head { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin-bottom:4px; }
+  .tier-tag {
+    font-family:Georgia,serif; font-size:15px; font-weight:700; color:var(--ink);
+    background:var(--band-a); border-radius:6px; padding:2px 10px; flex:none;
+  }
+  .tier.b .tier-tag { background:var(--band-b); }
+  .tier.c .tier-tag { background:var(--band-c); }
+  .tier-rule { font-size:13px; color:var(--muted); font-variant-numeric:tabular-nums; }
+  .tier > p.act { margin:6px 0 14px; font-size:14.5px; color:var(--ink-2); }
+
+  .scroll { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:14.5px; }
+  th,td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); }
+  th { font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+  tr:last-child td { border-bottom:0; }
+  td.num { font-variant-numeric:tabular-nums; text-align:right; width:60px; }
+  td.co { color:var(--ink-2); }
+  .warn { color:var(--gold); font-weight:600; font-size:13px; }
+
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  ul { margin:0; padding-left:20px; }
+  li { margin-bottom:8px; }
+  li:last-child { margin-bottom:0; }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); font-size:13.5px; color:var(--muted); }
+  .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13px; }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Role scan · 13 August 2026</p>
+  <h1>Ten roles, plotted by fit and odds</h1>
+  <p style="margin:0;color:var(--ink-2);font-size:17px;">Tiers are regions on the two axes, not a separate judgment — where a role sits <em>is</em> its tier.</p>
+</header>
+
+<figure>
+  <div class="chart-wrap">
+  <svg viewBox="0 0 760 470" role="img" aria-label="Scatter plot of ten roles by fit score and odds score. Only Ferty9 sits in tier A.">
+    <!-- tier bands (sequential, light to dark) -->
+    <rect x="70" y="40" width="354.5" height="360" fill="var(--band-c)"/>
+    <rect x="424.5" y="184" width="295.5" height="216" fill="var(--band-b)"/>
+    <rect x="424.5" y="40" width="295.5" height="144" fill="var(--band-a)"/>
+
+    <text x="82" y="58" class="band-label">Tier C</text>
+    <text x="708" y="58" class="band-label" text-anchor="end">Tier A</text>
+    <text x="708" y="392" class="band-label" text-anchor="end">Tier B</text>
+
+    <!-- gridlines -->
+    <line x1="70" y1="400" x2="720" y2="400" stroke="var(--line)" stroke-width="1"/>
+    <line x1="70" y1="40" x2="70" y2="400" stroke="var(--line)" stroke-width="1"/>
+    <line x1="424.5" y1="40" x2="424.5" y2="400" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="70" y1="184" x2="720" y2="184" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- x axis: FIT 3.4 - 4.5 -->
+    <text x="70"  y="420" class="ax" text-anchor="middle">3.4</text>
+    <text x="247" y="420" class="ax" text-anchor="middle">3.7</text>
+    <text x="424.5" y="420" class="ax" text-anchor="middle">4.0</text>
+    <text x="602" y="420" class="ax" text-anchor="middle">4.3</text>
+    <text x="720" y="420" class="ax" text-anchor="middle">4.5</text>
+    <text x="395" y="445" class="ax-title" text-anchor="middle">Fit →</text>
+
+    <!-- y axis: ODDS 2.0 - 4.5 -->
+    <text x="60" y="404" class="ax" text-anchor="end">2.0</text>
+    <text x="60" y="260" class="ax" text-anchor="end">3.0</text>
+    <text x="60" y="188" class="ax" text-anchor="end">3.5</text>
+    <text x="60" y="116" class="ax" text-anchor="end">4.0</text>
+    <text x="60" y="44"  class="ax" text-anchor="end">4.5</text>
+    <text x="20" y="220" class="ax-title" text-anchor="middle" transform="rotate(-90 20 220)">Odds →</text>
+
+    <!-- points -->
+    <g class="p" data-n="Ferty9" data-r="Senior Manager / AGM — Strategy, CEO's Office" data-f="4.32" data-o="3.95" data-t="A">
+      <circle cx="613.6" cy="119.2" r="6" class="dot"/>
+      <circle cx="613.6" cy="119.2" r="16" class="dot-hit"/>
+      <text x="627" y="123.5" class="pt-label">Ferty9</text>
+    </g>
+    <g class="p" data-n="Dr Lal PathLabs" data-r="Chief of Staff to COO" data-f="4.27" data-o="3.00" data-t="B">
+      <circle cx="584.1" cy="256" r="6" class="dot"/>
+      <circle cx="584.1" cy="256" r="16" class="dot-hit"/>
+      <text x="598" y="260.5" class="pt-label">Dr Lal PathLabs</text>
+    </g>
+    <g class="p" data-n="AstraZeneca" data-r="Lead — Diagnostics &amp; Health Innovation Hub" data-f="4.27" data-o="2.35" data-t="B">
+      <circle cx="584.1" cy="349.6" r="6" class="dot"/>
+      <circle cx="584.1" cy="349.6" r="16" class="dot-hit"/>
+      <text x="598" y="354" class="pt-label">AstraZeneca</text>
+    </g>
+    <g class="p" data-n="Entrepreneurs First" data-r="Talent Investor — Associate" data-f="4.19" data-o="3.30" data-t="B">
+      <circle cx="536.8" cy="212.8" r="6" class="dot"/>
+      <circle cx="536.8" cy="212.8" r="16" class="dot-hit"/>
+      <text x="550" y="217" class="pt-label">Entrepreneurs First</text>
+    </g>
+    <g class="p" data-n="ClearView" data-r="Life Sciences Senior Analyst" data-f="4.11" data-o="3.00" data-t="B">
+      <circle cx="489.5" cy="256" r="6" class="dot"/>
+      <circle cx="489.5" cy="256" r="16" class="dot-hit"/>
+      <text x="489.5" y="278" class="pt-label" text-anchor="middle">ClearView</text>
+    </g>
+    <g class="p" data-n="Glenmark" data-r="Manager — Corporate Strategy" data-f="4.07" data-o="3.00" data-t="B">
+      <circle cx="465.9" cy="256" r="6" class="dot"/>
+      <circle cx="465.9" cy="256" r="16" class="dot-hit"/>
+      <text x="465.9" y="243" class="pt-label" text-anchor="middle">Glenmark</text>
+    </g>
+    <g class="p" data-n="Guidepoint" data-r="Senior Analyst — Medtech / Healthcare Services" data-f="3.87" data-o="3.30" data-t="C">
+      <circle cx="347.7" cy="212.8" r="6" class="dot"/>
+      <circle cx="347.7" cy="212.8" r="16" class="dot-hit"/>
+      <text x="361" y="217" class="pt-label">Guidepoint</text>
+    </g>
+    <g class="p" data-n="Good Health Company" data-r="Chief of Staff" data-f="3.82" data-o="3.60" data-t="C">
+      <circle cx="318.2" cy="169.6" r="6" class="dot"/>
+      <circle cx="318.2" cy="169.6" r="16" class="dot-hit"/>
+      <text x="331" y="174" class="pt-label">Good Health Co</text>
+    </g>
+    <g class="p" data-n="Bharat Serums" data-r="Manager — Strategy &amp; Transformation Office" data-f="3.75" data-o="3.00" data-t="C">
+      <circle cx="276.8" cy="256" r="6" class="dot"/>
+      <circle cx="276.8" cy="256" r="16" class="dot-hit"/>
+      <text x="290" y="260.5" class="pt-label">Bharat Serums</text>
+    </g>
+    <g class="p" data-n="Voy" data-r="Strategy &amp; Operations Manager" data-f="3.58" data-o="3.30" data-t="C">
+      <circle cx="176.4" cy="212.8" r="6" class="dot"/>
+      <circle cx="176.4" cy="212.8" r="16" class="dot-hit"/>
+      <text x="190" y="217" class="pt-label">Voy</text>
+    </g>
+  </svg>
+  </div>
+  <figcaption>Fit and odds scored per <span class="mono">applications/RUBRIC.md</span>. Tier A needs fit ≥ 4.0 <em>and</em> odds ≥ 3.5 — one role clears both.</figcaption>
+</figure>
+
+<section>
+  <div class="sec-head"><h2>What the shape tells you</h2></div>
+  <div class="card">
+    <ul>
+      <li><strong>Only Ferty9 is in tier A</strong> — and it's still unsent. Everything else on this page is a second priority to putting that email out.</li>
+      <li><strong>Five roles cluster in the right-hand column with weak odds.</strong> They're not weak roles; they're strong roles you have no route into. Every one scores 2 on referral path, which is the heaviest single dimension in the odds model.</li>
+      <li><strong>Nothing sits bottom-left.</strong> The gates did their job upstream — the weak roles never reached the plot.</li>
+      <li><strong>The horizontal spread is narrow</strong> (3.6 to 4.3) while the vertical spread is wide (2.4 to 4.0). Fit is not what separates these roles. Access is.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><h2>The tiers</h2></div>
+
+  <div class="tier">
+    <div class="tier-head"><span class="tier-tag">Tier A</span><h3>Apply today</h3><span class="tier-rule">fit ≥ 4.0 · odds ≥ 3.5</span></div>
+    <p class="act">Strong fit and a real route in. Nothing should be ahead of these in the queue.</p>
+    <div class="scroll"><table>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
+      <tr><td>Senior Manager / AGM — Strategy, CEO's Office</td><td class="co">Ferty9</td><td class="num">4.3</td><td class="num">4.0</td></tr>
+    </table></div>
+  </div>
+
+  <div class="tier b">
+    <div class="tier-head"><span class="tier-tag">Tier B</span><h3>Apply, then buy the odds</h3><span class="tier-rule">fit ≥ 4.0 · odds &lt; 3.5</span></div>
+    <p class="act">The fit is real, so apply — it costs an hour. But the marginal hour after that goes into finding a referral, not into another application.</p>
+    <div class="scroll"><table>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
+      <tr><td>Chief of Staff to COO</td><td class="co">Dr Lal PathLabs</td><td class="num">4.3</td><td class="num">3.0</td></tr>
+      <tr><td>Lead — Diagnostics &amp; Health Innovation Hub</td><td class="co">AstraZeneca</td><td class="num">4.3</td><td class="num">2.4</td></tr>
+      <tr><td>Talent Investor — Associate</td><td class="co">Entrepreneurs First</td><td class="num">4.2</td><td class="num">3.3</td></tr>
+      <tr><td>Life Sciences Senior Analyst <span class="warn">· verify shift</span></td><td class="co">ClearView</td><td class="num">4.1</td><td class="num">3.0</td></tr>
+      <tr><td>Manager — Corporate Strategy</td><td class="co">Glenmark</td><td class="num">4.1</td><td class="num">3.0</td></tr>
+    </table></div>
+  </div>
+
+  <div class="tier c">
+    <div class="tier-head"><span class="tier-tag">Tier C</span><h3>Apply with capacity</h3><span class="tier-rule">fit 3.5 – 4.0</span></div>
+    <p class="act">Genuine roles with something compromised — a lateral title, a domain that transfers less than it looks, or hours still unverified. Worth a week that has room; not worth displacing tier A or B.</p>
+    <div class="scroll"><table>
+      <tr><th>Role</th><th>Company</th><th class="num">Fit</th><th class="num">Odds</th></tr>
+      <tr><td>Senior Analyst — Medtech / Healthcare Services</td><td class="co">Guidepoint</td><td class="num">3.9</td><td class="num">3.3</td></tr>
+      <tr><td>Chief of Staff</td><td class="co">Good Health Company</td><td class="num">3.8</td><td class="num">3.6</td></tr>
+      <tr><td>Manager — Strategy &amp; Transformation Office</td><td class="co">Bharat Serums</td><td class="num">3.8</td><td class="num">3.0</td></tr>
+      <tr><td>Strategy &amp; Operations Manager <span class="warn">· verify shift</span></td><td class="co">Voy</td><td class="num">3.6</td><td class="num">3.3</td></tr>
+    </table></div>
+  </div>
+
+  <div class="tier c">
+    <div class="tier-head"><span class="tier-tag">Gated</span><h3>Not plotted</h3><span class="tier-rule">fit capped at 1</span></div>
+    <p class="act" style="margin-bottom:0">Roughly 230 postings failed a hard gate before scoring: outside your five cities, explicit US or UK shift, or non-profit. Detail is in the main scan.</p>
+  </div>
+</section>
+
+<footer>
+  Scanned via <span class="mono">scripts/scan.py</span>, scored against <span class="mono">applications/RUBRIC.md</span>. Every score except Ferty9's is provisional — derived from listing metadata rather than full job descriptions, and worth re-scoring once the posting is open.
+</footer>
+
+</div>
+
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+  var tip = document.getElementById("tip");
+  document.querySelectorAll("g.p").forEach(function (g) {
+    function show(e) {
+      var d = g.dataset;
+      tip.innerHTML = "<b>" + d.n + "</b>" + d.r +
+        "<br>Fit " + d.f + " · Odds " + d.o + " · Tier " + d.t;
+      tip.style.opacity = 1;
+      var x = (e.touches ? e.touches[0].clientX : e.clientX);
+      var y = (e.touches ? e.touches[0].clientY : e.clientY);
+      tip.style.left = Math.min(x + 14, window.innerWidth - 265) + "px";
+      tip.style.top = Math.max(y - 62, 8) + "px";
+    }
+    g.addEventListener("mouseenter", show);
+    g.addEventListener("mousemove", show);
+    g.addEventListener("mouseleave", function () { tip.style.opacity = 0; });
+  });
+</script>
