@@ -215,14 +215,48 @@ Send only if Anshul hasn't replied in ~7 days. Different argument, not a resend.
 >
 > Nikita
 
-## Draft 3 — LinkedIn connection request (300 characters)
+## Draft 3 — LinkedIn (the preferred first touch)
 
-For whichever of the two she reaches on LinkedIn rather than email.
+**This is the route Nikita chose, and it's the right one.** A LinkedIn note that leads
+with Tata Trusts and a portfolio figure reads as a funder or a partnerships approach —
+the wrong door entirely. Lead with the paper instead: it's hers, not her employer's, and
+it's the only credential that actually explains why she cares.
 
-> Hi Anshul — I manage a ₹450cr healthcare portfolio at Tata Trusts and I'm writing a
-> paper on preventive care funding in India, so Cent has had my attention all year. I've
-> done geographic ROI mapping across 26 states and would love 15 min on how you're
-> sequencing the centre rollout. No worries if not.
+No employer named, no figures, no ask beyond a conversation.
+
+### Connection request — 285 characters
+
+> Hi Anshul — I'm writing a paper on why preventive care stays underfunded in India, so
+> I've been following Cent closely. The one-protocol, no-tiers decision is the part I keep
+> coming back to. Would love 15 minutes to understand how you're thinking about the
+> business. No worries if not.
+
+### Message once he accepts
+
+> Thanks for connecting.
+>
+> Short version of why I reached out: I've spent four years evaluating healthcare
+> programmes and technologies in India — deciding which were worth funding and which
+> weren't — and preventive care is the gap I keep running into. Everyone agrees it matters
+> and nobody pays for it. I'm writing about it at the moment.
+>
+> Cent is the first attempt I've seen at building dedicated infrastructure for it rather
+> than adding a package onto a hospital, and I'd like to understand the business better —
+> how you think about the model, and what the hard parts have turned out to be.
+>
+> Would 15 minutes work in the next couple of weeks? Happy to work around your calendar.
+
+### Notes on this pair
+
+- **His view of her profile still says Tata Trusts.** That can't be hidden and shouldn't
+  be. The framing is the fix: "four years evaluating healthcare in India" describes her
+  own judgement rather than her employer's balance sheet. If he asks directly, the honest
+  answer is that she's moving to the operating side.
+- **Neither message mentions a job.** Deliberate. The trade is that it may stay a
+  conversation — which is still the win at a company with no open roles, because the role
+  gets created after they want her, not before.
+- The heat map and the portfolio scale stay in reserve for the call, where they answer a
+  question instead of opening a pitch.
 
 ---
 
