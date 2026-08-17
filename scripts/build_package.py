@@ -362,6 +362,65 @@ ROLES = {
             "Preferred qualifications lean MBA and consulting. You have neither and the JD says preferred, not required — but assume the shortlist is full of them.",
         ],
     },
+
+    "iqvia": {
+        "title": "Senior Consultant — Healthcare Strategy (Indian Market)",
+        "company": "IQVIA India",
+        "place": "Mumbai · hybrid",
+        "tier": "Highest fit found this week",
+        "fit": "4.2", "odds": "2.0",
+        "resume": "resume/build/Nikita-Sachanandani-Healthcare-Consulting.pdf",
+        "resume_name": "Nikita-Sachanandani-Healthcare-Consulting.pdf",
+        "verdict": "FIT 4.2 puts this level with Entrepreneurs First and just behind Ferty9 — and unlike either, it's healthcare strategy, in Mumbai, hybrid, with the timezone answered in the job title. The odds are the worst on the board: they want 6–8 years and you have 4y2m. The rubric is explicit about this case — apply anyway, then put the effort into a referral rather than into more applications.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4448826527", True),
+            ("Experience asked", "6–8 years. You have 4y2m — this is the gap", False),
+            ("Education", "Tier-1 B-school / IIT, marked <em>preferred</em>, not required", False),
+            ("Mode", "Hybrid, Mumbai — no relocation, and the only hybrid role on your board", False),
+            ("Timezone", "\"Indian Market\" is in the job title. Gate answered", False),
+            ("Must-have skills", "Commercial, growth, GTM, brand, portfolio strategy, market expansion", False),
+            ("Competition", "200+ applicants, posted 4 Aug", False),
+        ],
+        "route_note": "Do not apply and wait. A cold application into 200+ at a two-year experience deficit is close to a lottery ticket; the same hour spent finding one IQVIA consultant through the Young India Fellowship network changes the odds more than anything in this file.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Senior Consultant role in the healthcare strategy practice. I'll be straight about the experience line first: you've asked for six to eight years and I have just over four. I'm applying because the work itself is what I already do, and I'd rather make that case than not make it.",
+                "Your must-have list is portfolio strategy, market expansion, growth strategy and commercial strategy. At Tata Trusts I manage a ₹450 crore ($51M) healthcare portfolio across 40+ programmes, and the analytical spine of that job is the same one: I built a geospatial ROI and market heat map across Indian states, showing how identical interventions produced materially different returns by geography and terrain, and it shaped where capital went from 2022 to 2024. That is a market-expansion and prioritisation analysis; the currency happened to be philanthropic rather than commercial.",
+                "The delivery rhythm is also familiar. I screen 30–50 proposals a month using structured triage, run deep-dive analysis on what survives, and take recommendations to the CEO and the Board — an audience with a low tolerance for a conclusion that isn't carried by the analysis. I run end-to-end engagements of two to three months, from problem definition through synthesis, across clinical, government and technology stakeholders.",
+                "What I don't have: I have not worked inside a consulting firm, so I'd be learning your engagement model, your quality bar on slides, and how a practice sells itself. I'd also point out one thing in my favour on the India practice specifically — four years of fieldwork in Indian health systems, including the districts that don't appear in the data, and 15+ institutional partnerships I originated and closed myself. That is India-market ground truth rather than a database view of it.",
+                "If four years is a hard floor, I understand entirely. If it isn't, I'd welcome a conversation.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"You're two years short. Why should we look past that?\"", "The question, and it comes first. Don't argue the years — reframe what four years contained. Board-level accountability, a $51M portfolio, and 40+ programmes at four years in is not a normal four years. Then name one thing you'd need to learn and say you'd expect to be behind on it for a quarter. Candidates who claim no gap get disbelieved."),
+            ("A case: \"A pharma client wants to enter a new Indian state. How do you size it?\"", "Near-certain, and it's your strongest ground. Disease burden and demographics, existing treatment infrastructure and referral pathways, competitor density, payer and out-of-pocket mix, distribution reach, regulatory variation by state. Then say what would change your answer — the heat map taught you that identical interventions don't travel, and that's a real, earned insight."),
+            ("\"You haven't consulted before. How do you know you'll like it?\"", "Honest answer: you've done the analysis-to-recommendation loop, not the client-service loop. Say which part you know you'll find hard — the pace of turnaround and working to someone else's problem statement — rather than claiming it'll be seamless."),
+            ("\"Tier-1 B-school?\"", "No, and it says preferred. Young India Fellowship is a recognised signal in Indian consulting hiring and belongs in the first line of your CV. Say it once, plainly, and move to the work."),
+        ],
+        "ask": [
+            "What does the India practice's client mix look like — domestic pharma, MNCs, providers, payers?",
+            "How much of the work is genuinely India-market versus supporting global teams?",
+            "What separates the Senior Consultants who make Engagement Manager quickly?",
+            "How does IQVIA's data business change what a consultant here can do that one elsewhere can't?",
+            "What's the honest travel load?",
+        ],
+        "checklist": [
+            "<b>Referral first.</b> Search LinkedIn for IQVIA India consultants, filter to Young India Fellowship and Ashoka alumni, then Christ University. One warm intro is worth more than this entire file",
+            "Experience gap named in the first paragraph, not hidden",
+            "YIF visible on the first line of the CV",
+            "Market-entry case rehearsed out loud once, with the heat map as the worked example",
+            "Applied even if no referral surfaces within 48 hours — don't let the search block the application",
+            "Tracker updated with a follow-up date 7 days out",
+        ],
+        "flags": [
+            "The two-year gap is real and it is the whole risk. Treat this as a referral-dependent application, not a normal one.",
+            "IQVIA is the largest healthcare data and consulting firm in the world. As a line on a CV it credentials you into commercial healthcare strategy more decisively than anything else currently on your board.",
+            "Consulting hours are consulting hours. The JD says hybrid and standard, not that the work is contained. Ask about travel and the real week before an offer.",
+            "\"Indian Market\" in the title is the reason this clears the timezone gate — confirm in the first call that the practice isn't also supporting US or EU teams.",
+            "Verify whether the six-to-eight-year band is a screening filter in their ATS. If it is, a referral is not an advantage here — it is the only route in.",
+        ],
+    },
 }
 
 CSS = """

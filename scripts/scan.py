@@ -122,7 +122,7 @@ KNOWN_NONPROFIT = {
     "idinsight", "gsg impact", "world health organization",
     "nationbuilding foundation of india", "intelehealth",
     "gati foundation", "upaya social ventures", "bms foundation",
-    "mit solve", "solve", "mit",
+    "mit solve", "solve", "mit", "the circle india",
 }
 
 
