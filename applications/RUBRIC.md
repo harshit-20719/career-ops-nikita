@@ -19,10 +19,47 @@ weighting, no judgment — just checking stated facts.
 
 | Gate | Requirement |
 | --- | --- |
-| **Sector** | For-profit. A non-profit or foundation role is a decline at any compensation |
+| **Sector** | For-profit — with one carve-out, below |
 | **Timezone** | India hours |
 | **On-call** | None |
 | **Location** | Remote · Mumbai · Bangalore · Hyderabad · Delhi NCR |
+
+### The sector carve-out (added 2026-08-17)
+
+The gate was "for-profit, no exceptions." It now has one exception, in Nikita's
+words: **a strong healthcare role that involves working with healthtech or AI in
+impact is in scope**, regardless of the employer's tax status.
+
+To qualify, a role must clear **all three** tests:
+
+1. **Healthcare** is the domain, not one theme among many.
+2. **Healthtech or AI is the substance of the job** — building it, evaluating it,
+   deploying it, or deciding where it goes. Not a tech-adjacent line in a JD that is
+   otherwise programme management.
+3. **The role is strong on its own terms** — real scope, a title that isn't a
+   sideways move from Program Officer, and something it credibly leads to.
+
+Anything that fails one of the three is still a **FAIL**. This is a narrow door, not
+a reopening of the sector.
+
+**What stays out.** General non-profit work, grant-making, foundation programme roles,
+and policy or advocacy posts — including in healthcare. Nikita has said twice she is
+not taking a non-profit, and the point of leaving is the feedback loop, not the sector
+label. A grant-making job that happens to fund AI diagnostics is the job she has.
+
+**What comes in.** Health-AI research institutes and translational centres, digital
+public infrastructure health programmes with a real build mandate, product or
+deployment roles at mission-driven health-AI organisations, and development-finance
+institutions when the seat is genuinely investment work.
+
+**How it scores.** Clearing the carve-out means the role is *scored*, not that it
+scores well. It goes through FIT and ODDS like any other. In practice these roles will
+take a hit on dimension 4 (transition value), because a non-profit employer does less
+to credential her out of the philanthropic sector — which is the honest cost, and it
+should show in the number rather than being argued away.
+
+When it is ambiguous, the role is scored and the ambiguity is stated. A gate should
+not be doing work that a judgment call does better.
 
 ---
 

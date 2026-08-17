@@ -81,7 +81,7 @@ SHIFT_MARKERS = [
     r"\d{1,2}[:.]\d{2}\s*pm\s*(?:to|-|–|—)\s*\d{1,2}[:.]\d{2}\s*am",
 ]
 
-# Non-profit markers — the sector gate, which is absolute.
+# Non-profit markers — the sector gate.
 # Deliberately over-inclusive: a false positive costs one lookup, a false
 # negative costs an application into the sector Nikita is leaving. These
 # raise CHECK, never FAIL, because the name alone is not proof either way.

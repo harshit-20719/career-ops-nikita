@@ -186,6 +186,182 @@ ROLES = {
             "Series A means less stability than Ferty9 and a smaller safety net. Worth weighing against the speed.",
         ],
     },
+
+    "hospipal": {
+        "title": "Founding Growth &amp; Business Lead — Zero to One",
+        "company": "HospiPal.Health",
+        "place": "Mumbai / Thane · hybrid",
+        "tier": "Best odds on the board",
+        "fit": "3.7", "odds": "4.0",
+        "resume": "resume/build/Nikita-Sachanandani-Founding-Growth.pdf",
+        "resume_name": "Nikita-Sachanandani-Founding-Growth.pdf",
+        "verdict": "They ask for a story, not a CV — which is the rarest hiring instruction on the board and the one you can win on. Of 114 applicants, most will attach a resume and lose. Note the honest trade: this is a growth and operations job at a bootstrapped ten-person company, so the portfolio work is not what gets you in. Tiff.in is.",
+        "route": [
+            ("Email", "contact@hospipalhealth.com", True),
+            ("Or WhatsApp", "+91 99872 49625", True),
+            ("Posting", "linkedin.com/jobs/view/4450461460", True),
+            ("They ask for", "One thing you built from nothing — including if it failed", False),
+            ("And for", "Why you'd trade a safe job for this", False),
+            ("Band", "3–5 years building from scratch. You're at 4y2m", False),
+            ("Healthcare", "Explicitly not required", False),
+            ("Competition", "114 applicants, posted 13 Aug", False),
+        ],
+        "route_note": "\"Do not send just a CV.\" Take that literally — the email below <em>is</em> the application, and the resume is an attachment they may never open. Send it Monday, before the pile grows.",
+        "letters": [
+            ("Email — subject: The thing I built from nothing", [
+                "Hi — this is for the Founding Growth &amp; Business Lead role. You asked for one thing I built from nothing rather than a CV, so here it is.",
+                "In 2021 I co-founded Tiff.in, a food and content business incubated at Ashoka University — 3 of 35 teams got funded and we were one of them. I did the commercial side: market sizing, unit economics, the financial model, and the pitch. Then I did the unglamorous half, which was actually getting people to find us. We grew YouTube views 520% and Instagram followers 370% across four channels, by testing far more things than worked. What I learned is the part that's relevant to you: distribution is not a campaign, it's a loop you run until the numbers move, and most of what you try will not move them.",
+                "It also didn't become a large company, and I'd rather say that plainly than let a growth number imply otherwise.",
+                "Since then I've spent four years at Tata Trusts on the healthcare portfolio, where I originated and closed 15+ institutional partnerships from a standing start — finding the target, getting the first meeting, and closing the terms myself — and built programmes end-to-end from an idea to something that ran without me. I've also spent a lot of time inside Indian hospitals and district health systems, watching what actually happens to families around an admission. Your description of the problem — that nobody owns what happens after the patient leaves — is not an abstraction to me.",
+                "Why I'd trade a safe job for this: because at the Trusts I make recommendations and someone else lives with the consequences. The feedback loop is years long and heavily mediated. I want to own a number, find out weekly whether I was right, and be the person who fixes the thing nobody else will. That's the whole reason I'm looking, and it's why a founding role at a company that is small and already earning is more interesting to me than a bigger title somewhere settled.",
+                "Happy to talk whenever suits. CV attached if it's useful, though I take your point about it.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"You've managed a ₹450 crore portfolio. Why would you want this?\"", "The honest answer, and don't dress it up: scale of capital isn't the same as ownership of an outcome. Say you've been recommending and monitoring, and you want to be the one running the loop. Do <em>not</em> lead with the portfolio figure in this room — it makes you sound expensive and over-titled for a ten-person company."),
+            ("\"Have you ever run performance marketing?\"", "No, and say so in one sentence rather than stretching Tiff.in into something it wasn't. Then say what you have done: acquisition experiments across four channels, unit economics, and cost-per-beneficiary modelling across a 40-programme portfolio, which is CAC by another name. Offer to walk through how you'd instrument a WhatsApp funnel."),
+            ("\"What would you do in your first 30 days?\"", "Certain to come. Don't present a plan — present what you'd need to learn first. Where the last 100 customers actually came from, what a lead costs today if anyone knows, where families drop out of the WhatsApp conversation, and which hospitals already refer informally. Then one channel test, not five."),
+            ("\"Compensation?\"", "They've said openly it's a conversation once there's fit, and they're bootstrapped. Expect this to come in below your current fixed. Ask what band they've set and what the equity looks like in writing — for a founding title at a bootstrapped company, the equity is the actual offer."),
+        ],
+        "ask": [
+            "Where did your last hundred customers come from, and do you know which channel?",
+            "What's the honest split of your revenue between hospital companionship and home recovery?",
+            "Do hospitals refer you already, and if so is anyone owning that relationship?",
+            "You've said bootstrapped and deliberately small — what would make you raise?",
+            "What does the word \"founding\" mean here in equity terms?",
+        ],
+        "checklist": [
+            "Email is the application — resume attached second, not first",
+            "The Tiff.in story names what didn't work, not only the growth numbers",
+            "Portfolio figure kept out of the opening — it reads as over-titled here",
+            "Sent Monday–Wednesday morning; WhatsApp follow-up only after 4 working days",
+            "Tracker updated with a follow-up date",
+        ],
+        "flags": [
+            "Bootstrapped, 1–10 people, no external funding. There is no runway conversation to have — the runway is revenue. Ask what monthly revenue looks like before you resign anything.",
+            "LinkedIn tags this <b>Entry level</b> while the JD says founding lead. That mismatch is either a posting error or a signal about the band. Resolve it early rather than at offer stage.",
+            "This is a labour-operations business — trained companions, nurses, attendants — not a software business. Growth here means recruiting and quality-controlling humans as much as running channels.",
+            "\"Hybrid, open to relocation as the role grows\" is doing quiet work. Confirm what onsite actually means week to week before you accept.",
+            "Care for families at their most vulnerable, sold as a paid service. Form your view on how that gets priced and marketed before you're the one owning the growth number.",
+        ],
+    },
+
+    "clinikally": {
+        "title": "Chief of Staff",
+        "company": "Clinikally (YC S22)",
+        "place": "Gurugram",
+        "tier": "Substituted role — see note",
+        "fit": "3.6", "odds": "3.7",
+        "resume": "resume/build/Nikita-Sachanandani-Chief-of-Staff-Clinikally.pdf",
+        "resume_name": "Nikita-Sachanandani-Chief-of-Staff.pdf",
+        "verdict": "The role in your tracker — Manager, Category &amp; Retail Expansion — does not exist on Clinikally's board. This is the substitute, and it's a better job than the one you lost: Chief of Staff to the founder, 125-person YC healthtech, comp band published at ₹15–24 lakh. The JD asks for investor communications and cross-functional launches, which is the Board-facing half of your current job.",
+        "route": [
+            ("Apply at", "ycombinator.com/companies/clinikally/jobs/bq21ts8-chief-of-staff", True),
+            ("Founder / CEO", "Arjun Soin — you report to him", False),
+            ("Posted band", "₹1.5M – ₹2.4M (₹15–24 lakh)", False),
+            ("Bar", "\"At least 2 years in consulting, IB, VC or a high-growth startup\"", False),
+            ("Company", "Founded 2022 · YC S22 · 125 people", False),
+            ("What they do", "Dermatology, nutrition and wellness — telehealth, AI treatment plans, Rx-grade products", False),
+            ("Location", "Gurugram, onsite. Relocation from Mumbai", False),
+        ],
+        "route_note": "Applying through the YC board goes to the founding team, not an ATS queue. Use the product first — it's a consumer telehealth flow and takes ten minutes.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Chief of Staff role. The short version of why: the part of my current job that looks most like this one is the part I want more of.",
+                "At Tata Trusts I hold two mandates rather than one — Program Officer and Grants Manager — on a fourteen-person health team. Practically that means I prepare the analysis, briefs and dashboards the CEO and Board use to decide, I act as the financial gate on every partner budget in the health theme before anything reaches approval, and I run the cross-functional work that turns a decision into something that actually happened. I manage a ₹450 crore ($51M) healthcare portfolio across 40+ programmes, and I built the geospatial ROI analysis that shaped where that capital went between 2022 and 2024.",
+                "Your JD asks for someone who prepares investor communications, leads cross-functional initiatives and product launches, and finds the operational bottleneck nobody has named yet. I've been doing the institutional version of all three. What I haven't done is a consumer P&amp;L, and I'd rather say that up front than let a portfolio number stand in for it — I'd be learning your unit economics quickly, and I've modelled a commercial business before, at Tiff.in, which I co-founded out of Ashoka University's incubator.",
+                "What draws me to Clinikally specifically is that the hard problem is a real one: dermatology is where telehealth, prescription compliance and consumer retail all collide, and getting AI treatment plans to hold up against Rx-grade standards is not a marketing problem. I've spent four years deciding which health technologies were ready to be trusted and which weren't, so I'd arrive with a view rather than an opinion.",
+                "I'm on a 30-day notice and ready to be in Gurugram.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"Your bar says consulting, IB, VC or high-growth startup. You've been at a philanthropy.\"", "The one question that decides this application. Answer it structurally, not defensively: screening 30–50 proposals a month, diligence on the people behind them, structuring terms, deploying capital, monitoring a portfolio, reporting to a board. Name the pipeline, then say plainly that the wrapper was philanthropic and the work was not."),
+            ("\"What would you do in your first 90 days?\"", "For a CoS the answer is not a plan, it's a diagnosis. Say you'd spend the first weeks working out which decisions are actually stuck and why — whether it's missing data, an unowned handoff, or no one having the authority — and that you'd bring back a list of three, ranked, rather than a strategy deck."),
+            ("\"Have you written investor updates?\"", "Not to VCs. You've written Board and CEO material for the Tata principals, which is a comparable audience with a lower tolerance for spin. Offer to show the structure you use — the honest version of a bad quarter is the part that transfers."),
+            ("\"Why leave now?\"", "Forward-looking, 30 seconds, no criticism of the Trusts. Full script in private/exit-narrative.md."),
+        ],
+        "ask": [
+            "What does Arjun spend time on today that he shouldn't?",
+            "Which decision has been open longest, and what's actually blocking it?",
+            "How much of the next phase is new categories versus depth in dermatology?",
+            "You're 125 people and three years in — what broke most recently as you scaled?",
+            "What would make you say this hire worked, six months in?",
+        ],
+        "checklist": [
+            "Used the Clinikally product end-to-end before applying",
+            "Read the founder's public posts — this is a founder-adjacent hire, he will notice",
+            "\"Investment work in a philanthropic wrapper\" rehearsed as one clean paragraph",
+            "Confirmed you're genuinely willing to relocate to Gurugram before applying",
+            "Checked LinkedIn for anyone at Clinikally or in the YC S22 batch",
+            "Tracker updated with a follow-up date 5 days out",
+        ],
+        "flags": [
+            "The role you were tracking is gone. Also open and worth knowing about: VP of Growth, VP of Brand Marketing, Head of Category &amp; Brand Management. The last of these is the closest to your old tracked role but wants e-commerce or e-pharmacy category experience and treats a B.Pharm as a significant advantage — it's a worse fit than this one.",
+            "The posted band tops out at ₹24 lakh. That's a real number, published, which is rare — and it sets the ceiling of the conversation before you start.",
+            "YC S22, founded 2022, 125 people. Ask directly about the last raise and current runway; a company hiring three VPs at once is either scaling or replacing.",
+            "Dermatology D2C sits close to the line where healthcare becomes cosmetics. Ask how prescription decisions are governed and who signs off on the AI treatment plans.",
+            "Gurugram onsite means relocating from Mumbai. Weigh that before you invest in the process, not after an offer.",
+        ],
+    },
+
+    "indegene": {
+        "title": "Associate Manager — Digital Strategy &amp; Solutions",
+        "company": "Indegene",
+        "place": "Bengaluru",
+        "tier": "Weakest of the three — apply only if the week has room",
+        "fit": "3.2", "odds": "2.4",
+        "resume": "resume/build/Nikita-Sachanandani-Digital-Strategy.pdf",
+        "resume_name": "Nikita-Sachanandani-Digital-Strategy.pdf",
+        "verdict": "Verified against the live JD, and the honest read is that this is a pre-sales and solutioning job wearing a strategy title. The core of it — RFPs, solution packaging, proposal narratives — is work you have never done, and you'd enter at the floor of a 4–12 year band against 200+ applicants. It clears every gate and the AI mandate is real, so it's worth an hour. It is not worth three.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4451105287", True),
+            ("Job poster", "Saptarshi Munshi, Talent Acquisition — message after applying", False),
+            ("Band", "4–12 years. You're at 4y2m, at the floor", False),
+            ("Degree", "MBA or Engineering preferred — not required", False),
+            ("Competition", "200+ applicants, posted 10 Aug", False),
+            ("Company", "Listed healthcare-technology services provider, ~5,000 people", False),
+            ("Clients", "Global life sciences — verify the shift before you accept", False),
+        ],
+        "route_note": "Messaging Saptarshi directly after applying is the only lever that moves the odds here; a named recruiter on a 200-applicant post is worth using.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Associate Manager role in Digital Strategy &amp; Solutions. I'll be direct about where I fit and where I don't, because the JD is specific.",
+                "Where I fit: the role is about taking an ambiguous client problem and turning it into a scoped solution, a roadmap, and a narrative a senior audience will act on. At Tata Trusts I manage a ₹450 crore ($51M) healthcare portfolio and run that cycle continuously — 30–50 proposals screened a month, then two to three months of structured design work per programme, mapping dependencies across clinical, government and technology stakeholders, then a brief that goes to the CEO and Board. The output is judged the same way yours is: whether the person on the other side of the table can act on it.",
+                "On the AI part of the mandate, I'm not coming to it cold. Health-tech and AI diagnostics are sub-themes I own. I've evaluated AI diagnostic tools and the teams building them on technical maturity, deployment readiness and evidence quality, and I've structured technology pilots under a deliberately heavier evidence bar — choosing the conditions and geographies that would actually test the claim rather than flatter it. Data readiness, governance and human oversight are the questions I ask for a living.",
+                "Where I don't fit, stated plainly: I have not run an RFP, packaged a service offering, or worked in pre-sales. If that's the non-negotiable core of the role, I'm the wrong candidate and I'd rather you know now. If it's learnable by someone who can structure a problem and write for executives, I'd back myself to pick it up quickly.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"Walk me through an RFP you've responded to.\"", "You can't, and inventing one here is the failure mode that ends the process. Say so, then substitute the closest real thing: a partner proposal you scoped, costed, negotiated and defended to a board. Ask what their proposal cycle actually looks like — curiosity beats a stretched answer."),
+            ("\"What's your experience with pharma commercial — CRM, marketing automation, content ops?\"", "Thin, and they'll probe it. Don't bluff. Your healthcare depth is delivery, diagnostics and public health, not pharma brand marketing. Name the gap and pivot to the transferable half: regulated-industry judgement and evidence standards."),
+            ("\"You're at four years in a 4–12 band.\"", "Don't apologise. Four years of allocating real capital with board accountability is not four years of execution. Say what you've owned, not how long you've owned it."),
+            ("\"What are the shift timings?\" — <em>you</em> ask this, in the first call", "Indegene serves global life sciences clients. The posting says nothing about hours. Ask before you invest a round: which client regions this team covers, and what the working window actually is. This is your hard gate and it is unverified."),
+        ],
+        "ask": [
+            "Which client regions does this team cover, and what does the working day look like?",
+            "Is this role closer to pre-sales or to delivery once an engagement is won?",
+            "What proportion of the AI and agentic work is live with clients versus still being packaged?",
+            "The band is 4 to 12 years — what does the person you hire at the lower end look like?",
+            "How does someone move from Associate Manager to Manager here, and on what timeline?",
+        ],
+        "checklist": [
+            "Shift hours asked about in the first conversation — this is the unverified gate",
+            "RFP gap named in the cover note rather than discovered in the interview",
+            "Applied on LinkedIn, then messaged Saptarshi Munshi directly",
+            "One AI-diagnostics evaluation story ready with the evidence standard you applied",
+            "Tracker updated — and if the week is full, this is the one to drop",
+        ],
+        "flags": [
+            "Timezone is the open gate. A listed services firm serving global pharma is exactly the shape that fails IST quietly. Do not accept anything before this is answered in writing.",
+            "\"Associate Manager\" at a 5,000-person services firm is close to a lateral. The trajectory argument is a defined ladder, not a jump.",
+            "A separate US-based Indegene digital strategy posting has already closed after seven months open. Long-open roles in this function suggest either a high bar or high churn — worth asking about the predecessor.",
+            "Services businesses bill by the hour. Ask what utilisation expectations look like, because that is the real answer to what the job is.",
+            "Preferred qualifications lean MBA and consulting. You have neither and the JD says preferred, not required — but assume the shortlist is full of them.",
+        ],
+    },
 }
 
 CSS = """
@@ -369,7 +545,7 @@ def build(key, role):
 </section>
 
 <footer>
-  Scored against applications/RUBRIC.md, from the full job description. Built 13 Aug 2026.
+  Scored against applications/RUBRIC.md, from the full job description. Built 17 Aug 2026.
   The resume is embedded in this file — it downloads with no network connection.
 </footer>
 
