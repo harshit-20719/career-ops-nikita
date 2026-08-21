@@ -61,6 +61,36 @@ should show in the number rather than being argued away.
 When it is ambiguous, the role is scored and the ambiguity is stated. A gate should
 not be doing work that a judgment call does better.
 
+### The build-from-zero exception (added 2026-08-17)
+
+A second, narrower door, and it is about the *seat* rather than the sector.
+
+The sector gate exists to stop Nikita taking a lateral into more of the same. It is a
+proxy for "does this move her forward." Occasionally the proxy misfires: a role can sit
+inside a non-profit and still not be the job she is leaving, because she would be
+**building the institution rather than running one that already exists**.
+
+To qualify, all three must hold:
+
+1. **The organisation does not yet exist, or the function doesn't.** Legal structuring,
+   governance, operating systems, first hires — the work is standing something up.
+2. **She would own that build**, not support someone else's.
+3. **The principal or backer is a genuine credential** — someone whose orbit is itself
+   worth being in, independent of the entity.
+
+Anything that fails one is a **FAIL**. Running a portfolio inside a large foundation
+never qualifies, however senior the title.
+
+**How it scores.** As with the healthtech carve-out, clearing the door means the role is
+*scored*, not that it scores well. Transition value (dimension 4) should score **low** —
+the honest cost is that a philanthropic employer does little to credential her out of
+philanthropy, and that cost belongs in the number rather than in an argument. Any role
+entering through this door must also carry an explicit flag naming what the CV will look
+like after two years in it.
+
+**First application:** `022-bansal-foundation`. Scored FIT 4.0 / ODDS 4.0, with transition
+value at 2 — the single dimension holding the FIT down.
+
 ---
 
 ## Axis 1 — FIT
