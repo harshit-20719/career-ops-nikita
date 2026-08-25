@@ -121,8 +121,12 @@ range across both origination and financial control.
 - **Created the Trusts' climate-health vertical from nothing** — designed the thesis and
   the programmes, and secured formal funding to stand it up where no vertical previously
   existed.
-  > **Pulled from the sent resumes on 2026-08-11 at Nikita's request.** Kept here as
-  > bench material — it stays available for interviews and for versions where it fits.
+  > **Pulled from the sent resumes on 2026-08-11 at Nikita's request. Confirmed again on
+  > 2026-08-17: it stays off every version, including ones where it would fit.** It was
+  > restored once for the Sachin Bansal founder's-office role on the argument below and
+  > removed the same day. Do not put it back on a version without asking first.
+  >
+  > Kept here as bench material — still available for interviews if she chooses to use it.
   > Note what leaves with it: this was the only bullet evidencing "built something from
   > zero," which is the core signal for founder's-office and chief-of-staff roles. If
   > that signal is wanted back without the climate framing, it can be rewritten around
