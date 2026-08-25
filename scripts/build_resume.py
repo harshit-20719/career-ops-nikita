@@ -98,6 +98,28 @@ def render(html_path, pdf_path):
         sys.exit(f"Chromium produced no PDF.\n{result.stderr[-1500:]}")
 
 
+def report_embedded_fonts(pdf_path):
+    """Name the fonts actually embedded in the PDF.
+
+    `check_font` above asks fontconfig whether a face is installed, which is not
+    the same question as whether Chromium used it. Bitstream Charter is installed
+    here only as Type 1 (.pfb), and Chromium dropped Type 1 support — so it
+    silently falls back to Liberation Serif and the fontconfig check still says
+    everything is fine. That is exactly the failure this file was written to
+    catch, so report what is in the PDF rather than what is on the system.
+    """
+    import re
+
+    data = Path(pdf_path).read_bytes()
+    fonts = sorted({m.decode() for m in re.findall(rb"/BaseFont\s*/([A-Za-z0-9+\-,_]+)", data)})
+    # Chromium prefixes embedded subsets with six letters and a plus sign.
+    families = sorted({f.split("+", 1)[-1] for f in fonts})
+    if families:
+        print(f"  embedded: {', '.join(families)}")
+    if not any("Charter" in f for f in families):
+        print("  ! Not set in Charter — Chromium fell back (Charter is Type 1 only here)")
+
+
 def verify(pdf_path):
     """Extract the text back out and confirm the ATS-critical fields survived."""
     try:
@@ -114,6 +136,7 @@ def verify(pdf_path):
     words = len(text.split())
 
     print(f"  pages: {pages}   extractable words: {words}")
+    report_embedded_fonts(pdf_path)
     if pages > 2:
         print(f"  ! {pages} pages — trim to 1 (2 at the very most)")
     if words < 250:
