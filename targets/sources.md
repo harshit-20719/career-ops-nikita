@@ -13,6 +13,7 @@ application competes with several hundred others for the same glance.
   anywhere, grep it for the company.
 - **Second-degree via LinkedIn.** Filter your connections by company. A former colleague
   of a former colleague is a warmer path than any job board.
+- **LinkedIn before email (default since 2026-09-07).** Cold email has a 0% reply rate in this search and half the addresses were guesses. A LinkedIn note needs no address, gives a visible accept/decline signal, and her profile does real work for her. Email only where the posting names an address.
 - **Company careers pages directly.** For tier A targets, apply on their site rather
   than through an aggregator — fewer applicants and the ATS record is cleaner.
 - **Alumni networks.** College and past-employer groups. Underused and unusually
