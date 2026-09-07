@@ -609,6 +609,65 @@ ROLES = {
             "Sachin Bansal is running Navi, a fast-growing financial services company, at the same time. Ask directly how much of his attention this has, because a founder's office with an absent founder is a very different job from the one described.",
         ],
     },
+
+    "piramal": {
+        "title": "Chief Manager — Strategy &amp; Special Projects",
+        "company": "Piramal Pharma Solutions",
+        "place": "Mumbai",
+        "tier": "Highest fit currently open",
+        "fit": "4.2", "odds": "2.7",
+        "resume": "resume/build/Nikita-Sachanandani-CEO-Office.pdf",
+        "resume_name": "Nikita-Sachanandani-CEO-Office.pdf",
+        "verdict": "A CEO's-office mandate at a listed Indian pharma, in Mumbai, with <b>no degree requirement and no years-of-experience bar stated anywhere in the posting</b> — which, against a search where twelve roles have died on exactly those two lines, is the most valuable thing about it. LinkedIn tags it Mid-Senior, not Director. The open risk is the title band, and one message settles it.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4457230093", True),
+            ("Message", "Ranjana Mishra, Manager HR — job poster, direct message enabled", False),
+            ("Seniority tag", "<b>Mid-Senior level</b> — not Director", False),
+            ("Degree required", "<b>None stated.</b> Anywhere in the posting", False),
+            ("Years required", "<b>None stated.</b> Only \"proven experience in a senior leadership or executive support role\"", False),
+            ("Reports into", "The CEO's office; collaborates with the Head of Strategy", False),
+            ("Company", "Piramal Pharma Solutions — CDMO arm of listed Piramal Pharma. Sites across North America, Europe and Asia", False),
+            ("Competition", "200+ applicants", False),
+        ],
+        "route_note": "Message Ranjana <b>before</b> tailoring anything further. The single unknown is whether \"Chief Manager\" sits above her band, and that is one question, not a research project. If the answer is eight-plus years, this closes cleanly and costs an hour rather than a week.",
+        "letters": [
+            ("Cover note", [
+                "I'm writing about the Chief Manager role in Strategy &amp; Special Projects.",
+                "The posting describes establishing a governance rhythm — reviews, dashboards, escalation mechanisms — that drives timely decisions and tracks value realisation across functions. That is the part of my current job I'd most want to keep. At Tata Trusts I manage a ₹450 crore ($51M) healthcare portfolio across 40+ programmes, and I built the review cadence, dashboards and briefing papers the CEO and Board of Trustees use to decide. I also act as the financial gate for the entire health theme rather than only my own programmes: every partner budget is reviewed for whether the numbers genuinely reflect the work before anything advances to approval.",
+                "I hold two mandates rather than one — Program Officer and Grants Manager — which is the only such arrangement on a fourteen-person team, and in practice it means I sit between the strategy and the execution of it: defining scope and timelines for two-to-three-month initiatives, mapping dependencies across clinical, government and institutional stakeholders, and surfacing what is off track before it reaches leadership.",
+                "Where I'd be learning: I have not worked inside pharmaceutical manufacturing, and a CDMO's execution barriers sit in manufacturing, supply chain and quality — functions I've never owned. I'd be relying on your business leaders for that context for a quarter. What I'd bring against it is four years of healthcare judgement and a habit of building governance that people actually use rather than governance that produces reports.",
+                "I'm Mumbai-based, and on a 30-day notice.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"Walk me through your experience in pharma manufacturing or supply chain.\"", "You have none, and this is the sharpest gap. Don't stretch programme delivery into operations — name it in one sentence, then move to what does transfer: cross-functional governance where you had no formal authority, and getting decisions closed between parties with different incentives. Ask what the top three execution barriers across clusters are right now; the question does more for you than an answer would."),
+            ("\"Chief Manager is a senior band. Talk me through your years.\"", "Expect this, and don't be defensive. Four years carrying board-level accountability on a $51M portfolio, with financial sign-off across a whole theme, is not a standard four years. Say what you've owned rather than how long you've owned it — then let them decide, because the posting deliberately didn't set a number."),
+            ("\"How would you set up a governance rhythm here?\"", "Your ground, and almost certain. Sequence it: what decisions are actually stuck and why, then the smallest cadence that unblocks them, then the dashboard — in that order. Say plainly that most governance fails because it reports rather than decides, and that you'd rather run three reviews that change something than twelve that don't."),
+            ("\"Why leave the Trusts?\"", "Forward-looking, 30 seconds, no criticism. Script in private/exit-narrative.md."),
+        ],
+        "ask": [
+            "Is this role closer to strategy development, or to making sure the strategy already set actually lands?",
+            "What's the hardest cross-functional decision currently stuck between clusters?",
+            "How does the CEO's office relate to the Head of Strategy — who owns what?",
+            "The JD mentions change management. What change is underway right now?",
+            "What band does Chief Manager sit in here, and who did this role report to before?",
+        ],
+        "checklist": [
+            "<b>Message Ranjana Mishra first</b> and ask the band question before doing anything else",
+            "Pharma manufacturing gap named in the cover note rather than discovered in the room",
+            "One governance story ready — a cadence you built that changed a decision, not one that produced a report",
+            "LinkedIn check on Piramal strategy alumni: where do people go after the CEO's office here?",
+            "Applied, tracker updated with a follow-up 7 days out",
+        ],
+        "flags": [
+            "<b>The band is the whole risk.</b> \"Chief Manager\" in Indian corporate hierarchies usually sits above Manager and below AGM — often eight-plus years. The posting states no number and LinkedIn tags it Mid-Senior, so it is genuinely open, but do not build a case around it before Ranjana answers.",
+            "A CDMO is a manufacturing business. The execution barriers named in the JD are manufacturing, SCM, finance and commercial — none of which you have worked in. This is a real domain gap and a bigger one than the healthcare label suggests.",
+            "Piramal Pharma is listed and Piramal Group is a serious Indian conglomerate; the brand credentials you out of philanthropy decisively. That is why transition value scores 5 here and why the fit is 4.2 despite the domain gap.",
+            "\"Proficiency in using AI, productivity tools, project management software\" is in the requirements. Have a real answer about which tools you use and how — your tool proficiency is unestablished in your own materials and this is the second posting to ask.",
+            "200+ applicants with a named HR contact. Message her; a role with no stated bar attracts everyone, and the ones who ask a specific question get remembered.",
+        ],
+    },
 }
 
 CSS = """
