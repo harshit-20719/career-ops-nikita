@@ -118,9 +118,12 @@ range across both origination and financial control.
 - Developed investment briefs and portfolio dashboards presented directly to the CEO;
   drove a 60% improvement `[VERIFY: 60% of what, measured how]` in proactive
   grantmaking targets and cost-per-beneficiary efficiency.
-- **Created the Trusts' climate-health vertical from nothing** — designed the thesis and
-  the programmes, and secured formal funding to stand it up where no vertical previously
-  existed.
+- **Redirected mainstream health funding toward multi-thematic projects, particularly
+  climate and health, where no allocation previously existed** — building the case, the
+  first programmes, and securing the funding.
+  > **Phrasing fixed 2026-09-07 at Nikita's request.** The previous wording ("created the
+  > vertical from nothing") read as overclaiming. This version is what she actually did
+  > and is the only phrasing to use anywhere — resume, outreach, or interview.
   > **Pulled from the sent resumes on 2026-08-11 at Nikita's request. Confirmed again on
   > 2026-08-17: it stays off every version, including ones where it would fit.** It was
   > restored once for the Sachin Bansal founder's-office role on the argument below and

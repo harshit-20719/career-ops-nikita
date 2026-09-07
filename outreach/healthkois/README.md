@@ -44,12 +44,12 @@ are areas she has evaluated with real money behind the judgement.
 
 ### The fifth one, and it is her call
 
-**Climate Health is one of the five stated focus areas.** Nikita created the Tata Trusts
-climate-health vertical from nothing — the thesis, the first programmes, and the funding to
-stand it up.
+**Climate Health is one of the five stated focus areas.** At the Trusts, Nikita redirected
+mainstream health funding toward multi-thematic projects, particularly climate and health,
+where no allocation previously existed.
 
-That is the single sharpest sentence she could say to this fund, and there is no other
-candidate in India who can say it.
+Very few candidates in India can say that, and it maps directly onto one of their five
+focus areas.
 
 She pulled that bullet from her CV on 11 August and confirmed on 17 August that it stays
 off every version. **This brief does not put it in the message.** It is flagged here
