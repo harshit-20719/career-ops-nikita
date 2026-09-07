@@ -54,12 +54,13 @@ are not currently advertising for.** That is an open invitation and costs one me
 `[VERIFY]` There are at least two unrelated companies operating as "Kepler Aerospace,"
 including one in Midland, Texas. Confirm which one she means before writing.
 
-## On Alteon
+## On Alteon — resolved
 
-**Not found.** No space or aerospace company by that name surfaced in search or in a month
-of India space tech postings. The closest match is **ALTEN India**, a French engineering
-consultancy with an aerospace practice in Bengaluru, which is a very different thing.
-Worth checking the spelling with her rather than guessing.
+**Found.** It is **aviation, not space**, which is why the earlier search missed it.
+Bengaluru deep-tech aerospace, founded by **Samay Sanghvi**, building autonomous
+dynamic-soaring aircraft. $2.5M pre-seed led by Lachy Groom, announced 31 August 2026.
+Nikita is already connected to the founder. Full brief and message in
+`outreach/alteon/README.md`, tracked as row `034-alteon`.
 
 ## What a real pitch would rest on
 
