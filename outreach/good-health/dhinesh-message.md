@@ -2,6 +2,10 @@
 
 Drafted 2026-09-07. **Note the spelling: Dhinesh, not Dinesh.**
 
+- Reposted role (6 PM–3 AM): https://www.linkedin.com/jobs/view/4462903765
+- Role she applied to 13 Aug (10–7): https://www.linkedin.com/jobs/view/4452364760
+- Chief of Staff — Supply Chain Operations: https://www.linkedin.com/jobs/view/4458951253
+
 ## Read this before sending
 
 The reposted role is **not the job she applied to**.
