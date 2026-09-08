@@ -244,6 +244,16 @@ econometric analysis · policy research and writing · go-to-market strategy
 **To confirm** — Excel depth · financial modelling beyond budgets · SQL · Python or R ·
 PowerPoint/deck-building at consulting standard · Tableau or Power BI
 
+> **⚠ PRIORITY, raised 2026-09-08.** Financial modelling is no longer a tidy-up item. It
+> is the single most expensive gap in this search: **four investment roles have died on it**
+> — ADB (independently prepare financial models, sensitivity and stress testing), Artha
+> Group ("MBA or CA required **OR strong proof of financial modeling**"), Navi (DCF and
+> multiples), Millennium (modelling in Bloomberg, Visible Alpha, Canalyst). Artha's is the
+> one with an explicit alternative route written into it, which makes closing this gap
+> directly worth more than any single application. Two real models — one three-statement,
+> one DCF on a healthcare company she can talk about — would open a lane that is currently
+> shut.
+>
 > `[VERIFY]` Tool proficiency isn't established anywhere in your materials. Consulting
 > and VC screens test Excel and deck-building specifically. Tell me your real level and
 > I'll place it honestly.
