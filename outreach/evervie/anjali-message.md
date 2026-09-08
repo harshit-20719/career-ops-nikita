@@ -44,11 +44,37 @@ this profile.
 
 ---
 
-## Message — send this · 186 characters
+## Message — send this · 182 characters
 
-> Hi Anjali — the Growth role isn't my background, but Evervie is. I've spent four years
-> evaluating healthcare businesses in India — oncology, diagnostics, health-tech. Open to
-> 15 minutes?
+**Updated 2026-09-08** after a second Evervie posting revealed what they are actually
+building. A Clinical Associate role, hiring into the founder's office, opens with: *"Evervie
+is building a new specialty care vertical focused on women's health, a ground-up clinical
+model spanning diagnosis, treatment protocols, and a physician panel."*
+
+That is far more specific than anything on their website, and it is the sharpest possible
+hook: they are deciding which specialty to enter and how to validate it, which is her work.
+
+> Hi Anjali, I saw you're building a women's health vertical from the ground up. I've spent
+> four years deciding which healthcare models in India were worth funding. Open to 15
+> minutes?
+
+### Previous version, kept for reference · 192 characters
+
+> Hi Anjali, the Growth role isn't my background but Evervie is. I've spent four years
+> evaluating healthcare businesses in India across oncology, diagnostics and health tech.
+> Open to 15 minutes?
+
+The new one is better because it proves current attention rather than general interest.
+The concession in the old version was doing real work, but it was conceding against a role
+that has now closed, so it has stopped earning its place.
+
+### Do not do both
+
+**Do not apply to the Clinical Associate role and message Anjali in the same week.** That
+role wants an MBBS, nursing or allied health background and is tagged entry level on a six
+to twelve month contract. Applying to something she is plainly unqualified for undercuts a
+message whose entire strength is that she knows her own level. Full reasoning in row
+`035-evervie-clinical`.
 
 Naming the mismatch in the first clause is the move. It costs one line and buys three
 things: it proves she read the JD rather than mass-applying, it shows she knows her own
