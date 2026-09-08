@@ -843,6 +843,7 @@ ROLES = {
             "The backgrounds they name do not include philanthropy or the social sector. You are outside the stated pool and have to earn your way in on substance.",
             "Seniority is tagged \"Not Applicable\", which usually means the level is negotiable against the candidate. That can work for you at four years, or against you.",
             "Hyderabad, and this is your second relocation-required role on the same shortlist. Decide the relocation question once rather than three times.",
+            "<b>Ask about the shift, even though this posting doesn't mention one.</b> Darwinbox has 13 roles open and <b>three of them say \"US Shift\" in the title</b> — Delivery Assurance Consultant, Engagement Manager, US Functional Consultant. That is a company running US-facing hours for part of its organisation. A chief of staff reporting to a Hyderabad-based co-founder should be IST, but your timezone gate is absolute and this is cheap to confirm in the first call.",
         ],
     },
 }
