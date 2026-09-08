@@ -668,6 +668,183 @@ ROLES = {
             "200+ applicants with a named HR contact. Message her; a role with no stated bar attracts everyone, and the ones who ask a specific question get remembered.",
         ],
     },
+
+    "incresco": {
+        "title": "Chief of Staff to the CEO",
+        "company": "Incresco",
+        "place": "Bengaluru · onsite",
+        "tier": "Most balanced of the three",
+        "fit": "3.3", "odds": "3.0",
+        "resume": "resume/build/Nikita-Sachanandani-Chief-of-Staff-Ops.pdf",
+        "resume_name": "Nikita-Sachanandani-Chief-of-Staff.pdf",
+        "verdict": "One line in this JD is written around the credential nobody else asks for: <em>\"proven ability to hold people to commitments across teams you do not manage.\"</em> That is your financial-gatekeeper role exactly — budget authority over the whole health theme, not just your own programmes. You also hit four of their five preferred items. The band is 4–8 years and you are at the floor but inside.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4462655960", True),
+            ("Band", "4–8 years running operations, a function, or a business unit with its own outcomes", False),
+            ("Reports to", "The CEO. Department heads report to the CEO on function, <b>and to you on their numbers</b>", False),
+            ("The company", "Three business lines: a technology consulting practice and two product businesses", False),
+            ("The risk", "\"MBA <b>or equivalent commercial training</b>\" — softer than required, still a gate", False),
+            ("Competition", "200+ applicants", False),
+            ("Location", "Bangalore, onsite. Relocation from Mumbai", False),
+        ],
+        "route_note": "Their JD is unusually well written and states a house style: <em>\"Bring a recommendation, not options.\"</em> Match it. A hedged cover note from a candidate applying to a role about holding people to commitments answers the question before they ask it.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Chief of Staff role.",
+                "One line in your posting is the reason: proven ability to hold people to commitments across teams you do not manage. Almost nobody writes that down, and it is the part of my current job I would most want to keep doing.",
+                "At Tata Trusts I hold two mandates rather than one, Program Officer and Grants Manager, on a fourteen-person health team. The second one means I am the financial gate for the entire health theme, not only my own programmes: every partner's budget goes through me and is checked against whether the numbers genuinely reflect the work, before anything reaches CEO and Board approval. That is authority over teams that do not report to me, exercised weekly, and telling a colleague their number does not hold up is the job rather than the hard part of it.",
+                "I also built the reporting that did not exist before I arrived. The dashboards, the review rhythm and the briefs the CEO and Board decide from are mine, and they surface exceptions rather than status. Alongside that I manage a ₹450 crore ($51M) portfolio across 40+ programmes and run two to three month delivery cycles against stated dates, flagging slippage before the date rather than after.",
+                "Two things I will name rather than let you find. I do not have an MBA; my postgraduate qualification is the Young India Fellowship at Ashoka, which is a general one. And my commercial judgement has been exercised on capital deployment and cost efficiency rather than on revenue, so a P&L would be new. I would rather say that than have you discover it in the second conversation.",
+                "I am ready to be in Bangalore, and on a 30-day notice.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"Tell me about a time you held someone to a commitment when you had no authority over them.\"", "This is the interview. Have two ready and make them specific: a partner budget you sent back, and a date you flagged three weeks early with what you did about it. Name what it cost you in the relationship, because that detail is what makes the story credible."),
+            ("\"You do not have an MBA.\"", "Do not apologise. The line says <em>or equivalent commercial training</em>, so answer the substance: four years of capital allocation with board accountability, cost-per-unit modelling across 40+ programmes, and budget sign-off across a whole function. Then say what you would be learning, which is revenue."),
+            ("\"Every metric comes from a system, not a spreadsheet. Where are you on that?\"", "Their JD is emphatic about this. Be honest about your tooling: you built dashboards and reporting, and you should say plainly which tools and how far your Excel and BI depth actually goes. This is the second posting to test it and it remains unestablished in your own materials."),
+            ("\"You are at the bottom of our band.\"", "Four years carrying board-level accountability on a $51M portfolio is not four years of execution. Say what you owned, not how long."),
+        ],
+        "ask": [
+            "Which of the three business lines is furthest from where the CEO wants it?",
+            "What happens today when a department head misses a date?",
+            "Is there a management reporting system already, or would I be building it?",
+            "How do the two product businesses relate to the consulting practice commercially?",
+            "What would make you say this hire worked, six months in?",
+        ],
+        "checklist": [
+            "Cover note leads with the \"teams you do not manage\" line, because that is the match",
+            "Two accountability stories rehearsed, each with a specific number and date",
+            "Honest answer prepared on tooling depth: Excel, BI, what you actually use",
+            "MBA gap named in the note rather than discovered later",
+            "Confirmed you are genuinely willing to relocate to Bangalore",
+            "Tracker updated with a follow-up 5 days out",
+        ],
+        "flags": [
+            "<b>Not healthcare.</b> This is the trade the search has now handed you three times, after Cube and Honasa. Taking it spends the domain depth that is currently your sharpest differentiator, in exchange for a real chief-of-staff seat with genuine authority.",
+            "Small company across three business lines and no public profile to check. Ask about headcount, revenue and how long the CEO has wanted this seat filled.",
+            "\"MBA or equivalent commercial training\" is the one line you fail. Treat it as the thing to overcome in the letter, not something to hope goes unnoticed.",
+            "The JD is unusually direct about culture: every commitment carries a date, bring a recommendation rather than options, nothing reaches the CEO as information alone. That is a specific way of working. Decide you want it before you interview, because they will be testing for it from the first email.",
+            "Bangalore onsite means relocating from Mumbai for a company you cannot research from outside. Weigh that before you invest.",
+        ],
+    },
+
+    "weekday": {
+        "title": "Chief of Staff, Office of the CEO",
+        "company": "Weekday AI (YC W21) — hiring for an undisclosed client",
+        "place": "Hyderabad · work from office",
+        "tier": "Widest experience band found anywhere",
+        "fit": "3.3", "odds": "3.0",
+        "resume": "resume/build/Nikita-Sachanandani-Chief-of-Staff-CEO-Office.pdf",
+        "resume_name": "Nikita-Sachanandani-Chief-of-Staff.pdf",
+        "verdict": "The band is <b>2–10 years</b> with no degree requirement anywhere, which is the widest and least gated posting in this entire search. Their decision-support framework — issue, options, implications, recommendation, decision required — is how you already write for a board. The catch is at the top of the JD: <em>\"This role is for one of the Weekday's clients.\"</em> You would be applying to a company whose name you do not know.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4455586436", True),
+            ("<b>Read this first</b>", "Weekday is a recruiting marketplace. <b>The employer is undisclosed</b> — see the flags", False),
+            ("Band", "<b>2–10 years.</b> No degree requirement stated anywhere", False),
+            ("Reports to", "Co-Founder &amp; CEO", False),
+            ("Scope", "Product, Engineering, AI/ML, Partnerships, Operations, Institutional Engagements", False),
+            ("Location", "Hyderabad, work from office", False),
+        ],
+        "route_note": "Because the employer is hidden, treat the first reply as an information-gathering call rather than an interview. Ask who the company is, what stage, and why the CEO wants this seat, before you invest anything further.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Chief of Staff role in the Office of the CEO.",
+                "Your description of decision support is the part that made me write: structuring an ambiguous problem as issue, options, implications, recommendation, decision required, and arriving with a point of view rather than escalating. That is how I have written for four years. At Tata Trusts I take 30 to 50 proposals a month through a fixed screening framework, run deep-dive diligence on what survives, and put a recommendation in front of the CEO and Board of Trustees. An audience like that has a low tolerance for a conclusion the analysis does not carry.",
+                "On the operating cadence: I built the trackers, review rhythm, decision logs and dashboards the leadership at the Trusts decides from, and I hold two mandates rather than one, which in practice means I am also the financial gate for the entire health theme. Every partner budget in the portfolio is checked by me before it advances. That is coordination across teams I do not manage, which is most of what this role sounds like.",
+                "On institutional engagements: I have originated and closed 15+ institutional partnerships from a standing start, and structured programmes to work through government systems rather than around them. Preparing a principal for a meeting with an institution, and then making sure what was agreed actually happens, is familiar work.",
+                "Where I would be learning: I have not coordinated engineering or AI/ML delivery, and your JD is clear that visibility into technical milestones matters. I can hold a technical conversation without pretending to be an engineer, and I would rather say that plainly than overstate it.",
+                "I am ready to be in Hyderabad, on a 30-day notice.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("<b>\"Who is the company?\"</b> — <em>you</em> ask this, first", "Non-negotiable. The posting hides the employer. Before a second conversation you need the name, the stage, the funding position and why the seat is open. A recruiter who will not say is a reason to stop."),
+            ("\"Walk me through how you structure a decision for a CEO.\"", "Their framework is written into the JD, so use your own version of it and then show a real example: a proposal you recommended against, what the options were, and what the board did with it."),
+            ("\"How would you handle an engineering milestone slipping?\"", "You have not done this. Do not pretend. Say what you would do instead: understand the dependency, find out who else is blocked, get the date restated honestly, and make sure the CEO hears it before it becomes a surprise. That is the transferable half."),
+            ("\"Why leave the Trusts?\"", "Forward-looking, 30 seconds, no criticism. Script in private/exit-narrative.md."),
+        ],
+        "ask": [
+            "Which company is this, and what stage are they at?",
+            "Why is the seat open now, and has anyone held it before?",
+            "What proportion of the role is technical coordination versus strategic initiatives?",
+            "Who are the institutional stakeholders the CEO is engaging with?",
+            "How quickly does this process move?",
+        ],
+        "checklist": [
+            "<b>Get the employer's name before the second conversation.</b> Everything else depends on it",
+            "One decision-support story ready in their exact framework",
+            "Honest position rehearsed on engineering coordination, not an overclaim",
+            "Confirmed you are willing to be in Hyderabad",
+            "Tracker updated",
+        ],
+        "flags": [
+            "<b>The employer is undisclosed.</b> Weekday is a recruiting marketplace and this role is for a client. You cannot assess the company, its funding, its culture or its alumni, and the company-signal dimension is unscoreable rather than merely unknown.",
+            "Recruiter-mediated processes are either fast or a black hole, with little in between. Set your own deadline for getting a name.",
+            "The scope is genuinely wide — Product, Engineering, AI/ML, Partnerships, Operations, Institutional Engagements. At an unknown company that could mean real breadth or it could mean nobody owns anything.",
+            "Not healthcare, and the domain is unknown, so even the consolation of an adjacent sector is not guaranteed.",
+            "2 to 10 years is a very wide band. It usually means either an unusually flexible hiring manager or an unclear brief. Worth asking which.",
+        ],
+    },
+
+    "darwinbox": {
+        "title": "Chief of Staff to the Co-Founder",
+        "company": "Darwinbox",
+        "place": "Hyderabad",
+        "tier": "Best fit, hardest odds",
+        "fit": "3.7", "odds": "2.3",
+        "resume": "resume/build/Nikita-Sachanandani-Chief-of-Staff-Systems.pdf",
+        "resume_name": "Nikita-Sachanandani-Chief-of-Staff.pdf",
+        "verdict": "The strongest company of the three by a distance: a genuine Indian SaaS unicorn, reporting to a Co-Founder, with no years bar and no degree gate stated. \"Build the intelligence layer\" and \"build systems, not dependency\" describe what you already did at the Trusts. The odds are the worst because one pillar of the role — <b>hands-on AI and automation fluency</b> — is something you cannot currently evidence.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4459686299", True),
+            ("Reports to", "A Co-Founder", False),
+            ("Years required", "<b>None stated</b>", False),
+            ("Degree required", "<b>None stated</b>", False),
+            ("The hard requirement", "<b>Hands-on AI/automation fluency.</b> This is the gap", False),
+            ("Backgrounds they name", "Strategy, consulting, product, operations, investment banking — philanthropy is not listed", False),
+            ("Location", "Hyderabad", False),
+        ],
+        "route_note": "Do not apply to this one cold and hope. The AI pillar is explicit and repeated three times in the JD; if you cannot speak to it concretely, the application dies at the first screen. Spend an evening making that answer real before you send anything.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Chief of Staff role with the Co-Founder.",
+                "Two lines in your posting describe work I have already done. Build the intelligence layer: at Tata Trusts I synthesise inputs across 40+ programmes into the dashboards and briefs the CEO and Board of Trustees decide from, and the job is separating signal from noise early enough that a problem is still cheap. And build systems, not dependency: I hold two mandates rather than one, which means I am the financial gate for the entire health theme, and the point of building that discipline properly was that the standard holds without me in every review.",
+                "I also manage a ₹450 crore ($51M) portfolio and take 30 to 50 proposals a month from a fixed screening framework through to a recommendation. Taking a loosely defined priority and driving it to owners, cadence and a measurable outcome is the shape of my week.",
+                "On the AI pillar, I will be straight with you rather than claim fluency I do not have. I am not going to tell you I have redesigned workflows with agents. What I can tell you is that I have spent four years deciding which technologies were ready to be deployed and which demoed well, with health-tech and AI diagnostics as sub-themes I own, and I have structured technology pilots under a deliberately heavier evidence bar. That is judgement about where a technology genuinely changes the work, which is the harder half of making AI operational. The tooling I would be learning quickly, and I would expect to be behind for a quarter.",
+                "I am ready to be in Hyderabad, on a 30-day notice.",
+                "Nikita Sachanandani<br>+91 7698030306 · sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("<b>\"Show me how you use AI in your own work.\"</b>", "The question that decides this application, and it will be asked. A general answer fails. Before applying, actually build something small and real — a research workflow, a synthesis process, a tracker you automated — and be able to describe what it replaced and what it saved. This is preparation, not framing."),
+            ("\"Where would you make Darwinbox AI-native first?\"", "Have a view. Their JD names research, synthesis, preparation, monitoring and follow-through as the targets. Pick one, say why it is first, and say what would make you wrong. Do not attempt an opinion about their product."),
+            ("\"Your background is philanthropy. Our list says strategy, consulting, product, operations or banking.\"", "Answer it structurally, as always: screening at volume, diligence on people, capital allocation, portfolio monitoring, board reporting. Then name the honest difference, which is that you have never worked at software pace."),
+            ("\"Give me an example of building a system that worked without you.\"", "Your ground. The financial gate across the health theme is exactly this: a standard applied by others because the mechanism held, not because you were in the room."),
+        ],
+        "ask": [
+            "Which Co-Founder, and what does their week look like today?",
+            "What does AI-native mean at Darwinbox internally, as opposed to in the product?",
+            "Has this role existed before, and what happened to the person who held it?",
+            "What is the single decision that has been stuck longest?",
+            "How much of this is building mechanisms versus running them once built?",
+        ],
+        "checklist": [
+            "<b>Build a real AI workflow before applying.</b> One you can describe concretely, with what it replaced. Without this the application fails at the first screen",
+            "A view prepared on where an enterprise SaaS company should go AI-native internally first",
+            "\"Systems not dependency\" story ready: the financial gate across the health theme",
+            "Philanthropy-to-software answer rehearsed, including the honest part about pace",
+            "Confirmed you are willing to be in Hyderabad",
+            "Tracker updated",
+        ],
+        "flags": [
+            "<b>Darwinbox is the best company on this shortlist</b> — a real Indian SaaS unicorn with checkable alumni and a brand that credentials you out of philanthropy decisively. That is why the fit scores 3.7 despite the gap.",
+            "<b>The AI fluency requirement is not decorative.</b> It appears three times: build AI-native ways of working, make AI operational, hands-on AI/automation fluency. Treat it as a genuine prerequisite and spend real time on it before applying.",
+            "The backgrounds they name do not include philanthropy or the social sector. You are outside the stated pool and have to earn your way in on substance.",
+            "Seniority is tagged \"Not Applicable\", which usually means the level is negotiable against the candidate. That can work for you at four years, or against you.",
+            "Hyderabad, and this is your second relocation-required role on the same shortlist. Decide the relocation question once rather than three times.",
+        ],
+    },
 }
 
 CSS = """
@@ -851,7 +1028,7 @@ def build(key, role):
 </section>
 
 <footer>
-  Scored against applications/RUBRIC.md, from the full job description. Built 17 Aug 2026.
+  Scored against applications/RUBRIC.md, from the full job description. Built 8 Sep 2026.
   The resume is embedded in this file — it downloads with no network connection.
 </footer>
 
