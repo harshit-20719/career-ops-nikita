@@ -846,6 +846,66 @@ ROLES = {
             "<b>Ask about the shift, even though this posting doesn't mention one.</b> Darwinbox has 13 roles open and <b>three of them say \"US Shift\" in the title</b> — Delivery Assurance Consultant, Engagement Manager, US Functional Consultant. That is a company running US-facing hours for part of its organisation. A chief of staff reporting to a Hyderabad-based co-founder should be IST, but your timezone gate is absolute and this is cheap to confirm in the first call.",
         ],
     },
+
+    "novartis": {
+        "title": "Senior Manager &mdash; Market Access",
+        "company": "Novartis India",
+        "place": "Greater Hyderabad",
+        "tier": "Highest fit on the board right now",
+        "fit": "3.9", "odds": "2.0",
+        "resume": "resume/build/Nikita-Sachanandani-Market-Access.pdf",
+        "resume_name": "Nikita-Sachanandani-Market-Access.pdf",
+        "verdict": "Decode the jargon and this is the closest functional match to your actual work that anyone has posted. <b>HTA means Health Technology Assessment: deciding whether a health technology delivers enough benefit per rupee to justify paying for it.</b> That is what you have done for four years with real money behind the judgement. The odds are poor because Senior Manager at Novartis is an 8-to-12-year band and the posting's requirements section is broken.",
+        "route": [
+            ("Apply at", "linkedin.com/jobs/view/4460730223", True),
+            ("What it actually is", "Market Access: HTA submissions, payer research, brand pricing, listing agreements", False),
+            ("Stated requirements", "<b>None.</b> The \"Essential Requirements\" section lists success metrics, not requirements", False),
+            ("Real bar, inferred", "Pfizer's <em>Manager</em> role, one band lower, wants \"Science graduate with MBA, 5&ndash;12 years\"", False),
+            ("Scope", "\"Country level\" and \"national patient access\" &mdash; India market, not a global services seat", False),
+            ("Competition", "130 applicants", False),
+            ("Location", "Greater Hyderabad. Relocation from Mumbai", False),
+        ],
+        "route_note": "<b>This is referral-dependent, like IQVIA.</b> A cold application into a Senior Manager band you are four years short of will be filtered. Spend the hour finding one person in Novartis India's market access or patient access function before you spend it tailoring further.",
+        "letters": [
+            ("Cover note", [
+                "I'm applying for the Senior Manager role in Market Access.",
+                "The reason I think this is worth your time despite an unconventional background: health technology assessment is the work I already do. At Tata Trusts I manage a &#8377;450 crore ($51M) healthcare portfolio, and health-tech and AI diagnostics are sub-themes I own. The decision I make repeatedly is whether a technology delivers enough benefit per rupee to justify public money going into it, at what scale, and on what evidence. I structure technology pilots under a deliberately heavier evidence bar, choosing the conditions and geographies that will genuinely test a claim rather than flatter it, and I build the economic case that decides whether something is funded.",
+                "On the payer side: in India the largest payer is government, and I have spent four years working through it rather than around it. My programmes are structured to run through existing government systems and schemes instead of duplicating them, and I deal directly with health departments and public programme managers. I also built a geospatial cost-effectiveness analysis across Indian states showing how identical interventions delivered materially different benefit per rupee by geography, which shaped where the Trusts allocated capital.",
+                "One thing that is genuinely mine rather than a stretch: I am writing a paper comparing the US and Indian health economies, arguing for greater investment in preventive care. Health economics is not a function I would be learning from scratch.",
+                "Where I would be learning, and I would rather say it than have you find it: I have not built a brand pricing strategy, negotiated a product listing agreement, or made an HTA submission to a P&amp;R body. I know the analysis underneath those things; I do not know the pharma commercial machinery around them. I am also at four years, which I recognise sits below a Senior Manager band.",
+                "Nikita Sachanandani<br>+91 7698030306 &middot; sachanandani.nikita@gmail.com",
+            ]),
+        ],
+        "questions": [
+            ("\"Talk me through an HTA submission you have worked on.\"", "You have not made one. Say so in a sentence and substitute the closest real thing: a technology you assessed, the evidence standard you applied, what you needed to see before recommending funding, and what you rejected. The analysis is the same; the submission format is not."),
+            ("\"What do you know about NPPA, DPCO and state reimbursement?\"", "Almost certainly asked, and largely a gap. Do not bluff on regulatory specifics. What you can speak to credibly is how public health programmes actually procure and deliver at state level, which is the practical half most candidates lack."),
+            ("\"How would you build the economic case for a new brand's listing?\"", "Your ground, translated. Burden of disease and eligible population, standard of care today and what it costs, incremental benefit, budget impact on the payer, and where the uncertainty sits. Then say what would make you revise it, because the restraint reads as maturity."),
+            ("\"You are at four years and this is a Senior Manager role.\"", "Do not dodge. Four years with board accountability on a $51M portfolio is not a standard four years. Then ask directly what band they have set, because their posting does not say, and if the honest answer is eight years it is better to know in call one."),
+        ],
+        "ask": [
+            "What band is this role actually set at? The posting does not state one",
+            "Which therapy areas would I cover, and are any of them in public programmes?",
+            "Is this India-market, or does it support other countries as well?",
+            "How much of the role is HTA and evidence versus commercial negotiation?",
+            "What are the hours? Novartis has a large Hyderabad services presence and I want to understand which side this sits on",
+        ],
+        "checklist": [
+            "<b>Find a referral first.</b> Novartis India market access or patient access, via LinkedIn. This is the lever that matters",
+            "Confirm the band in the first conversation, because the posting genuinely does not state one",
+            "Confirm it is India-market and IST, not a global services seat",
+            "One technology-assessment story ready: what you assessed, the evidence bar, what you rejected",
+            "Health economics paper mentioned. It is the most distinctive thing you have here",
+            "Tracker updated with a follow-up 7 days out",
+        ],
+        "flags": [
+            "<b>The posting is mis-assembled.</b> Its Essential Requirements section lists success metrics rather than requirements, so no years and no degree are stated. That is a broken JD rather than an open door, and the real bar lives in their ATS.",
+            "<b>Pfizer's comparable role is one band lower and gates on a science graduate with an MBA.</b> Assume Novartis is at least as strict. This is the eighteenth credential wall in this search and the reason odds sit at 2.0.",
+            "Two lines in the JD, reporting adverse events within 24 hours and distributing marketing samples, are pharmacovigilance and commercial boilerplate. They signal this seat carries regulatory obligations and sits closer to the commercial field than the title suggests.",
+            "Novartis has a large Hyderabad global-services operation alongside its India commercial org. This posting reads India-market, but confirm it, because their other Hyderabad market access role is explicitly a global support seat.",
+            "<b>Market access is a lane worth entering even if this role fails.</b> Fifteen live roles across Pfizer, Boehringer, MSD, Takeda, Parexel, Syneos and Evalueserve. The likely entry point is the research firms rather than the pharma companies. See applications/evals/2026-09-08-market-access.md.",
+            "Budget Impact Models are the core deliverable of this function, and financial modelling has now blocked five separate lanes. If you enter market access seriously, that skill stops being optional.",
+        ],
+    },
 }
 
 CSS = """
