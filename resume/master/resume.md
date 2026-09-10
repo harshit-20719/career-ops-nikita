@@ -157,7 +157,16 @@ Apollo Hospitals · St. Jude · Tanuh.AI _(fuller list to come from Nikita)_
 
 ---
 
-### Tiff.in Productions — Co-founder & Head of Business Strategy
+### Tiff.in Productions — Co-founder & Head of Business Strategy `[VERIFY: what the business actually was]`
+
+> **⚠ Correction logged 2026-09-10.** A kit described Tiff.in as "a food and content
+> business." **Nikita never said that** — it was inferred from the name and is not backed
+> by anything in her materials. Removed from the HospiPal cover email. What the source
+> documents actually support is: co-founded, incubated by Ashoka University (3 of 35
+> teams funded), market sizing and unit economics, pitched to 20+ VC funds, and 520%
+> YouTube / 370% Instagram growth across 4 channels. **Ask her what the business sold
+> before any version describes it.** It matters for consumer and D2C applications, where
+> a real food or media credential would be load-bearing.
 **Oct 2021 – Aug 2022 · Incubated by Ashoka University**
 
 - Selected for Ashoka University incubation — 3 of 35 teams funded — after a competitive
