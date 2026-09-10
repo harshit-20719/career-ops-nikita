@@ -52,25 +52,28 @@ fund where every hire must have closed deals.
 
 ---
 
-## The message · 1,030 characters
+## The message · 849 characters
 
-> Hi Pankaj, congratulations on closing Fund II.
+**Rewritten 2026-09-10.** The first draft opened with *"the reason I'm writing is the model
+rather than the fund"*, which is a construction that sounds like insight and means very
+little, followed by a swipe at *"founders who arrive with a deck"* and a claim about what
+*"most investing"* is. Making pronouncements about an industry she is trying to enter, to
+someone who has been in it for years, is the wrong posture. Rewritten plainly.
+
+> Hi Pankaj, congratulations on Fund II.
 >
-> The reason I'm writing is the model rather than the fund. Spending 12 to 18 months
-> identifying a gap in delivery and de-risking it before a founding team exists is a
-> different discipline from backing founders who arrive with a deck, and it is much closer
-> to what I actually do than most investing is.
+> Your company creation model is the reason I'm writing. Spending 12 to 18 months
+> understanding a gap in healthcare delivery before there's a company to back is close to
+> what I do now, and I haven't seen many funds work that way.
 >
-> At Tata Trusts I manage a ₹450 crore healthcare portfolio and spend my time deciding
-> which technologies and delivery models are worth capital in India. Health-tech and AI
-> diagnostics are sub-themes I own, so a lot of the last four years has been separating what
-> works in a pilot from what survives a real system, and choosing the conditions and
-> geographies that would genuinely test a claim rather than flatter it.
+> I'm at Tata Trusts, where I manage a ₹450 crore healthcare portfolio. Most of my job is
+> deciding which technologies and delivery models are worth funding in India. Health-tech
+> and AI diagnostics are the areas I own, so I spend a lot of time on the gap between
+> something that works in a pilot and something that survives a real system.
 >
-> I'm moving to the investing side of that deliberately. I know nothing is posted and I'm
-> not asking you to invent a role. I'd value 20 minutes to understand how the company
-> creation model actually runs, and what you look for in the people doing that evaluation
-> work.
+> I'd like to move to the investing side of that. I know nothing is posted and I'm not
+> asking you to create a role. I'd value 20 minutes to understand how the model works in
+> practice, and what you look for in the people doing that evaluation work.
 
 ### Shorter version · 215 characters
 
