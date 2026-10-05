@@ -124,15 +124,28 @@ def verify(pdf_path):
     """Extract the text back out and confirm the ATS-critical fields survived."""
     try:
         from pypdf import PdfReader
-    except ImportError:
-        print("  ! pypdf not installed — skipping verification (pip install pypdf)")
-        return True
+        reader = PdfReader(pdf_path)
+        pages = len(reader.pages)
+        text = "\n".join(p.extract_text() or "" for p in reader.pages)
+    except BaseException as exc:
+        # Not `except ImportError`. In a fresh container pypdf imports
+        # `cryptography`, whose Rust binding can panic with a PanicException —
+        # which derives from BaseException, so the narrower clause sailed past
+        # it and took the whole build down. Fix with:
+        #     pip install --upgrade cryptography pypdf
+        print(f"  ! Cannot read the PDF back ({type(exc).__name__})"
+              " — ATS CHECK DID NOT RUN")
+        print("    Fix with: pip install --upgrade cryptography pypdf")
+        print("    Do not send this PDF until the check passes.")
+        report_embedded_fonts(pdf_path)
+        return False
 
-    reader = PdfReader(pdf_path)
-    pages = len(reader.pages)
-    text = "\n".join(p.extract_text() or "" for p in reader.pages)
-
-    missing = [field for field in REQUIRED if field.lower() not in text.lower()]
+    # Compare with whitespace stripped out. Chromium positions text run by run,
+    # so "Nikita Sachanandani" can come back with the space absent or doubled,
+    # and a plain substring check would call a perfectly good PDF broken.
+    flat = re.sub(r"\s+", "", text).lower()
+    missing = [field for field in REQUIRED
+               if re.sub(r"\s+", "", field).lower() not in flat]
     words = len(text.split())
 
     print(f"  pages: {pages}   extractable words: {words}")
