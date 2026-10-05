@@ -20,9 +20,9 @@ this CV is a consumer operator, not a hospital administrator.
 depth was the qualification. Here **the healthcare depth is the differentiator and the
 consumer-brand record is the qualification** — and the CV is swapped accordingly:
 partnership lifecycle rather than grant lifecycle, origination targets rather than
-grantmaking targets, the sub-themes named explicitly so a fertility or mental-health
-founder sees their own category, and the Tiff.in growth bullet widened to say she owned
-content, publishing and distribution end to end.
+grantmaking targets, institutional partnerships specified as hospitals, research
+institutes and clinical networks, and the sub-themes named explicitly so a fertility or
+mental-health founder sees their own category.
 
 One useful detail: Fireside markets purpose — "doing well by doing good," with a
 Responsible Investment Policy on their own footer. **Her development-sector background
@@ -38,23 +38,28 @@ It is now 683 and fits.
 
 ---
 
-## ⚠ The one thing she has to fix before this goes out
+## Tiff.in — resolved 2026-10-05
 
-**The CV says "Tiff.in Productions | Incubated by Ashoka University" and never says what
-the business sold.**
+**It was an edutainment platform:** short-form and long-form content on Indian history,
+made for educational purposes but written with deliberately fun scripts to make learning
+interesting. **Sold to ages 16 to 35.** Her words.
 
-On a healthcare CV that passes. **On a CV circulated to consumer-brand founders it is the
-first question every reader will have**, because Tiff.in is the bullet they care most
-about — a co-founded consumer business with 520% and 370% channel growth is the line that
-makes her a candidate here at all.
+That now sits in the CV as one compact descriptor in the org line:
 
-I am not filling it in. I inferred "a food and content business" once from the name, which
-was wrong, she corrected it, and it is flagged `[VERIFY]` in the master resume for that
-reason. **She needs to give me one honest clause** — what it sold and to whom — and I will
-place it in the org line in thirty seconds. Until then the CV is sendable but weaker than
-it should be.
+> **Tiff.in Productions** | Edutainment platform, Indian history content for ages 16–35 ·
+> Incubated by Ashoka University
 
----
+**And it is deliberately no more than that.** Her instruction: *"I don't want us to dwell
+a lot on tiffin, it was a 1 year stint and that's that."* So the widened growth bullet
+from the first draft — which had added "owning the content, publishing, and distribution
+end to end" — has been **reverted to the base wording**. One line in the org field answers
+the reader's question without building the CV around a single year.
+
+**One consequence worth acting on elsewhere:** Tiff.in was an *education* business, and
+`047-lumiere` (Lumiere Education, founder's office) already leads with it. That kit calls
+it a "content business," which is accurate but undersells it. The stronger, equally honest
+version is that she co-founded an educational content platform for roughly the same age
+band Lumiere serves. Worth rewording that cover letter if the row is still live.
 
 ## The blurb for whoever is circulating it
 
@@ -90,6 +95,14 @@ with three lines saying what she is and what to consider her for gets forwarded.
 > consumer-health. Mumbai or Bangalore.
 
 ---
+
+> **Read this section as context for her, not as instructions for the circulator.**
+> Confirmed 2026-10-05: she does not know which companies it is going to or which roles
+> she is being considered for. It is a blind circulation — *"wherever it fits, it will be
+> taken up."* So the CV below is left deliberately general across healthcare and consumer
+> rather than tilted toward any one company, and the tiering is here so that **when she
+> finds out where it landed, she already knows which conversations to push and which to
+> let come to her.**
 
 ## Per-company read — and she should not let this go to all 66
 

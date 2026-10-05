@@ -157,16 +157,28 @@ Apollo Hospitals · St. Jude · Tanuh.AI _(fuller list to come from Nikita)_
 
 ---
 
-### Tiff.in Productions — Co-founder & Head of Business Strategy `[VERIFY: what the business actually was]`
+### Tiff.in Productions — Co-founder & Head of Business Strategy
 
-> **⚠ Correction logged 2026-09-10.** A kit described Tiff.in as "a food and content
-> business." **Nikita never said that** — it was inferred from the name and is not backed
-> by anything in her materials. Removed from the HospiPal cover email. What the source
-> documents actually support is: co-founded, incubated by Ashoka University (3 of 35
-> teams funded), market sizing and unit economics, pitched to 20+ VC funds, and 520%
-> YouTube / 370% Instagram growth across 4 channels. **Ask her what the business sold
-> before any version describes it.** It matters for consumer and D2C applications, where
-> a real food or media credential would be load-bearing.
+> **✅ RESOLVED 2026-10-05, in Nikita's own words.** Tiff.in was an **edutainment
+> platform**: short-form and long-form **content on Indian history**, made for
+> educational purposes but written with deliberately fun scripts to make learning
+> interesting. **Audience: ages 16–35.**
+>
+> **Use this wording and nothing more inventive.** The earlier error is why: a kit once
+> described it as "a food and content business," which she never said — it was inferred
+> from the name. That was removed from the HospiPal cover email on 2026-09-10 and the
+> field was flagged until she answered.
+>
+> **Keep it proportionate.** Her instruction, 2026-10-05: *"I don't want us to dwell a lot
+> on tiffin, it was a 1 year stint and that's that."* One descriptor in the org line is
+> the right weight. A widened growth bullet was reverted on the Fireside version for
+> exactly this reason. Do not build a version around it again.
+>
+> **One real consequence worth acting on:** Tiff.in was an **education** business, which
+> materially strengthens `047-lumiere` (Lumiere Education, founder's office), where the
+> application already leads with Tiff.in. That kit calls it a "content business," which is
+> accurate but undersells it — the honest version is that she co-founded an educational
+> content platform for roughly the same age band Lumiere serves.
 **Oct 2021 – Aug 2022 · Incubated by Ashoka University**
 
 - Selected for Ashoka University incubation — 3 of 35 teams funded — after a competitive
