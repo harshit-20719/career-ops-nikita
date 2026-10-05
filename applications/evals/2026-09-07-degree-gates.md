@@ -73,3 +73,51 @@ all.
 requirement is marked *preferred* rather than required. That is the only large-firm
 posting on the board that leaves the door open, and it is also the one where a referral
 matters most.
+
+---
+
+## The tally since, through 2026-10-05
+
+Seven more, same line. **Nineteen in total.**
+
+| # | Role | Company | The line |
+| --- | --- | --- | --- |
+| 13 | Head, Category Strategy | bigbasket | 8–12 years and a Tier-1 MBA preference |
+| 14 | Lead, Partnerships & Collaboration | Dr. Reddy's | B.Pharm / MSc / Chemical Engg **+ MBA**, 8–12 years |
+| 15 | Lead, Retail Strategy & Commercial Excellence | Biocon | PG degree in Business Administration, 10 years in pharma |
+| 16 | Technology Finance | Darwinbox | CA or MBA Finance |
+| 17 | Market Access | Pfizer | "Science graduate with MBA with 5–12 years" |
+| 18 | Clinical Associate | Evervie | MBBS preferred, open to nursing or allied health |
+| 19 | **Portfolio Strategic Planning Manager** | **Cipla** | **"Science / B.Pharm graduation with MBA from a premium institute"** |
+
+**Cipla is the cleanest illustration in the whole list**, because it gates twice in one
+sentence: a science or pharmacy *undergraduate* degree, and then an MBA from a named
+institution. Nikita holds a B.A. in Economics and a P.G.D. from Ashoka. There is no
+version of her CV that answers it, and no amount of tailoring that gets past it.
+
+### The recommendation has not changed, and the record has got worse
+
+0-for-8 became **0-for-14 on large pharma, medtech and life-sciences strategy.** Every
+one was a genuine fit on substance. Cipla's accountabilities are close enough to her real
+work to be irritating: portfolio collation across geographies, prioritisation using
+revenue potential and lifecycle stage, variance analysis against launch KPIs, and
+"insight-driven portfolio presentations for senior leadership." She does all of that on a
+$51M portfolio. It does not matter, because the degree line is applied before a human
+reads any of it.
+
+**Large-pharma corporate strategy should now be treated as closed, not as a lane with bad
+odds.** A lane that has returned nothing in fourteen attempts on an unchangeable
+criterion is not a lane.
+
+### What replaced it, and why that is the better use of the hour
+
+The doors listed above have held up. Since 2026-09-07 the postings that scored highest
+all had no credential bar: ACT Fellowship (no MBA, no CA, no B.Pharm, no tier-1), Rock
+Health Advisory ("Bachelor's degree", emphasis only *desirable*), Weekday AI (2–10 years,
+no degree requirement anywhere), Darwinbox Chief of Staff (no years bar, no degree gate),
+and **2070 Health New Ventures — 4.3/4.0, the best combined score of the search, whose
+stated bar names healthcare as a qualifying route in its own right.**
+
+That is the pattern, stated as plainly as it can be: **the roles she can actually get are
+the ones where someone writes the posting to describe a job, rather than to filter a
+queue.**
