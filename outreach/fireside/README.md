@@ -38,6 +38,67 @@ It is now 683 and fits.
 
 ---
 
+## Portfolio verification — checked 2026-10-05, all 13 confirmed
+
+Nikita asked whether the companies her contact named are actually Fireside portfolio
+companies. **Right question, and it needed asking** — on the first pass I had verified
+only DUSQ directly from their site, and taken the rest from the list she was sent.
+
+Now checked against **Fireside's own portfolio page**, `firesideventures.com/blogs/portfolio`
+(their `/portfolio` and `/pages/portfolio` paths both 404, which is why it took finding).
+
+**All thirteen are there:**
+
+| Contact's list | On Fireside's own page |
+| --- | --- |
+| Fitterfly | ✅ |
+| Amaha Health | ✅ |
+| Raaz App | ✅ |
+| Inito | ✅ |
+| Gynoveda | ✅ |
+| Traya | ✅ |
+| The Good Bug | ✅ |
+| Earthful | ✅ |
+| Wellbeing Nutrition | ✅ |
+| The Ayurveda Experience | ✅ |
+| Sarva | ✅ |
+| DUSQ | ✅ (listed as "DUSQ (Innergize)") |
+| Wellopia | ✅ |
+
+So the list is sound and the brief stands. Their own numbers are slightly inconsistent —
+the homepage says "66+ brands", their `llms.txt` says "64+", and the portfolio page lists
+around 73 names, probably including exits — but that does not affect anything here.
+
+### Two the contact missed, both verified from Fireside's own pages
+
+**Promom** — Lucknow. Fireside classifies it under **Health & Wellness**. "Feeding and
+nursing essentials for the first 24 months, combining international standards, Indian
+pricing, and local service to give parents reassurance when they need it most."
+
+**This is the closest thing in the whole portfolio to her maternal health work**, which was
+a named sub-theme on her $51M portfolio. It also looks early — it sits first in their
+rotating homepage list — so a founder's-office or first-business-hire seat is plausible.
+**The catch: Lucknow is not on her location list**, so it would have to be remote or
+involve relocation she has not agreed to.
+
+**Kapiva** — **Mumbai**, P0. Also **Health & Wellness**. "Modern Ayurvedic nutrition…
+thoughtfully sourced, **research-backed** foods." At real scale. Same Ayurveda-versus-
+evidence tension as Gynoveda, but the phrase "research-backed" is their own, which makes
+it a fair thing to ask about rather than a thing to worry about silently.
+
+Two others are health-adjacent but classified elsewhere, and are weaker fits: **Supertails**
+(Bangalore, pet care with vet guidance, filed under Lifestyle) and **The Sleep Company**
+(Mumbai, comfort-tech mattresses, filed under Home & Decor).
+
+### The structurally useful thing
+
+**Fireside tags every brand by sector, and one of the tags is "Health & Wellness."**
+If the contact is circulating blind, the single most useful request is: *send it to the
+Health & Wellness list first.* That is a filter on their own site, it takes one click, and
+it is a far better targeting instruction than naming companies one at a time.
+
+---
+
 ## Tiff.in — resolved 2026-10-05
 
 **It was an edutainment platform:** short-form and long-form content on Indian history,
