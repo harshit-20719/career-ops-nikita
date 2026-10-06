@@ -109,12 +109,21 @@ range across both origination and financial control.
 #### Analysis and strategy
 
 - **Built a geospatial investment heat map covering every rupee the Trusts deployed
-  across 26 Indian states** `[VERIFY: 26, or "Indian states"]`, measuring ROI by
-  geography and sub-theme — showing how identical interventions produced materially
-  different returns by region and terrain. **Directly shaped portfolio allocation
+  across 26 Indian states** `[VERIFY: 26, or "Indian states"]`, measuring **cost-effectiveness**
+  by geography and sub-theme — showing how identical interventions produced materially
+  different results by region and terrain. **Directly shaped portfolio allocation
   decisions from 2022–2024**, identifying where capital could be deployed more
   efficiently, which programmes to concentrate on, and which needed non-financial
   support. _Your strongest single piece of work. Lead with it on analytical roles._
+  > **Wording changed 2026-10-06.** This said "measuring ROI" and "different returns by
+  > region". That was Nikita's own word from intake, so it is not an invention — but a
+  > return on investment is a financial ratio, and a grant portfolio produced no financial
+  > return. It invites exactly the follow-up she flagged: *"what returns did you
+  > generate?"* **Cost-effectiveness is the real term of art for this work**, it is a
+  > recognised discipline in health economics, and with a healthcare audience it is
+  > stronger rather than weaker. Swept across all 23 resume versions. See
+  > `resume/LANGUAGE.md` for the full set of alternatives, including the three register
+  > choices still open to her.
 - Developed investment briefs and portfolio dashboards presented directly to the CEO;
   drove a 60% improvement `[VERIFY: 60% of what, measured how]` in proactive
   grantmaking targets and cost-per-beneficiary efficiency.
