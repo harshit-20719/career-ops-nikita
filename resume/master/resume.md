@@ -33,6 +33,20 @@ healthcare strategy and consulting, lead with domain depth and the analytical wo
 ### Tata Trusts — Program Officer, Healthcare Portfolio `[VERIFY: title]`
 **July 2022 – September 2026 · Mumbai**
 
+> **✅ Confirmed 2026-10-07: she has left. Last day 25 September 2026.** The master
+> already carried the correct end date; **all 26 resume versions still said "July 2022 –
+> Present" and have been corrected.** Two consequences worth carrying into every
+> application from here:
+> 1. **Tenure is now 4 years 3 months**, not "four years". Close enough to keep saying
+>    four in prose, but the dates on the CV are what a screener reads.
+> 2. **She is immediately available, and that is an asset.** Several postings state a
+>    preference for immediate joiners (Beyond says so outright). Where it helps, say it.
+>    Where she would rather not volunteer that she has left, the phrasing "I have spent
+>    the last four years at Tata Trusts" is true either way and reveals nothing.
+>
+> `upnexxt` still reads "2024 – Present" and was deliberately left alone, since she has
+> not said that ended.
+
 _One of India's oldest and largest philanthropic organisations, and the principal
 shareholder of Tata Sons. Health portfolio: 14 people; programmes function: ~50;
 organisation: ~200. Reported to the Director of the Health Portfolio._

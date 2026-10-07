@@ -8,59 +8,35 @@ short declarative statements.
 
 ---
 
-## Draft A · 257 words · the fuller one
+## The email to send · 210 words
+
+**Revised 2026-10-07 to her edits:** dropped the closing comparison she disliked, folded
+Tiff.in in plainly with no self-deprecating framing, and added what she actually wants.
+**Her departure from the Trusts is not mentioned**, per her instruction.
 
 **Subject:** Analyst role, Advisory
 
 > Hi,
 >
-> I saw the Analyst posting this morning and wanted to put my name forward.
+> I saw the Analyst posting and would like to be considered.
 >
-> For the last four years I have been at Tata Trusts, where I look after a healthcare grant
-> portfolio of about $51 million. In practice that means screening thirty to fifty proposals
-> a month against a fixed framework, running diligence on the ones worth a closer look, and
-> taking recommendations to the CEO and the Board, who approve every commitment. Most of that
-> work comes down to whether a business model actually holds up and whether the people running
-> it can do what they say they will.
+> I have spent the last four years at Tata Trusts, looking after a healthcare grant
+> portfolio of about $51 million. The day to day is screening thirty to fifty proposals a
+> month, running diligence on the ones that survive, and taking recommendations to the CEO
+> and the Board. Most of it comes down to whether a business model holds up and whether the
+> people behind it can deliver.
 >
 > Before that I was a founder of an edutainment business incubated at Ashoka, where I built
-> the market sizing and unit economics and pitched it to around twenty funds. It was small,
-> and I am not going to pretend otherwise, but it is the closest I have come to the
-> fundraising side of what you do.
+> the market sizing and unit economics and pitched it to around twenty funds.
 >
-> The part I would be learning rather than arriving ready for is the modelling. I have built
-> budgets, unit economics and cost models, though not the kind of financial models and teasers
-> that sit at the centre of this role. I would rather flag that now than let it surface later.
+> I should be straight about one thing. I have built budgets, unit economics and cost
+> models, but not the financial models and teasers this role is built around. That part I
+> would be learning.
 >
-> What drew me to Beyond is that you advise and also put your own capital in. That seemed
-> like a more interesting place to learn than somewhere doing only one of the two.
->
-> My CV is attached. Happy to talk whenever suits you.
->
-> Nikita Sachanandani
-> +91 7698030306
-> sachanandani.nikita@gmail.com
-
-## Draft B · 156 words · the shorter one
-
-**Subject:** Analyst role, Advisory
-
-> Hi,
->
-> I saw the Analyst posting today and would like to be considered.
->
-> I have spent four years at Tata Trusts looking after a healthcare grant portfolio of about
-> $51 million. The day to day is screening thirty to fifty proposals a month, running
-> diligence on the ones that survive, and taking recommendations to the CEO and the Board.
-> Most of it comes down to whether a business model holds up and whether the people behind it
-> can deliver.
->
-> I should be straight about one thing. I have built budgets, unit economics and cost models,
-> but not the financial models and teasers this role is built around. That part I would be
-> learning.
->
-> What interested me about Beyond is that you advise and also invest your own capital, which
-> seemed like a better place to learn than somewhere doing only one of those.
+> What I am after is a move toward startups and commercial capital. Four years of deciding
+> where philanthropic money goes has taught me a lot, but I would rather do that work where
+> the capital expects a return. Beyond does the advising and the investing together, which
+> is why I am writing to you.
 >
 > CV attached, and happy to talk whenever suits.
 >
@@ -68,42 +44,53 @@ short declarative statements.
 > +91 7698030306
 > sachanandani.nikita@gmail.com
 
+### What changed and why
+
+- **The closing comparison is gone.** "A better place to learn than somewhere doing only one
+  of those" was a judgement about other firms she has no standing to make, and she was right
+  to cut it. The replacement just states the fact about Beyond and why she is writing.
+- **Tiff.in is one plain sentence.** The market sizing, the unit economics, twenty funds. No
+  "it was small" and no "closest I have come to fundraising" framing, as she asked. The
+  facts carry it.
+- **The motivation paragraph is new, and it is the most important addition.** It says she
+  wants startups and commercial capital rather than philanthropy, and gives the real reason
+  rather than a diplomatic one: she would rather do the same work where the capital expects
+  a return. For a firm that both advises and invests, that is the sentence that explains why
+  she is applying to an Analyst seat from above the band.
+- **Nothing about leaving the Trusts.** "I have spent the last four years at Tata Trusts" is
+  true either way and reveals nothing. If they ask about availability, she is in a strong
+  position, because she can start immediately and the JD says immediate joiners are
+  preferred.
+
 ---
 
-## Why these are written the way they are
+## Why it is shaped this way
 
-**The modelling gap is named in both, deliberately.** It is the centre of the role and she
-does not have it. Saying so costs very little at a two year band, where they expect to
-train someone, and it buys a lot: a firm founded by two people from Goldman will spot the
-gap in the first conversation whatever the email says, and finding it themselves after she
-glossed over it is far worse than being told.
+**The modelling gap is named outright.** It is the centre of the role and she does not hold
+it. Saying so costs very little at a two year band, where they expect to train someone, and
+it buys a lot: a firm founded by two people from Goldman will find the gap in the first
+conversation whatever the email says, and discovering it after she glossed over it is far
+worse than being told.
 
 **No portfolio grandstanding.** The $51 million is stated once, flatly, as context for the
-volume rather than as the pitch. She is applying to an Analyst role and a boastful email
-from someone over the stated band reads badly.
+volume rather than as the pitch. She is applying to an Analyst role from above the stated
+band, and a boastful email in that position reads badly.
 
-**Tiff.in gets one sentence with the caveat attached.** It is genuinely the closest thing
-she has to fundraising work, and Beyond's clients include media and technology companies,
-so it is more relevant here than usual. But it was one year at small scale, and "it was
-small, and I am not going to pretend otherwise" is more persuasive than leaving them to
-work it out.
+**Nothing claims familiarity she does not have.** The Beyond sentence states a fact about
+the firm and why she is writing. It does not say she has followed them or admired their
+work, because she has not, and at a firm of this size they would know.
 
-**The Beyond paragraph is one honest observation, not flattery.** Advising and investing
-from the same firm is an unusual combination and it is a real reason to prefer them. It
-does not claim to have followed the firm or admired their work, because she has not and
-they would know.
+## Before she sends
 
-## Open choices for her
-
-1. **Which draft.** B is probably right for a firm this small. A gives them more to react
-   to and makes the Tiff.in point, which is the only fundraising evidence she has. If in
-   doubt, send B.
-2. **Availability.** The JD says immediate joiners preferred, and she is employed, so she
-   would need to serve notice. Neither draft mentions it. That is a reasonable thing to
-   leave for the first conversation, but if she would rather be upfront, one line at the end
-   does it: *"I am currently employed and would need to work out a notice period, which I am
-   happy to talk through."*
-3. **Subject line.** Kept plain on purpose. If she wants it to carry more, *"Analyst role,
-   Advisory, Nikita Sachanandani"* is the safe version.
-4. **Both addresses in one email**, with `jf@` in the To field and `hello@` copied. The post
-   asked for both; the JD said either.
+1. **She can start immediately, and that is now an advantage.** Her last day at the Trusts
+   was 25 September, and the JD says immediate joiners are preferred. The email does not
+   mention it, per her instruction, but **if they ask about availability the answer is
+   strong** and she should not be vague about it.
+2. **Both addresses in one email**, `jf@` in the To field and `hello@` copied. The post asked
+   for both; the JD said either.
+3. **Subject line** is deliberately plain. If she wants it to carry more, "Analyst role,
+   Advisory, Nikita Sachanandani" is the safe version.
+4. **Attach `Nikita-Sachanandani-Analyst-Beyond.pdf`**, which now shows the Trusts role
+   ending September 2026.
+5. **Compensation is "based on experience".** At four years and three months against a two
+   year band, she has a real argument for being paid above it. Do not anchor low.
