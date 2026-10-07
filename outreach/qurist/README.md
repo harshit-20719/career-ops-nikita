@@ -128,19 +128,97 @@ business in this category, and it says something a hundred other applicants will
 
 ---
 
-## The "small write up" is the real work
+## The email to Sarika · 427 words
 
-The email route asks for a CV **and a small write up**. No prompt is given, which means she
-chooses the subject, and that is an opportunity rather than a problem.
+Drafted 2026-10-07, after she confirmed she is sending the DM to Samisht. **The write up is
+in the body rather than attached**, so nothing depends on her opening a second file. No
+dashes anywhere.
 
-**The strongest subject is the thing a seventeen-person bootstrapped brand actually needs:
-what to do next.** His post says the job is "figuring out what we should do next." So write
-about that. One page, three or four things she would want to understand in the first month
-and why, with one actual view in it.
+**Subject:** Chief of Staff
 
-**What not to write:** a restatement of her CV, or anything that reads as a strategy deck
-from someone who has not used the products. If she writes it, she should order something
-first. At ₹1,359 to ₹2,549 that is a cheap way to have an opinion worth reading.
+> Hi Sarika,
+>
+> Samisht's post mentioned you as the other way in, so I am writing with my CV attached. I
+> also sent him a short note on LinkedIn earlier this week.
+>
+> Briefly on me. I spent four years at Tata Trusts looking after a healthcare grant
+> portfolio of about $51 million. That meant screening thirty to fifty proposals a month,
+> running diligence on the ones that survived, and taking recommendations to the CEO and the
+> Board. Health technology and AI diagnostics were the areas I owned, so much of the work was
+> deciding which health products had evidence behind them and which had worked once in
+> favourable conditions. Before that I was a founder of an edutainment business incubated at
+> Ashoka, where I built the market sizing and unit economics and pitched it to around twenty
+> funds.
+>
+> The post asked for a short write up, so I have put mine below. It is written from the
+> outside, so these are questions rather than conclusions.
+>
+> **What I would want to understand first**
+>
+> **1. Which concern is the wedge.** The store sells against pain, sleep, anxiety and pets.
+> At seventeen people those are four different buyers with four different reasons to trust
+> you. I would want to see which one brings people in and which ones they buy second, because
+> that probably decides where the next hire and the next rupee of spend go.
+>
+> **2. What the free consultation is really for.** It reads like the trust mechanism in a
+> category where trust, rather than demand, is the constraint. If it converts well then it is
+> the growth engine and deserves more weight. If it does not, it is a cost that looks like a
+> feature. I would want to see the numbers before having a view.
+>
+> **3. What a rupee of spend earns back.** Six years in without outside capital means someone
+> already knows this, even if it is not written down anywhere. Most of my last four years was
+> that work in a different setting: unit cost against plan, variance analysis, and deciding
+> which programmes deserved more and which should stop.
+>
+> **4. How far the evidence can be pushed.** You sell under an AYUSH licence in a category
+> where substantiation varies a great deal. I spent four years deciding which health
+> technologies had evidence worth funding, and setting a heavier bar for the ones that did
+> not. Whether that is useful here or a nuisance is a fair question, and I would rather ask it
+> than assume.
+>
+> Happy to talk whenever suits.
+>
+> Nikita Sachanandani
+> +91 7698030306
+> sachanandani.nikita@gmail.com
+
+### Why the write up is built from questions
+
+**Because she has not used the products and cannot see the numbers**, and a write up that
+pronounced on their strategy from outside would be easy to dismiss. Four questions, each
+tied to something she has actually done, show the same judgement without claiming knowledge
+she does not have. Point 3 is the strongest of the four, because "six years in without
+outside capital means someone already knows this" is a real observation about their
+situation rather than a generic one.
+
+**Point 4 names the evidence tension rather than hiding it.** If Samisht wants someone
+pushing on substantiation, that paragraph is the reason he calls. If he does not, she has
+found out early, which is worth more than a polite interview. It is phrased as a question
+about usefulness, not as a criticism of their claims, which is the line that matters.
+
+### Two things to add before sending
+
+1. **Order a product first and add one sentence of first-hand observation.** At ₹1,359 to
+   ₹2,549 it is the cheapest possible upgrade to this email, and it is the one thing none of
+   the other applicants will have bothered to do. One honest line about the buying
+   experience, the packaging or the consultation would sit well at the end of the intro
+   paragraph.
+2. **Decide on availability.** Nothing in the email mentions that she has left the Trusts,
+   consistent with how the Beyond email was handled. **But a seventeen-person company hiring
+   a chief of staff wants someone soon**, and she can start immediately, which is a genuine
+   advantage here. If she wants it in, one line before the sign off does it: *"I am free to
+   start straight away, so timing is not a constraint on my side."*
+
+### Sequencing
+
+**Send the DM today. Hold this email for 48 hours.** If Samisht replies, this may not be
+needed at all, or it becomes the follow up he asks for. If he does not reply, send it
+Thursday with the opening line as written, which references the DM without chasing him.
+
+Do not send both inside the same hour. At a company this size Samisht and Sarika sit in the
+same room, and two messages arriving together reads as scattered rather than keen.
+
+---
 
 ## Before she writes
 
