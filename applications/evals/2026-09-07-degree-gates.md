@@ -78,7 +78,7 @@ matters most.
 
 ## The tally since, through 2026-10-05
 
-Seven more, same line. **Nineteen in total.**
+Eight more, same line. **Twenty in total.**
 
 | # | Role | Company | The line |
 | --- | --- | --- | --- |
@@ -89,6 +89,7 @@ Seven more, same line. **Nineteen in total.**
 | 17 | Market Access | Pfizer | "Science graduate with MBA with 5–12 years" |
 | 18 | Clinical Associate | Evervie | MBBS preferred, open to nursing or allied health |
 | 19 | **Portfolio Strategic Planning Manager** | **Cipla** | **"Science / B.Pharm graduation with MBA from a premium institute"** |
+| 20 | **Founder's Office** | **Neufin Energy** | **"post tier-1 MBA with proven execution for a minimum of 2 yrs"** |
 
 **Cipla is the cleanest illustration in the whole list**, because it gates twice in one
 sentence: a science or pharmacy *undergraduate* degree, and then an MBA from a named
