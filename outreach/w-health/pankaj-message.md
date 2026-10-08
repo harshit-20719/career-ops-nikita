@@ -66,10 +66,11 @@ someone who has been in it for years, is the wrong posture. Rewritten plainly.
 > understanding a gap in healthcare delivery before there's a company to back is close to
 > what I do now, and I haven't seen many funds work that way.
 >
-> I'm at Tata Trusts, where I manage a ₹450 crore healthcare portfolio. Most of my job is
-> deciding which technologies and delivery models are worth funding in India. Health-tech
-> and AI diagnostics are the areas I own, so I spend a lot of time on the gap between
-> something that works in a pilot and something that survives a real system.
+> I spent the last four years at Tata Trusts looking after a ₹450 crore healthcare
+> portfolio. Most of the job was deciding which technologies and delivery models are worth
+> funding in India. Health-tech and AI diagnostics were the areas I owned, so I spent a lot
+> of time on the gap between something that works in a pilot and something that survives a
+> real system.
 >
 > I'd like to move to the investing side of that. I know nothing is posted and I'm not
 > asking you to create a role. I'd value 20 minutes to understand how the model works in
@@ -93,3 +94,20 @@ short version gives him nothing to assess. The longer note is itself a work samp
    framing is what makes the note work: her evaluation work maps onto their pre-company
    phase, not onto deal execution.
 4. **Send it now.** Fund-close weeks are when a managing partner is thinking about capacity.
+
+---
+
+## Updated 2026-10-08 — tense fixed, and this is no longer the first move
+
+**The present tense was wrong.** Nikita left Tata Trusts on 25 September, and the message
+above still said "I'm at Tata Trusts, where I manage a ₹450 crore healthcare portfolio."
+Corrected to the past tense. Nothing else in the message changed.
+
+**And the sequencing has changed.** There is now a warm introduction route to **Gaurav
+Porwal, COO and Operating Partner of 2070 Health**, through a contact of Nikita's. An
+introduction someone else makes beats a cold DM, even an accepted one, so **that goes
+first**: see `outreach/2070-health/gaurav-porwal-intro.md`.
+
+2070 Health runs around 40 platform staff. If this message to Jethwani goes out as well, it
+should reference the introduction in a clause rather than arrive as though it were the only
+approach, or the two together read as scattered.
