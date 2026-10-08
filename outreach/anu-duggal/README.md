@@ -45,15 +45,57 @@ commercial capital.** The shape is close enough to be the real reason a note get
 
 ## The drafts — all under 200 characters, no dashes. Send A.
 
-### A — 187 characters
+**Revised 2026-10-08:** she approved the first version and asked for a line about chatting
+with or learning from Anu. A, A2 and A3 below carry it. The original is kept at the bottom
+of this section for reference.
+
+### A — 199 characters. **Send this.**
+
+> Hi Anu, four years at Tata Trusts deciding which health technologies in India deserved
+> funding, after starting a consumer business here. Moving to the commercial side now, and
+> keen to learn from you.
+
+Revised 2026-10-08 to add the learning line. The only change to the approved version is
+**"I spent four years" → "four years"**, which buys the twelve characters the new clause
+needs. Everything else is identical: what she does, the earlier consumer business in a
+subordinate clause rather than as a claim, no flattery, no name-dropping of the fund's
+portfolio.
+
+**It runs to 199 of 200 characters**, so nothing can be added to it on the way out. If she
+wants any editing room, send **A2** instead.
+
+### A2 — 193 characters, same note with slack
+
+> Hi Anu, four years at Tata Trusts deciding which health technologies in India deserved
+> funding, after starting a consumer business here. Moving commercial now, and would love to
+> learn from you.
+
+Same content, six characters spare, slightly more clipped at the end.
+
+### A3 — 191 characters, if "learn from you" feels like too much
+
+> Hi Anu, four years at Tata Trusts deciding which health technologies in India deserved
+> funding, after starting a consumer business here. Moving to the commercial side now. Would
+> love to chat.
+
+Lighter and lower-stakes, but vaguer. "Learn from you" gives her something to respond to;
+"chat" does not.
+
+### The earlier version, for reference — 187 characters
 
 > Hi Anu, I spent four years at Tata Trusts deciding which health technologies in India
 > deserved funding, after starting a consumer business here. Moving to the commercial side of
 > that now.
 
-This is the one. It states what she does, it states the earlier consumer business in a
-subordinate clause rather than as a claim, and the last six words say what she wants without
-asking Anu for anything. **No flattery, no ask, no name-dropping of the fund's portfolio.**
+Superseded. It said what she wants without asking for anything, which was deliberate, but it
+gave Anu no reason to reply.
+
+---
+
+### The original alternates — different openings, **no learning line in any of them**
+
+Kept because the openings are still useful. If she picks one of these, the learning clause
+has to be worked back in, and B and D have no room for it.
 
 ### B — 187 characters, leads with the number
 
