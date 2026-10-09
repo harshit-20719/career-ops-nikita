@@ -324,3 +324,99 @@ experience rather than a student"*, and **use their word, internship**. Send it 
    disagree or are old. Endiya's titles came from their own team page and are solid. Ventureast,
    Unitus and Rainmatter titles come from third-party coverage, some of it several years old.
    **Getting someone's title wrong in the first line is the one unforced error available here.**
+
+---
+
+# The four line version · added 2026-10-09
+
+Her brief: *"super quirky cold outreach email, not more than four lines… founders and managing
+partners don't really have the time to read through long emails."* **Correct, and these
+replace the 265 word email for a genuine cold approach to a partner.** Keep the long version
+only for Social Alpha, where the Tata Trusts link gives her standing to write at length, and
+for 3one4, where the programme expects an application.
+
+**On "quirky", since it is easy to get wrong.** To a managing partner, quirk that works is
+**one unexpected true detail**, not a joke. The line that does it here is that her job was
+mostly *declining* things. Nobody writing to a fund says that, it is immediately memorable,
+and it is the most accurate one sentence summary of four years of screening thirty to fifty
+proposals a month. **A gag would read as someone trying to be liked; an odd true fact reads as
+someone with judgement.**
+
+All three are addressed to Ramesh Byrapaneni at Endiya as the example. Swap the name, the
+city in the last line, and the sector.
+
+## A · the "no" angle. **Send this one.** 78 words
+
+**Subject:** Four years of saying no to health startups
+
+> Hi Ramesh, I spent four years at Tata Trusts deciding which health technologies in India got
+> funded, which mostly meant saying no to more than a thousand of them.
+>
+> The part I was good at was telling what worked from what had worked once in favourable
+> conditions.
+>
+> I would like to do that where the money expects a return, and I think I could be useful on
+> your diligence while I learn it.
+>
+> Any chance of a coffee?
+
+**Why this one.** The first line is the quirk and it is entirely true: thirty to fifty
+proposals a month over four years is well past a thousand, and almost all of them were
+declined. **"I think I could be useful on your diligence while I learn it" is the whole pitch
+in one clause** and it gets the order right, usefulness first and learning second. No title,
+no ask for a job, no mention of a fellowship, which keeps the reply cheap.
+
+`[CHECK]` "more than a thousand" is the conservative version of 30 to 50 a month across four
+years. Defensible under questioning, which is the test.
+
+## B · the no returns angle. 67 words
+
+**Subject:** ₹450 crore, no returns expected
+
+> Hi Ramesh, I ran a ₹450 crore healthcare portfolio at Tata Trusts for four years, with money
+> that never expected a return.
+>
+> I would like to learn the version where it does, from people who do it rather than from
+> reading about it.
+>
+> Happy to earn the seat: pick a sector and I will write you the landscape on it before you
+> decide anything.
+>
+> Worth a chat?
+
+**The subject line is the quirk here**, and it is the best one of the three: a number that
+size next to "no returns expected" is a contradiction a partner will want resolved. Line
+three is the strongest sentence available to her in any version, because **it moves the burden
+from him to her.** Use this one where she wants to signal she will work rather than watch.
+
+## C · the plainest, and the only one that names the ask. 69 words
+
+**Subject:** Could I buy you a coffee
+
+> Hi Ramesh, four years at Tata Trusts choosing which health technologies in India deserved
+> funding, so diligence and evidence are the parts I am good at.
+>
+> I am after a twelve week fellowship with a fund to learn the commercial side of that
+> judgement.
+>
+> I would do the unglamorous research while I am there, and I am free to start now.
+>
+> Could I buy you a coffee in Hyderabad?
+
+Use this when she wants no ambiguity about what she is asking for. **"Twelve week fellowship"
+and "unglamorous research" are the two phrases carrying it**: the first bounds the commitment,
+the second says she knows what the work actually is. Slightly less memorable than A and B
+because it spends a line on the ask rather than on her.
+
+## Notes for sending
+
+1. **A and B do not name the ask on purpose.** A cold email that asks for nothing except a
+   coffee is answerable in four words. The fellowship conversation happens on the call, where
+   she can read the room and size it. **C is for when a firm has a programme or when she would
+   rather not have the conversation twice.**
+2. **Change the last line per city.** Coffee in Hyderabad for Endiya, Ventureast and Anthill.
+   Bengaluru for Social Alpha, 3one4, Menterra, Unitus and Rainmatter, where she should say
+   she is travelling or offer a call instead, since she is Mumbai based.
+3. **Never send the same subject line to two firms at the same fund family or city.** These
+   people talk to each other.
+4. **No dashes or hyphens anywhere in all three**, consistent with the rest of her outreach.
