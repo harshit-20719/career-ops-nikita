@@ -120,3 +120,105 @@ If she does approach, **Ayyappan Rajagopal is the only sensible target**, and th
 should be the geography point rather than anything about herself: a question about how
 they are choosing which cities and categories come next, and what changes the economics
 between them.
+
+---
+
+# The two line blurb · added 2026-10-09
+
+**The route changed.** On 2026-10-06 there was no posted role and no referral path, and the
+CV was built speculatively. Nikita now has **someone who will send her resume to their
+contact at FirstClub to be considered for openings**, which is a materially better position
+than cold approach. This blurb is what travels with the PDF.
+
+**Written in the third person on purpose.** The connector is describing her to their
+contact, so it has to read like something a person would actually type about someone else.
+A first person paragraph pasted into someone else's message reads as a forwarded press
+release.
+
+**Send with:** `Nikita-Sachanandani-Founders-Office-FirstClub.pdf`.
+
+## A · the geography angle, 54 words. **Recommended.**
+
+> Nikita spent four years deciding where ₹450 crore of Tata Trusts' healthcare funding went,
+> and built the state by state model that showed the same model earning very different
+> returns by geography. She started a consumer business before that, and wants a founder's
+> office seat where cities, categories and unit economics are the question.
+
+**Why this one.** It is the only version that says something FirstClub specifically needs to
+hear. A premium quick commerce business at Series B lives and dies on which city and which
+category next, and at what contribution margin, and she has built the model that answers
+exactly that question and had it redirect two years of allocation. **The last clause also
+tells their contact what to do with her**, which a blurb that only describes a person does
+not.
+
+Slightly long for "two lines", so if it needs to be shorter, cut the final clause after
+"founder's office seat".
+
+## B · unit economics, 42 words
+
+> Nikita ran a ₹450 crore healthcare grant portfolio at Tata Trusts for four years: where the
+> money went, what each unit cost, and which bets to stop. She started a consumer business
+> before that, and is looking for a founder's office role.
+
+**"Which bets to stop" is the phrase doing the work here.** Most people describe what they
+backed; almost nobody says they decided what to kill, and an operator reads that as
+judgement rather than as enthusiasm.
+
+## C · shortest, 34 words
+
+> Nikita started a consumer business out of Ashoka, then spent four years deciding where ₹450
+> crore of Tata Trusts funding went. She is after a founder's office seat and is free to
+> start immediately.
+
+Leads with the founder half rather than the allocator half, which is the better order for a
+consumer company. **The availability line is worth more here than anywhere else** on the
+board: FirstClub is hiring across openings, not filling one brief, and a candidate who can
+start now is easier to place.
+
+## D · partnerships, 45 words
+
+> At Tata Trusts, Nikita originated and closed 15+ partnerships while running a ₹450 crore
+> healthcare grant portfolio and reporting performance to the CEO and the Board of Trustees.
+> She started a consumer business before that, and is looking for a founder's office or
+> strategy seat.
+
+Use this if the opening is likely to be **partnerships, BD or category** rather than
+founder's office. It is the most concrete of the five and the only one with a countable
+number of things she has closed.
+
+## E · plainest, 41 words
+
+> Nikita spent four years at Tata Trusts on a ₹450 crore healthcare grant portfolio, mostly
+> geography, unit economics and deciding what was worth backing. She started a consumer
+> business before that, and is looking for a founder's office role. CV attached.
+
+Lowest key of the five. Good if the connector's own register is understated, since a blurb
+that sounds nothing like them is obviously not theirs.
+
+---
+
+## Three decisions inside these drafts
+
+1. **"Grant portfolio", not "portfolio".** Every version says grant, healthcare funding or
+   Tata Trusts funding rather than leaving "₹450 crore portfolio" to stand alone. To a
+   quick commerce contact, an unqualified "₹450 crore portfolio" reads as an investment
+   fund, and that is the misleading framing Nikita flagged herself. The number is still the
+   strongest single fact she has; it just has to be the true version of it.
+2. **"Started a consumer business", not the name.** Tiff.in adds nothing to a stranger and
+   invites a question about a one year stint, which is not where the blurb's attention should
+   go. The CV carries the detail.
+3. **No retail or e-commerce claim anywhere.** She has none, the company is built by
+   ex-Flipkart and ex-Myntra operators, and a blurb that implied otherwise would be found out
+   in the first five minutes of a call. **The blurb competes on judgement about geography and
+   unit economics, which is the one thing she has that their bench may not.**
+
+## Two optional add ons for the connector
+
+- **Location.** *"She is in Mumbai and open to Bengaluru."* Worth including, because an
+  openings based referral gets filtered on location early and FirstClub is a Bengaluru
+  company.
+- **Availability.** *"She is free to start immediately."* Already inside version C. True
+  since 25 September, and it is a genuine advantage when someone is scanning for who can
+  fill a seat.
+
+**Do not add both to version A**, which is already at the long end of two lines. Pick one.
