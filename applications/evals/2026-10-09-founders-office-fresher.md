@@ -82,29 +82,85 @@ Per the rubric, FIT under 3.0 with ODDS under 2.5 is a decline.
 
 ---
 
-## The one thing that would change the answer
+## Resolved 2026-10-09 — the company is AlgoUniversity, and the answer gets firmer
 
-**Which company it is.** Not to rescue this req, but because the right move might be a
-different one:
+**Decline the company, not just the req.** The question above was "which company", on the
+reasoning that a direct note to the founder might beat the posting. That reasoning no longer
+applies, because their other openings answer it.
 
-- **If it is a company she actively wants** and it is Bangalore based and growing, then the
-  move is **not this posting**. It is a direct note to the founder, which is how every open
-  door in this search has been found. A company posting a founder's office at 0 to 1 years is
-  a company that knows it needs leverage and has budgeted for the cheapest version of it.
-  Whether it would pay for the senior version is a question only the founder can answer, and
-  applying to the fresher req forecloses it. **Once she is in the system at that band, the
-  band is what she is.**
-- **If it is a company she is lukewarm about**, this is an easy no and costs nothing.
+### The company
 
-**Founder's office titles are also notoriously mislabelled**, and the band may be HR written
-rather than founder written. That is a real possibility and it is worth exactly one message
-to test, not an application. The test is simple: does the founder treat "0 to 1 year" as a
-filter or as a description of the last person they hired?
+| | |
+| --- | --- |
+| What | **"Job driven Virtual Tech University for India."** Live teaching infrastructure so a small group of educators coach large cohorts of college students |
+| Model | **Income Share Agreement.** Students pay a portion of their salary as fees after they land a tech job |
+| Batch | **Y Combinator, Summer 2021.** YC partner Diana Hu |
+| Founded | 2020 |
+| Team | **40** |
+| Where | **Hyderabad**, per YC and CB Insights |
+| Founders | **Manas Kumar Verma** (CEO) and **Swapnil Daga** (ex-Google SRE intern, ex-Apple SWE), with Vivek Verma listed elsewhere as CPO |
+| Funding on record | **$130K total, investors YC, Zentani and Soma Capital; last funding date 1 September 2021.** One directory lists $6.3M revenue, which could not be corroborated |
 
-## What to do with it this week
+`[VERIFY]` The funding and revenue figures come from third-party databases, not the company.
+The direction is still worth stating: **five years in, 40 people, and nothing disclosed since
+the YC cheque.** With an ISA model that may mean it runs on fee revenue rather than venture
+capital, which is a legitimate way to operate. It is not a company with a fresh round behind
+its hiring.
 
-**Nothing, unless she names the company.** The board already holds four live routes that are
-better on both axes and three of which are unsent: Beyond, Qurist (message and CV ready
-today), 2070 Health via the Gaurav Porwal introduction, and Farro Capital at FIT 4.6. **An
-application four years below her level is not a cheap lottery ticket; it is an hour that
-those four need more.**
+**The posting says Bangalore; YC and CB Insights both say Hyderabad.** Both are acceptable
+cities for her, but it is a discrepancy worth noticing in a posting she has not seen on the
+company's own site.
+
+### The finding that closes it
+
+Their other open roles, from the YC jobs board:
+
+| Role | Experience | Band |
+| --- | --- | --- |
+| **CEO's Office** | **Any** | **₹400K – ₹1M** |
+| Business Development Associate | Any, new grads OK | ₹600K – ₹1.5M |
+| Digital Marketing Specialist | 1+ years | ₹300K – ₹1M |
+| Visual Communication Designer | 1+ years | ₹300K – ₹1M |
+| Community Growth & Partnerships | 1+ years | ₹600K – ₹1M |
+
+**"CEO's Office" looked like the answer.** Experience "Any", reports directly to Manas Kumar
+Verma, and the responsibilities are a reasonable match: go to market strategy, competitive
+analysis and market research, acting as an extension of the founders, and analysing business
+performance including financials, management accounts and budgets.
+
+**It is an internship.** The posting is typed as an internship with "school year: any", and it
+offers "a possible full time offer after the internship, with ESOPs included."
+
+So the position is this: **the company's two relevant openings are a founder's office pitched
+at 0 to 1 years and an internship in the CEO's office.** Nothing on the board is at her level,
+and no amount of founder outreach changes a company's hiring plan. **Every posted band sits
+between ₹300K and ₹1.5M**, which is consistent across five reqs and tells you plainly what
+seniority they are buying.
+
+**This is not a comp objection.** Money is not the axis of her search, and she has set no
+floor. It is the evidence that settles the scope question raised above: two independent
+postings and five published bands all describe a company staffing execution capacity cheaply.
+That is a sensible thing for a 40-person company to do. It is simply not a seat where four
+years of portfolio and Board-level work buys anything.
+
+### The one genuine argument for it, and why it still loses
+
+**This is the only company this week where Tiff.in is directly relevant.** It was an
+edutainment business selling education content to 16 to 35 year olds; AlgoUniversity teaches
+college students at scale. Add the Young India Fellowship, an Economics honours degree and a
+published paper, and she reads as education-credible in a way she does not read as
+retail-credible or cannabis-credible.
+
+**But it costs her the healthcare differentiator**, which would make this the eighth role of
+the search to do so after Cube, Honasa, Incresco, Lumiere, Fragaria, Primerry and FirstClub.
+**Spending the differentiator for a more senior seat is a trade worth considering. Spending it
+for an intern or fresher seat is not a trade at all.**
+
+### If she wants to pursue it anyway
+
+The honest route is **one message to Manas Kumar Verma asking whether there is a senior
+version of the CEO's office seat**, before any application. It costs ten minutes and the
+answer is either yes, in which case there is something real to tailor for, or no, which is
+what the five published bands suggest. **What she should not do is apply to the 0 to 1 year
+req or the internship.** Once she is in their system at that band, the band is what she is.
+
