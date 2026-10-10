@@ -78,7 +78,7 @@ matters most.
 
 ## The tally since, through 2026-10-05
 
-Eight more, same line. **Twenty in total.**
+Nine more, same line. **Twenty one in total.**
 
 | # | Role | Company | The line |
 | --- | --- | --- | --- |
@@ -90,6 +90,7 @@ Eight more, same line. **Twenty in total.**
 | 18 | Clinical Associate | Evervie | MBBS preferred, open to nursing or allied health |
 | 19 | **Portfolio Strategic Planning Manager** | **Cipla** | **"Science / B.Pharm graduation with MBA from a premium institute"** |
 | 20 | **Founder's Office** | **Neufin Energy** | **"post tier-1 MBA with proven execution for a minimum of 2 yrs"** |
+| 21 | **Strategic Partnerships** | **NeoDocs (YC S21)** | **"Bachelor's degree in Medicine, Life Sciences, Healthcare Management, or a related field"** |
 
 **Cipla is the cleanest illustration in the whole list**, because it gates twice in one
 sentence: a science or pharmacy *undergraduate* degree, and then an MBA from a named
@@ -122,3 +123,33 @@ stated bar names healthcare as a qualifying route in its own right.**
 That is the pattern, stated as plainly as it can be: **the roles she can actually get are
 the ones where someone writes the posting to describe a job, rather than to filter a
 queue.**
+
+---
+
+## The counter-list, added 2026-10-10
+
+Twenty one gates is half the finding. The other half is the test that predicts which
+postings are open, and it has now held five times:
+
+**A posting that says "or equivalent" lets her in. A posting that names a degree or an
+institution does not.**
+
+| Posting | The line | Result |
+| --- | --- | --- |
+| **Makers Hive**, Founder's Office Strategy & IR | **"MBA, Chartered Accountant or equivalent qualification"**, and "an early operating role at a funded company" listed as a relevant route | **Open** |
+| **24 Ventures**, Deal Sourcing & Origination | **"MBA Finance preferred. CA / CFA Level I or II will be an advantage"** | **Open** |
+| Healthify, Partnerships | "MBA or equivalent postgraduate degree… preferred" | Open |
+| Dozee, Founder's Office | "BTech/MBA or any equivalent qualification" | Open |
+| The Asia Group, Sr Associate | "Master's degree or equivalent academic/practice experience" | Open |
+| **NeoDocs**, Strategic Partnerships | **"Bachelor's degree in Medicine, Life Sciences, Healthcare Management"** | **Closed** |
+| Cipla, Portfolio Strategic Planning | "Science / B.Pharm graduation with MBA from a premium institute" | Closed |
+| Doceree, Manager Strategy | "MBA or equivalent from premium institutes only" | Closed |
+
+**Note the Doceree line, which is the instructive one.** It contains the words "or
+equivalent" and is still closed, because of what follows: *from premium institutes only*.
+**The test is not the phrase, it is whether the sentence ends in a named institution or a
+named degree field.** If it does, no version of her CV answers it. If it ends in
+"equivalent" or "preferred", the posting is describing a job rather than filtering a queue.
+
+**Use it as the first filter on any posting**, before reading the responsibilities. It takes
+ten seconds and it is the single highest-yield check this search has produced.
